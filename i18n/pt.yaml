@@ -1,0 +1,137 @@
+- id: read_more
+  translation: Saiba mais
+
+- id: contact_form
+  translation: Contato
+
+- id: send
+  translation: envie mensagem
+
+- id: contact_info
+  translation: Informações de Contato
+
+- id: subscribe_newsletter
+  translation: Newsletter
+
+- id: subscribe
+  translation: Assine
+
+- id: contact_us
+  translation: Contacte-nos
+
+- id: latest_article
+  translation: Artigo mais recente
+
+- id: categories
+  translation: Categorias
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: Veja todos
+
+- id: apply_now
+  translation: Saiba mais
+
+- id: posted_by
+  translation: Postado por
+
+- id: date
+  translation: Data
+
+- id: time
+  translation: hora
+
+- id: category
+  translation: Categoria
+
+- id: related_course
+  translation: Disciplina relacionada
+
+- id: duration
+  translation: duração
+
+- id: weekly
+  translation: semanalmente
+
+- id: fee
+  translation: taxa
+
+- id: teacher
+  translation: professor
+
+- id: location
+  translation: local
+
+- id: entry_fee
+  translation: taxa
+
+- id: event_speaker
+  translation: Palestrantes
+
+- id: more_event
+  translation: Mais Eventos
+
+- id: join
+  translation: Junte-se
+
+- id: enter_email
+  translation: Digite seu email…
+
+- id: company
+  translation: Desc
+
+- id: links
+  translation: links
+
+- id: courses
+  translation: Disciplinas
+
+- id: new_notice
+  translation: Novidades
+
+- id: call
+  translation: Fone
+
+- id: email
+  translation: email
+
+- id: all
+  translation: Todos
+
+- id: interest
+  translation: RESUMO DE ATIVIDADES/INTERESSES
+
+- id: our_teachers
+  translation: Nossos Professores
+
+- id: download
+  translation: Download
+
+- id: creditos
+  translation: Créditos
+
+- id: chs
+  translation: Semanal
+
+- id: cht
+  translation: Total
+
+- id: chpratica
+  translation: Prática
+
+- id: chlab
+  translation: Laboratório
+
+- id: chteorica
+  translation: Teoria
+
+- id: codigo
+  translation: Código
+
+- id: periodo
+  translation: Período
+
+- id: objetivos
+  translation: Objetivos
