@@ -411,30 +411,50 @@ textarea.form-control{
   object-fit: cover;
 }
 
-#TableOfContents {
-  display: block;
-  background: transparent;
-  padding-bottom: 2rem;
-  font-size: 1.2em;
 
-  ol {
-    padding-left:1rem;
-    list-style-type: decimal;
+// Special case for highlighted code with line numbers
 
-  }
 
-  li {
-    color: $text-color;
+  details {
+    padding: $padding-16;
+    border-radius: $border-radius;
+    break-after: always;
 
-    a {
-      color: inherit;
-      text-align: left;
-      padding: 0;
 
-      &:hover {
-        color: $primary-color;
-        background-color: transparent;
+    summary {
+      line-height: 1;
+      padding: $padding-8;
+      margin: -$padding-16;
+      cursor: pointer;
+      background-color: #EEE;
+      color: $text-color-dark;
+      font-family: $secondary-font;
+    }
+
+    ul {
+      padding-left: 0;
+
+      li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 5px;
+        list-style-type: none;
+        font-size: 18px;
+
+        &::before {
+          position: absolute;
+          content: "\e65d";
+          font-family: $icon-font;
+          font-size: 14px;
+          left: 0;
+          top: 1px;
+          color: $primary-color;
+          transition: .3s ease;
+        }
       }
     }
+
+    &[open] summary {
+      margin-bottom: 4px;
+    }
   }
-}

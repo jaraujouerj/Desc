@@ -10,9 +10,6 @@
         <img style="height: 100px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"  class="img-fluid w-100">
       </div>
       <div class="row">
-        {{ .TableOfContents }}
-      </div>
-      <div class="row">
         {{ .Content }}
       </div>
       {{ end }}

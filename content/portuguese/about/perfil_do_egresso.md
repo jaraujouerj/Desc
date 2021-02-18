@@ -11,8 +11,11 @@ formação técnico-científica sólida, generalista, humanista, crítica e refl
 criativa na identificação e resolução de problemas, considerando seus aspectos políticos, econômicos, sociais, ambientais e culturais, com visão ética e humanística, em
 atendimento às demandas da sociedade. Faz parte do perfil do egresso a postura de
 permanente busca da atualização profissional, além das seguintes habilidades:
-1. possuir conhecimento das questões humanísticas, sociais, ambientais, éticas, profissionais, legais e políticas;
-2. possuir compreensão do impacto da Engenharia de Computação e suas tecnologias no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;
+
+- possuir conhecimento das questões humanísticas, sociais, ambientais, éticas, profissionais, legais e políticas;
+
+- possuir compreensão do impacto da Engenharia de Computação e suas tecnologias no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;
+
 3. possuir atitude crítica, interdisciplinar e criativa na identificação e resolução de
 problemas;
 4. possuir compreensão das necessidades de contínua atualização e aprimoramento
