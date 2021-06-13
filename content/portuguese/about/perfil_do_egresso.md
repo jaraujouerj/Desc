@@ -2,6 +2,7 @@
 title: "Perfil do egresso"
 date: 2021-02-12T16:24:45-03:00
 weight: 2
+image: "images/about/egressos.jpg"
 draft: false
 ---
 ## Perfil do egresso
@@ -13,45 +14,41 @@ atendimento às demandas da sociedade. Faz parte do perfil do egresso a postura 
 permanente busca da atualização profissional, além das seguintes habilidades:
 
 - possuir conhecimento das questões humanísticas, sociais, ambientais, éticas, profissionais, legais e políticas;
-
 - possuir compreensão do impacto da Engenharia de Computação e suas tecnologias no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;
-
-3. possuir atitude crítica, interdisciplinar e criativa na identificação e resolução de
+- possuir atitude crítica, interdisciplinar e criativa na identificação e resolução de
 problemas;
-4. possuir compreensão das necessidades de contínua atualização e aprimoramento
+- possuir compreensão das necessidades de contínua atualização e aprimoramento
 de suas competências e habilidades;
-5. possuir uma sólida formação em Computação, Física, Matemática, Eletrônica,
+- possuir uma sólida formação em Computação, Física, Matemática, Eletrônica,
 Automação e Telecomunicações.
-6. conhecer a estrutura dos sistemas de computação e os processos envolvidos na
+- conhecer a estrutura dos sistemas de computação e os processos envolvidos na
 sua análise e construção;
-7. considerar os aspectos ambientais, econômicos, financeiros, de gestão e de qualidade, associados a novos produtos e organizações;
-8. considerar fundamental a inovação, a criatividade, a atitude empreendedora e
+- considerar os aspectos ambientais, econômicos, financeiros, de gestão e de qualidade, associados a novos produtos e organizações;
+- considerar fundamental a inovação, a criatividade, a atitude empreendedora e
 a inserção internacional.
 
 O egresso da Engenharia de Computação, no processo de sua formação, deverá desenvolver as seguintes competências:
-1. antever as implicações humanísticas, sociais, ambientais, éticas, profissionais,
+- antever as implicações humanísticas, sociais, ambientais, éticas, profissionais,
 legais (inclusive relacionadas à propriedade intelectual) e políticas dos sistemas
 computacionais;
-1. identificar demandas socioeconômicas e ambientais relevantes, planejar, especificar e projetar sistemas de computação, seguindo teorias, princípios, métodos
+- identificar demandas socioeconômicas e ambientais relevantes, planejar, especificar e projetar sistemas de computação, seguindo teorias, princípios, métodos
 e procedimentos interdisciplinares;
-1. construir, testar, verificar e validar sistemas de computação, seguindo métodos,
+- construir, testar, verificar e validar sistemas de computação, seguindo métodos,
 técnicas e procedimentos interdisciplinares;
-1. perceber as necessidades de atualização decorrentes da evolução tecnológica e
+- perceber as necessidades de atualização decorrentes da evolução tecnológica e
 social;
-1. relacionar problemas do mundo real com suas soluções, considerando aspectos
+- relacionar problemas do mundo real com suas soluções, considerando aspectos
 de computabilidade e de escalabilidade;
-1. analisar, desenvolver, avaliar e aperfeiçoar software e hardware em arquiteturas
+- analisar, desenvolver, avaliar e aperfeiçoar software e hardware em arquiteturas
 de computadores;
-1. analisar, desenvolver, avaliar e aperfeiçoar sistemas de automação e sistemas
+- analisar, desenvolver, avaliar e aperfeiçoar sistemas de automação e sistemas
 inteligentes;
-1. analisar, desenvolver, avaliar e aperfeiçoar sistemas de informação computacionais;
-1. analisar, desenvolver, avaliar e aperfeiçoar circuitos eletroeletrônicos;
-1. gerenciar pessoas e infraestrutura de Sistemas de Computação;
-1. perceber as necessidades de inovação e inserção internacional com atitudes criativas e empreendedoras.
+- analisar, desenvolver, avaliar e aperfeiçoar sistemas de informação computacionais;
+- analisar, desenvolver, avaliar e aperfeiçoar circuitos eletroeletrônicos;
+- gerenciar pessoas e infraestrutura de Sistemas de Computação;
+- perceber as necessidades de inovação e inserção internacional com atitudes criativas e empreendedoras.
 
-O curso de Engenharia de de Sistemas e Computação tem, predominantemente, o ensino da computação como atividade fim, visando à formação de recursos humanos para o desenvol-
-vimento científico e tecnológico da computação. Assim sendo, o curso deve capacitar
-indivíduos para desenvolver software e hardware, com uma forte base matemática e
+O curso de Engenharia de de Sistemas e Computação tem, predominantemente, o ensino da computação como atividade fim, visando à formação de recursos humanos para o desenvolvimento científico e tecnológico da computação. Assim sendo, o curso deve capacitar indivíduos para desenvolver software e hardware, com uma forte base matemática e
 física.
 
 Os egressos do curso de Engenharia de Sistemas e Computação estarão situados no estado da

@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://localhost:1313"
+baseURL = "http://www.desc.eng.uerj.br/"
+#baseURL = "http://localhost:1313"
 title = "Departamento de Engenharia de Sistemas e Computação"
 theme = "educenter-hugo"
 
@@ -12,6 +13,8 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "pt"
 disableLanguages = ["fr","en"] # desable language from here
+
+
 
 
 ############################# Plugins ##############################
@@ -53,31 +56,31 @@ author = "João Araujo"
 address = "Rua São Francisco Xavier, 524, Maracanã, Rio de Janeiro"
 mobile = "indisponível"
 email = "secretaria.desc@eng.uerj.br"
+echefia = "desc@eng.uerj.br"
 # contact form action
 contact_form_action = "https://formspree.io/f/xaylzbrz" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
 top_header = true
+chefia = "Luiza Mourelle"
+subchefia = "João Araujo"
+chefialab = "Luiza Mourelle"
+coordenadorprojeto = "Luiza Mourelle"
+secretaria = "Alexandre Amorim"
 
 # Preloader
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
-# Subscription
-[params.subscription]
-enable = true
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
 # google map
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "-22.911285076384626"
+map_longitude = "-43.236373698930116"
 map_marker = "images/marker.png" # marker size 37*55 px
 
 # cookies
@@ -86,30 +89,30 @@ enable = true
 expire_days = 2
 
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# title = "facebook"
+# icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# title = "twitter"
+# icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# title = "instagram"
+# icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# title = "github"
+# icon = "ti-github" # themify icon : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# title = "linkedin"
+# icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
 ################################### Portuguese language #####################################
 [Languages.pt]
@@ -136,11 +139,6 @@ copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefi
 
 # main menu
 [[Languages.pt.menu.main]]
-name = "Sobre o DESC"
-url = "about"
-weight = 1
-
-[[Languages.pt.menu.main]]
 name = "disciplinas"
 url = "course"
 weight = 2
@@ -148,7 +146,7 @@ weight = 2
 [[Languages.pt.menu.main]]
 weight = 3
 name = "Horário"
-url = "horario"
+url = "about/horario"
 
 [[Languages.pt.menu.main]]
 weight = 4
@@ -156,9 +154,42 @@ name = "TCC"
 url = "tcc"
 
 [[Languages.pt.menu.main]]
+name = "Sobre o DESC"
+hasChildren = true
+weight = 5
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Histórico"
+  url = "about/historico"
+
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Perfil do Egresso"
+  url = "about/perfil_do_egresso"
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Professores"
+  url = "teacher"
+
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Concursos"
+  url = "about/concursos"
+
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Administração"
+  url = "contact/administrativo"
+
+  [[Languages.pt.menu.main]]
+  parent = "Sobre o DESC"
+  name = "Pesquisa"
+  url = "research"
+
+[[Languages.pt.menu.main]]
 name = "Contato"
 url = "contact"
-weight = 5
+weight = 6
 
 
 ################### English navigation ####################
@@ -307,24 +338,28 @@ weight = 5
 
 # footer menu
 
-[[Languages.fr.menu.footer]]
-name = "teacher"
+[[Languages.pt.menu.footer]]
+name = "professores"
 url = "teacher"
 
-[[Languages.fr.menu.footer]]
-name = "notice"
-url = "notice"
+[[Languages.pt.menu.footer]]
+name = "Histórico"
+url = "about/historico"
 
-[[Languages.fr.menu.footer]]
-name = "event"
-url = "event"
+[[Languages.pt.menu.footer]]
+name = "Perfil do Egresso"
+url = "about/perfil_do_egresso"
 
-[[Languages.fr.menu.footer]]
-name = "scholarship"
-url = "scholarship"
+[[Languages.pt.menu.footer]]
+name = "Concursos"
+url = "about/concursos"
 
-[[Languages.fr.menu.footer]]
-name = "research"
+[[Languages.pt.menu.footer]]
+name = "Administração"
+url = "about/administrativo"
+
+[[Languages.pt.menu.footer]]
+name = "Pesquisa"
 url = "research"
 
 [markup]

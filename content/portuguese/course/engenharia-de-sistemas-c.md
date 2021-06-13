@@ -2,7 +2,7 @@
 title: "Engenharia de Sistemas C"
 date: 2021-02-13T19:25:34-03:00
 draft: false
-image: "images/banner/disciplina.jpg"
+image: "images/courses/engsoft.jpg"
 weight: 102
 creditos: 3
 cht: "60 horas"
@@ -12,7 +12,7 @@ chteorica: "2 horas"
 codigo: "FEN06-04386"
 periodo: 10
 prerequisitos: ["Engenharia de Sistemas B"]
-teacher: ""
+teacher: "Margareth Simões, Ds.C."
 summary: "Ao final do período o aluno deverá ter assimilado os conhecimentos e técnicas utilizados na elaboração do projeto físico de um sistema."
 ---
 ## Objetivos

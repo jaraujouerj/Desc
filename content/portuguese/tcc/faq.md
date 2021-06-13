@@ -70,7 +70,7 @@ O Coordenador de Projeto de Graduação disporá de cinco dias úteis para aprec
 Sim, claro, apesar de não ser obrigatório, você pode usar este modelo para fazer seu anteprojeto: [anteprojeto.doc](anteprojeto_modelo.doc).
 {{< /faq >}}
 
-{{< faq  "Como é o Seminário de Projeto de Projeto de Graduação?" >}}
+{{< faq  "Como é o Seminário de Projeto de Graduação?" >}}
 Todos os alunos inscritos na disciplina Projeto de Graduação XI-A devem, ao final do período, fazer uma apresentação oral sobre o andamento de seu projeto. Essa apresentação deverá ser realizada em **10 minutos** e terá presença obrigatória de todos os alunos matriculados na disciplina. A falta no dia de apresentação dos trabalhos deverá ser justificada formalmente junto ao Coordenador.
 
 Ao aluno que não encaminhar o Anteprojeto no prazo estabelecido pelo Coordenador, ou não apresentar oralmente o andamento do seu trabalho perante o Coordenador e os outros alunos matriculados, será atribuído grau 0 (zero).
@@ -88,11 +88,11 @@ O texto de sua monografia de Projeto de Graduação deve seguir algumas regras p
 {{< /faq >}}
 
 {{< faq  "As normas são complicadas, existe algum template de Projeto de Graduação?" >}}
-Você está com sorte. Fizemos um modelo em _Latex_ que você só tem que preencher o conteúdo e ele formata seu texto de acordo com as regras da UERJ. 
+Em breve teremos o modelo Latex disponível.
 {{< /faq >}}
 
 {{< faq  "Como é a defesa de Projeto de Graduação?" >}}
-Tendo concluído o Projeto, o aluno deverá obter junto ao Professor Orientador a autorização para defendê-lo perante a Banca Examinadora.
+Tendo concluído o Projeto, o aluno deve obter junto ao Professor Orientador a autorização para defendê-lo perante a Banca Examinadora.
 
 Em caso de projeto conduzido por mais de um aluno, a defesa e avaliação serão individuais, podendo cada membro do grupo receber graus diferentes.
 

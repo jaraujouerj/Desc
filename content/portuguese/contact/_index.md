@@ -3,7 +3,7 @@ title: "Contato"
 date: 2021-02-17T01:28:23-03:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/predio.jpg"
 # meta description
 description : "Veja aqui com entrar em contato com o departamento."
 ---

@@ -1,0 +1,8 @@
+---
+title: "Nossas Pesquisas"
+draft: false
+# page title background image
+bg_image: "images/backgrounds/page-title.jpg"
+# meta description
+description : "Nesta página apresentamos algumas pesquisas desenvolvidas por professores do DESC.."
+---

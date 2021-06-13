@@ -7,9 +7,9 @@
   <div class="container">
     <div class="row">
       {{ range .Data.Pages}}
-      <div class="col-12">
+      <div class=" content col-12">
         {{ with .Params.image }}
-        <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        <img style="height: 400px;width: 100%;object-fit: cover;" class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
         {{ .Content }}
       </div>

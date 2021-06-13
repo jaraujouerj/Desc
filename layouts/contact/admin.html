@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<!-- blog details -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 order-2 order-lg-1">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
+          </div>
+          <div class="col-12">
+            <ul class="list-inline">
+              <li class="list-inline-item mr-4 mb-8 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}
+                  :</span><a
+                  href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
+
+              <li class="list-inline-item mr-4 mb-4 mb-md-2 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}
+                  :</span>{{ .PublishDate.Format "02 Jan, 2006" }}</li>
+
+            </ul>
+          </div>
+          <div class="content col-12 mb-5">
+            <ul class="list-inline">
+            <li class="list-inline-item mr-4 mb-1 mb-md-0 text-light"><span class="font-weight-bold mr-2">Chefia
+              :</span><a
+              href="{{ `teacher/` | relLangURL }}{{ site.Params.chefia | urlize }}">{{ site.Params.chefia | title }}</a></li>
+            <li class="list-inline-item mb-1"><a class="text-color" href="{{ site.Params.echefia | safeURL }}"><i
+              class="ti-email mr-2"></i>{{ site.Params.echefia }}</a></li></br>
+            <li class="list-inline-item mr-4   text-light"><span class="font-weight-bold mr-2">Sub-Chefia
+              :</span><a
+              href="{{ `teacher/` | relLangURL }}{{ site.Params.subchefia | urlize }}">{{ site.Params.subchefia | title }}</a></li></br>
+            <li class="list-inline-item mr-4   text-light"><span class="font-weight-bold mr-2">Chefia do Laboratório
+              :</span><a
+              href="{{ `teacher/` | relLangURL }}{{ site.Params.chefialab | urlize }}">{{ site.Params.chefialab | title }}</a></li></br>
+            <li class="list-inline-item mr-4   text-light"><span class="font-weight-bold mr-2">Coordenador de Projeto Final
+              :</span><a
+              href="{{ `teacher/` | relLangURL }}{{ site.Params.coordenadorprojeto | urlize }}">{{ site.Params.coordenadorprojeto | title }}</a></li></br>
+              <li class="list-inline-item mr-4 mb-3  text-light"><span class="font-weight-bold mr-2">Secretaria
+                :</span>{{ site.Params.secretaria }}</li>
+                <li class="list-inline-item mb-3"><a class="text-color" href="{{ site.Params.email | safeURL }}"><i
+                  class="ti-email mr-2"></i>{{ site.Params.email }}</a></li></br>
+           </ul>
+          </div>
+          <!-- blog contect -->
+          <div class="content col-12 mb-5">
+            {{ .Content }}
+          </div>
+          <!-- comments -->
+          {{ if site.DisqusShortname }}
+          <div class="col-12">
+            {{ template "_internal/disqus.html" . }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+{{ end }}

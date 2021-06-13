@@ -2,7 +2,8 @@
 title: "Arquitetura de Computadores I"
 date: 2021-02-13T18:34:35-03:00
 draft: false
-image: "images/banner/disciplina.jpg"
+image: "images/courses/arquitetura.jpg"
+#Imagem de <a href="https://pixabay.com/pt/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">xresch</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">Pixabay</a>
 weight: 81
 creditos: 4
 cht: "75 horas"
@@ -11,9 +12,10 @@ chlab: "2 horas"
 chteorica: "3 horas"
 codigo: "FEN06-04119"
 periodo: 8
-prerequisitos: ["Fundamentos de Computadores Digitais I", "Técnicas Digitais II"]
+prerequisitos: ["Fundamentos de Computadores Digitais I"]
+prerequisitosfora: ["Técnicas Digitais II"]
 prende: [""]
-teacher: ""
+teacher: "Luiza Mourelle, Ph.D."
 summary: "Ao final do período o aluno deverá ter assimilado as características lógicas e físicas da arquitetura dos computadores digitais."
 ---
 ## Objetivos

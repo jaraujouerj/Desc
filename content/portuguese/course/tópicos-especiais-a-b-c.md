@@ -9,8 +9,8 @@ cht: "60 horas"
 chs: "4 horas"
 codigo: "FEN06-XXXX"
 periodo: 10
-prerequisitos: ["170 créditos"]
-teacher: ""
+prerequisitosfora: ["170 créditos"]
+teacher: "Cristiana Bentes, Ds.C."
 summary: ""
 ---
 ## Objetivos

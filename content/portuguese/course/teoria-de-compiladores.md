@@ -2,7 +2,8 @@
 title: "Teoria de Compiladores"
 date: 2021-02-13T18:47:01-03:00
 draft: false
-image: "images/banner/disciplina.jpg"
+image: "images/courses/compilador.png"
+#Imagem de <a href="https://pixabay.com/pt/users/kropekk_pl-114936/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1835332">kropekk_pl</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1835332">Pixabay</a>
 weight: 97
 creditos: 4
 cht: "75 horas"
@@ -11,8 +12,8 @@ chpratica: "2 horas"
 chteorica: "3 horas"
 codigo: "FEN06-04516"
 periodo: 9
-prerequisitos: ["Análise de Algorítmos", "Características das Linguagens de Programação I"]
-teacher: ""
+prerequisitos: ["Análise de Algoritmos", "Características das Linguagens de Programação I"]
+teacher: "Jorge Valério, Ds.C"
 summary: "Ao final do período o aluno deverá ter assimilado a técnica e a teoria dos compiladores e ser capaz de transcender o seu uso para problemas extra compilação."
 ---
 ## Objetivos

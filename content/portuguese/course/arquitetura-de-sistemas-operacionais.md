@@ -2,7 +2,8 @@
 title: "Arquitetura de Sistemas Operacionais"
 date: 2021-02-13T19:04:10-03:00
 draft: false
-image: "images/banner/disciplina.jpg"
+image: "images/courses/so.jpg"
+#Imagem de <a href="https://pixabay.com/pt/users/pixxlteufel-117549/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4493783">PixxlTeufel</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4493783">Pixabay</a>
 weight: 91
 creditos: 3
 cht: "60 horas"
@@ -12,9 +13,8 @@ chteorica: "2 horas"
 codigo: "FEN06-04664"
 periodo: 9
 prerequisitos: ["Arquitetura de Computadores I", "Estruturas de Informação I"]
-teacher: ""
+teacher: "Cristiana Bentes, Ds.C."
 summary: "Ao final do período o aluno deverá ter assimilado as características, funcionamento e estrutura interna dos sistemas operacionais."
-tags: ["Laboratório de Programação I"]
 ---
 ## Objetivos
 Ao final do período o aluno deverá ter assimilado as características, funcionamento e estrutura interna dos sistemas operacionais.

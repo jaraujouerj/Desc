@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Confira agora"
-        link : "contact"
+        link : "about/horario"
 
     # slider item loop
     - title : "Como ingressar"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Saiba mais"
-        link : "contact"
+        link : "about/ingresso"
 
     # slider item loop
     - title : "Concursos para professor"
@@ -45,7 +45,7 @@ slider:
       button:
         enable : true
         label : "Saiba mais"
-        link : "concursos"
+        link : "about/concursos"
 
 
 ############################### Banner feature ###############################
@@ -100,7 +100,7 @@ cta:
   button:
     enable : true
     label : "mais informações"
-    link : "concursos"
+    link : "about/concursos"
 
 
 ######################## Success story #############################

@@ -120,7 +120,7 @@
         {{ .Content }}
       </div>
       <!-- teacher -->
-      {{ if .Params.Teacher }}
+      {{ if isset .Params "teacher" }}
         <div class="col-12">
           <h5 class="mb-3">{{ i18n "teacher" }}</h5>
           {{ range where site.RegularPages "Title" (.Params.Teacher | title) }}
@@ -147,6 +147,7 @@
       {{ end }}
     </div>
     <!-- pré-requisitos -->
+    {{ if isset .Params "prerequisitos" }}
     <div class="row">
       <div class="col-12">
         <h2 class="section-title">{{ "Pré-requisitos" }}</h2>
@@ -163,6 +164,28 @@
       </div>
       {{ end }}
     </div>
+    {{ end }}
+    <!-- /pré-requisitos -->
+    <!-- pré-requisitos -->
+    {{ if isset .Params "prerequisitosfora" }}
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ "Pré-requisitos externos" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Params.prerequisitosfora}}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <h4 class="card-title"><a target="_blank" rel="noopener noreferrer" href="http://www.ementario.uerj.br/cursos/engenharia_eletrica_enfase_em_sistemas_e_computacao.html">{{ . }}</a></h4>
+       {{ $url :=  anchorize . }}
+       {{ $contactPage:= site.GetPage $url }}
+       {{ with $contactPage }}
+           {{ .Render "course" }}
+       {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
     <!-- /pré-requisitos -->
   </div>
 

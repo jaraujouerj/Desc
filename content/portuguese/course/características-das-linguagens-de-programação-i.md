@@ -2,7 +2,8 @@
 title: "Características das Linguagens de Programação I"
 date: 2021-02-13T18:28:00-03:00
 draft: flase
-image: "images/banner/disciplina.jpg"
+image: "images/courses/caracteristicas.jpg"
+#Imagem de <a href="https://pixabay.com/pt/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=942485">Gerd Altmann</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=942485">Pixabay</a>
 weight: 82
 creditos: 3
 cht: "60 horas"
@@ -12,7 +13,7 @@ chteorica: "2 horas"
 codigo: "FEN06-03980"
 periodo: 8
 prerequisitos: ["Estruturas de Informação I"]
-teacher: ""
+teacher: "Jorge Valério, Ds.C"
 summary: "Ao final do período deverá identificar a(s) linguagem(ns) de programação para um dado ambiente de P.D."
 ---
 ## Objetivos
