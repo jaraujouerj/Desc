@@ -15,7 +15,7 @@ slider:
         link : "about"
 
     # slider item loop
-    - title : "Horário 2020/2"
+    - title : "Horário 2021/1"
       content : "Confira a grade de horários para o período"
       animation_in : "left"
       animation_out : "right"
