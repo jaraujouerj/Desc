@@ -84,7 +84,7 @@ Quando, excepcionalmente, for autorizada a participação de mais de um aluno, o
 {{< /faq >}}
 
 {{< faq  "Quais são as normas gráficas para a monografia de projeto de graduação?" >}}
-O texto de sua monografia de Projeto de Graduação deve seguir algumas regras para ser defendida e aceita pela banca.  No DESC seguimos as [normas da UERJ para dissertações e Teses](http://www.bdtd.uerj.br/roteiro_uerj_web.pdf).
+O texto de sua monografia de Projeto de Graduação deve seguir algumas regras para ser defendida e aceita pela banca.  No DESC seguimos as [normas da UERJ para dissertações e Teses](roteiro_uerj_web.pdf).
 {{< /faq >}}
 
 {{< faq  "As normas são complicadas, existe algum template de Projeto de Graduação?" >}}

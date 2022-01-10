@@ -23,7 +23,7 @@ Telefone do DESC: ~~+55 21 2587-7442~~ (indisponível durante a pandemia)
 Guia:\
 Bloco A: Departamentos\
 Bloco B: Direção da Faculdade de Engenharia\
-Bloco C: Elevadores, Biblioteca e Xerox\
+Bloco C: Elevadores e Biblioteca\
 Bloco D: DESC\
-Bloco E: Laboratórios\
+Bloco E: Salas de Professores\
 Bloco F: Salas de Aula e Laboratórios\
