@@ -15,7 +15,7 @@ slider:
         link : "about"
 
     # slider item loop
-    - title : "Horário 2021/1"
+    - title : "Horário 2022/1"
       content : "Confira a grade de horários para o período"
       animation_in : "left"
       animation_out : "right"
@@ -38,7 +38,7 @@ slider:
 
     # slider item loop
     - title : "Concursos para professor"
-      content : "Temporariamente suspensos durante a pandemia"
+      content : "Inscrições abertas até 30 de junho de 2022"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down

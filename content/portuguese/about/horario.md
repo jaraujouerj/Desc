@@ -1,6 +1,6 @@
 ---
 title: "Horário das Disciplinas"
-date: 2021-07-06T15:27:17+06:00
+date: 2022-10-10T11:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -12,10 +12,17 @@ author: "João Araujo"
 type: "page"
 ---
 
-## Horário para 2021/1
-- [5° Período](Periodo_5_Q1_20211.pdf)    
-- [6° Período](Periodo_6_Q1_20211.pdf)
-- [7° Período](Periodo_7_Q1_20211.pdf)
-- [8° Período](Periodo_8_Q1_20211.pdf)
-- [9° Período](Periodo_9_Q1_20211.pdf)
-- [10° Período](Periodo_10_Q1_20211.pdf)
+## Horário para 2022/2
+- [5° Período](PT20222P5Q1.pdf)    
+- [6° Período](PT20222P6Q1.pdf)
+- [7° Período](PT20222P7Q1.pdf)
+- [7° Período (alternativo)](PT20222P7Q3.pdf)
+- [8° Período](PT20222P8Q1.pdf)
+- [9° Período](PT20222P9Q1.pdf)
+- [10° período](PT20222P10Q1.pdf)
+
+<!-- ## Alocação das Salas do Bloco D
+- [LabComp1](LABCOMP1.pdf)
+- [LabComp2](LABCOMP2.pdf)
+- [LaboGeo1](LABOGEO1.pdf)
+- [LaboGeo2](LABOGEO2.pdf) -->
