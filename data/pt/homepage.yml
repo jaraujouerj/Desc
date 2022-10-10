@@ -15,7 +15,7 @@ slider:
         link : "about"
 
     # slider item loop
-    - title : "Horário 2022/1"
+    - title : "Horário 2022/2"
       content : "Confira a grade de horários para o período"
       animation_in : "left"
       animation_out : "right"
@@ -37,15 +37,15 @@ slider:
         link : "about/ingresso"
 
     # slider item loop
-    - title : "Concursos para professor"
-      content : "Inscrições abertas até 30 de junho de 2022"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Saiba mais"
-        link : "about/concursos"
+    # - title : "Concursos para professor"
+    #   content : "Inscrições abertas até 30 de junho de 2022"
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : true
+    #     label : "Saiba mais"
+    #     link : "about/concursos"
 
 
 ############################### Banner feature ###############################
