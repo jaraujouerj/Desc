@@ -14,7 +14,7 @@ codigo: "FEN06-04192"
 periodo: 8
 prerequisitos: ["Fundamentos de Computadores Digitais I"]
 prerequisitosfora: [ "Técnicas Digitais II"]
-teacher: "Cristiana Bentes, Ds.C."
+teacher: "Robert Mota, Dr."
 summary: "Ao final do período o aluno deverá compreender a potencialidade e o campo de uso dos microcomputadores. "
 ---
 ## Objetivos

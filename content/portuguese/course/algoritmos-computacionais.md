@@ -14,7 +14,7 @@ periodo: 5
 codigo: FEN06-03559
 prerequisitosfora: ["IME04-00627 Introdução ao Processamento de Dados"]
 summary: Ao final do período o aluno deverá compreender como funciona um programa, guardado na memória de um computador digital, e ser capaz de desenvolver e implementar algoritmos estruturados, numa linguagem de programação.
-teacher: "Jorge Valério, Ds.C"
+teacher: "Giomar Sequeiros, Dr."
 ---
 ## Objetivos
 Ao final do período o aluno deverá compreender como funciona um programa, guardado na memória de um computador digital, e ser capaz de desenvolver e implementar algoritmos estruturados, numa linguagem de programação.
