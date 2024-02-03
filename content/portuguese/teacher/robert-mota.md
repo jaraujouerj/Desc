@@ -22,9 +22,9 @@ interest: []
 
 contact:
   # contact item loop
-  - name : "rbtmota@gmail.com"
+  - name : "mota@eng.uerj.br"
     icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:araujo@eng.uerj.br"
+    link : "mailto:mota@eng.uerj.br"
 
   # lattes item loop
   - name : "CV Lattes"
