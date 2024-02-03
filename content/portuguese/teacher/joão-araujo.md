@@ -34,9 +34,9 @@ contact:
     link : "https://github.com/jaraujouerj"
 
   # sourceforge item loop
-  - name : "sourceforgeJoão Araujo"
+  - name : "sourceforge João Araujo"
     icon : "ti-linux" # icon pack : https://themify.me/themify-icons
-    link : "https://github.com/jaraujouerj"
+    link : "https://sourceforge.net/u/joaoaraujobr/"
 
   # página item loop
   - name : "araujo.eng.uerj.br"
