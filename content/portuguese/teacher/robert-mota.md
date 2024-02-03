@@ -10,7 +10,7 @@ Doutorado em Engenharia Elétrica (Conceito CAPES 7).
 2005 - 2006: Especialização em MBA EM TELECOM. (Carga Horária: 360h).
 1992 - 1999: Graduação em ENGENHARIA ELETRICA."
 # teacher portrait
-image: "images/teachers/rmota.jpg"
+image: "images/teachers/robert.jpg"
 # course
 course: "Hardware e Redes de computadores"
 # biography
