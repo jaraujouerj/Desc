@@ -1,6 +1,6 @@
 ---
 title: "Contato"
-date: 2021-02-17T01:28:23-03:00
+date: 2023-03-24T01:28:23-03:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/predio.jpg"
@@ -13,13 +13,13 @@ O Departamento de Engenharia de Sistemas e Computação (DESC) da UERJ está loc
 Campus Francisco Negrão de Lima - Maracanã  
 Faculdade de Engenharia  
 Departamento de Engenharia de Sistemas e Computação  
-5º andar, Bloco D, sala 5014  
+5º andar, Bloco D, sala 5028  
 Rua São Francisco Xavier, 524  
 CEP 20550-013 Maracanã  
 Rio de Janeiro - R.J.  
-Telefone do DESC: ~~+55 21 2587-7442~~ (indisponível durante a pandemia)
 
 ![planta](/images/contact/localiza.gif)
+
 Guia:\
 Bloco A: Departamentos\
 Bloco B: Direção da Faculdade de Engenharia\

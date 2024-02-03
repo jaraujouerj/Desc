@@ -25,7 +25,7 @@
             <li class="list-inline-item mr-4 mb-1 mb-md-0 text-light"><span class="font-weight-bold mr-2">Chefia
               :</span><a
               href="{{ `teacher/` | relLangURL }}{{ site.Params.chefia | urlize }}">{{ site.Params.chefia | title }}</a></li>
-            <li class="list-inline-item mb-1"><a class="text-color" href="{{ site.Params.echefia | safeURL }}"><i
+            <li class="list-inline-item mb-1"><a class="text-color" href="mailto:{{ site.Params.echefia | safeURL }}"><i
               class="ti-email mr-2"></i>{{ site.Params.echefia }}</a></li></br>
             <li class="list-inline-item mr-4   text-light"><span class="font-weight-bold mr-2">Sub-Chefia
               :</span><a
@@ -36,9 +36,9 @@
             <li class="list-inline-item mr-4   text-light"><span class="font-weight-bold mr-2">Coordenador de Projeto Final
               :</span><a
               href="{{ `teacher/` | relLangURL }}{{ site.Params.coordenadorprojeto | urlize }}">{{ site.Params.coordenadorprojeto | title }}</a></li></br>
-              <li class="list-inline-item mr-4 mb-3  text-light"><span class="font-weight-bold mr-2">Secretaria
-                :</span>{{ site.Params.secretaria }}</li>
-                <li class="list-inline-item mb-3"><a class="text-color" href="{{ site.Params.email | safeURL }}"><i
+              <li class="list-inline-item mr-4 mb-3  text-light"><span class="font-weight-bold mr-2">Secretário
+                :</span>{{ site.Params.secretaria }}
+                <a class="text-color" href="mailto:{{site.Params.email}}"><i
                   class="ti-email mr-2"></i>{{ site.Params.email }}</a></li></br>
            </ul>
           </div>

@@ -12,7 +12,7 @@ summaryLength = "10"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "pt"
-disableLanguages = ["fr","en"] # desable language from here
+disableLanguages = ["fr","en"] # disable language from here
 
 
 
@@ -66,8 +66,8 @@ top_header = true
 chefia = "Luiza Mourelle"
 subchefia = "João Araujo"
 chefialab = "Luiza Mourelle"
-coordenadorprojeto = "Luiza Mourelle"
-secretaria = "Alexandre Amorim"
+coordenadorprojeto = "Robert Mota"
+secretaria = "Leonardo de Souza Santos"
 
 # Preloader
 [params.preloader]
