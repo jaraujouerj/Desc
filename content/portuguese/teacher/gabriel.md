@@ -1,5 +1,6 @@
 ---
-title: "Gabriel Cardoso de Carvalho, MsC."
+title: "Gabriel Cardoso, M.Sc."
+shorttitle: "Gabriel"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
