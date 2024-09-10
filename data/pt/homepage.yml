@@ -15,7 +15,7 @@ slider:
         link : "about"
 
     # slider item loop
-    - title : "Horário 2023/2"
+    - title : "Horário"
       content : "Confira a grade de horários para o período"
       animation_in : "left"
       animation_out : "right"
@@ -93,14 +93,6 @@ course:
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
-cta:
-  enable : true
-  subtitle : "Temporariamente suspensos durante a pandemia"
-  title : "Concursos para professor"
-  button:
-    enable : true
-    label : "mais informações"
-    link : "about/concursos"
 
 
 ######################## Success story #############################
