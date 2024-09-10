@@ -16,7 +16,6 @@ disableLanguages = ["fr","en"] # disable language from here
 
 
 
-
 ############################# Plugins ##############################
 
 # CSS Plugins
@@ -63,10 +62,10 @@ contact_form_action = "https://formspree.io/f/xaylzbrz" # contact form works wit
 google_analitycs_id = "" # your id
 # top header
 top_header = true
-chefia = "Luiza Mourelle"
-subchefia = "João Araujo"
-chefialab = "Luiza Mourelle"
-coordenadorprojeto = "Robert Mota"
+chefia = "João Araujo"
+subchefia = "Cristiana Bentes"
+chefialab = "Felipe Ulrichsen"
+coordenadorprojeto = "Simone Gama"
 secretaria = "Leonardo de Souza Santos"
 
 # Preloader
@@ -365,3 +364,7 @@ url = "research"
 [markup]
   [markup.tableOfContents]
     ordered = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    
