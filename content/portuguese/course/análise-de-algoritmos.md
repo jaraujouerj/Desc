@@ -12,16 +12,17 @@ chpratica: "2 horas"
 chteorica: "2 horas"
 codigo: "FEN06-03713"
 periodo: 7
-prerequisitosfora: ["Técnicas Digitais I"]
-teacher:
+teacher: "Gabriel Cardoso, M.Sc."
+prerequisitosfora:
+  - prereqext: "FEN05-04498	Técnicas Digitais I"
+    linkreqext: "4498"
 summary: "Ao final do período o aluno deverá ter assimilado o tratamento matemático de um algoritmo."
-teacher: "Fabiano Oliveira"
 ---
 ## Objetivos
 Ao final do período o aluno deverá ter assimilado o tratamento matemático de um algoritmo, verificando sua correção e determinando sua eficiência; ser capaz de distinguir a melhor técnica para elaborar um algoritmo e ter assimilado os conceitos da Teoria de Grafos.
 
 ## Ementa
-eoria da lógica: cálculo de predicados, inferência lógica e verificação de programas. Complexidade de algoritmos. Técnicas de algoritmos: guloso, conquista e divisão, backtracking e programação dinâmica. Teoria de grafos: grafos e subgrafos, árvores, conectividade, ciclos Hamiltonianos, percurso de Euler, grafos direcionados e aplicações.
+Teoria da lógica: cálculo de predicados, inferência lógica e verificação de programas. Complexidade de algoritmos. Técnicas de algoritmos: guloso, conquista e divisão, backtracking e programação dinâmica. Teoria de grafos: grafos e subgrafos, árvores, conectividade, ciclos Hamiltonianos, percurso de Euler, grafos direcionados e aplicações.
 
 ## Bibliografia:
 

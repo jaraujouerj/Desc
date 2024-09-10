@@ -12,8 +12,7 @@ chpratica: "2 horas"
 chteorica: "1 hora"
 codigo: "FEN06-04578"
 periodo: 9
-prerequisitosfora: ["170 créditos"]
-teacher: "Luiza Mourelle, Ph.D."
+teacher: "Simone Gama, M.Sc."
 summary: "Induzir o aluno a iniciar e desenvolver, parcialmente, um projeto de Engenharia de Sistemas e Computação, correlacionando e consolidando os conhecimentos adquiridos no curso, bem como estimulando sua capacidade de auto-crítica e auto-aprendizado."
 ---
 ## Objetivos

@@ -13,7 +13,7 @@ chteorica: "2 horas"
 codigo: "FEN06-03980"
 periodo: 8
 prerequisitos: ["Estruturas de Informação I"]
-teacher: "Jorge Valério, Ds.C"
+teacher: "Giomar Sequeiros, Dr."
 summary: "Ao final do período deverá identificar a(s) linguagem(ns) de programação para um dado ambiente de P.D."
 ---
 ## Objetivos

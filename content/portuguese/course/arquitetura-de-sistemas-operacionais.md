@@ -13,7 +13,7 @@ chteorica: "2 horas"
 codigo: "FEN06-04664"
 periodo: 9
 prerequisitos: ["Arquitetura de Computadores I", "Estruturas de Informação I"]
-teacher: "Cristiana Bentes, Ds.C."
+teacher: "Rafaela Brum, Ds.C."
 summary: "Ao final do período o aluno deverá ter assimilado as características, funcionamento e estrutura interna dos sistemas operacionais."
 ---
 ## Objetivos

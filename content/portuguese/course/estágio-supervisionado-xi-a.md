@@ -11,8 +11,7 @@ chs: "2 horas"
 chpratica: "2 horas"
 codigo: "FEN06-05038"
 periodo: 9
-prerequisitosfora: ["160 créditos "]
-teacher: "João Araujo, Dr."
+teacher: "Simone Gama, M.Sc."
 summary: "O aluno deverá vivenciar um ambiente profissional de trabalho na área de engenharia de sistemas e computação e ter elementos para criticar tal vivência."
 ---
 ## Objetivos

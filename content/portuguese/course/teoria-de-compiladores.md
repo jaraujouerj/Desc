@@ -13,7 +13,7 @@ chteorica: "3 horas"
 codigo: "FEN06-04516"
 periodo: 9
 prerequisitos: ["Análise de Algoritmos", "Características das Linguagens de Programação I"]
-teacher: "Jorge Valério, Ds.C"
+teacher: "Simone Gama, M.Sc."
 summary: "Ao final do período o aluno deverá ter assimilado a técnica e a teoria dos compiladores e ser capaz de transcender o seu uso para problemas extra compilação."
 ---
 ## Objetivos

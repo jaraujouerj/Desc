@@ -13,7 +13,9 @@ chteorica: "3 horas"
 codigo: "FEN06-04718"
 periodo: 9
 prerequisitos: ["Arquitetura de Computadores I"]
-prerequisitosfora: ["Princípios de Telecomunicações III"]
+prerequisitosfora:
+  - prereqext: "FEN05-04975	Princípios de Telecomunicações III"
+    linkreqext: "4975"
 teacher: "Robert Mota, Dr."
 summary: "Ao final do período o aluno deverá ter adquirido conhecimentos sobre transmissão de dados e redes de computadores, com noções sobre os equipamentos necessários; meios para elaboração de projeto lógico; noções sobre software de controle."
 ---

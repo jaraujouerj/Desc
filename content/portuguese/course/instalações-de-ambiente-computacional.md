@@ -11,8 +11,12 @@ chs: "3 horas"
 chteorica: "3 horas"
 codigo: "FEN06-03860"
 periodo: 7
-prerequisitosfora: ["Circuitos Elétricos IV", "Eletrônica II"]
-teacher: "Jorge Valério, Ds.C"
+teacher: "Thiago Medeiros, MsC."
+prerequisitosfora:
+  - prereqext: "FEN05-01840	Eletrônica II"
+    linkreqext: "1840"
+  - prereqext: "FEN04-05222	Circuitos Elétricos IV"
+    linkreqext: "5222"
 summary: "Ao final do período o aluno deverá ter adquirido conhecimentos de dispositivos elétricos, eletrônicos e mecânicos necessários à montagem de um ambiente computacional de porte médio."
 ---
 ## Objetivos

@@ -12,7 +12,7 @@ chteorica: "2 horas"
 codigo: "FEN06-04314"
 periodo: 9
 prerequisitos: ["Engenharia de Sistemas A", "Estruturas de Informação I"]
-teacher: "Margareth Simões, Ds.C."
+teacher: "Giomar Sequeiros, Dr."
 summary: "Ao final do período o aluno deverá ter assimilado os conhecimentos e técnicas utilizados para a estruturação e organização dos dados de um sistema."
 ---
 ## Objetivos

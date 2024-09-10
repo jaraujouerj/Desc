@@ -12,7 +12,7 @@ chteorica: "2 horas"
 codigo: "FEN06-04386"
 periodo: 10
 prerequisitos: ["Engenharia de Sistemas B"]
-teacher: "Margareth Simões, Ds.C."
+teacher: "Felipe  Ulrichsen, MsC."
 summary: "Ao final do período o aluno deverá ter assimilado os conhecimentos e técnicas utilizados na elaboração do projeto físico de um sistema."
 ---
 ## Objetivos

@@ -13,7 +13,7 @@ chteorica: "1 hora"
 codigo: "FEN06-04635"
 periodo: 10
 prerequisitos: ["Projeto de Graduação XI-A"]
-teacher: "Robert Mota, Dr."
+teacher: "Giomar Sequeiros, Dr."
 summary: "Capacitar o aluno a completar o desenvolvimento do projeto e redigir a documentação, bem como obter a sua qualificação; deverá ser capaz de exercer auto-critica e demonstrar capacidade de auto-aprendizado."
 ---
 ## Objetivos

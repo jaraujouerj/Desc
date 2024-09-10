@@ -12,9 +12,13 @@ chlab: 2 horas
 chteorica: 3 horas
 periodo: 5
 codigo: FEN06-03559
-prerequisitosfora: ["IME04-00627 Introdução ao Processamento de Dados"]
+prerequisitosfora:
+  - prereqext: "IME04-00627 Introdução ao Processamento de Dados"
+    linkreqext: "0627"
+
 summary: Ao final do período o aluno deverá compreender como funciona um programa, guardado na memória de um computador digital, e ser capaz de desenvolver e implementar algoritmos estruturados, numa linguagem de programação.
-teacher: "Giomar Sequeiros, Dr."
+teacher: "Gabriel Cardoso, M.Sc."
+
 ---
 ## Objetivos
 Ao final do período o aluno deverá compreender como funciona um programa, guardado na memória de um computador digital, e ser capaz de desenvolver e implementar algoritmos estruturados, numa linguagem de programação.
