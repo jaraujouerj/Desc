@@ -8,7 +8,7 @@ description : "Possui graduação em Engenharia Elétrica pela Universidade do E
 # teacher portrait
 image: "images/teachers/thiago.jpg"
 # course
-course: "Lõgica Computacional"
+course: "Lógicas e Semântica de Programas"
 # biography
 bio: ""
 # interest

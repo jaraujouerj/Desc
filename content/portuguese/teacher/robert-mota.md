@@ -12,7 +12,7 @@ Doutorado em Engenharia Elétrica (Conceito CAPES 7).
 # teacher portrait
 image: "images/teachers/robert.jpg"
 # course
-course: "Hardware e Redes de computadores"
+course: "Arquitetura de Sistemas de Computação"
 # biography
 bio: "Possui graduação em Engenharia Elétrica pela Universidade Federal do Espírito Santo - UFES (1999), pós-graduação em redes de telecomunicações na Universidade de Vila Velha - UVV (2005), mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (2018); e doutorado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (2022). Atualmente é professor adjunto da Universidade do Estado do Rio de Janeiro. Tem experiência na redes de telecomunicações e em desenvolvimento de hardware e software básico, atuando principalmente nos seguintes temas: redes de computadores, código corretor de erro e IoT. "
 # interest

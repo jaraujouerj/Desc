@@ -8,7 +8,7 @@ description : "Possui doutorado em Engenharia de Sistemas e Computação pela CO
 # teacher portrait
 image: "images/teachers/cris.jpeg"
 # course
-course: "Computação de Alto Desempenho"
+course: "Arquitetura de Sistemas de Computação"
 # biography
 bio: "Possui doutorado em Engenharia de Sistemas e Computação pela COPPE - Universidade Federal do Rio de Janeiro (1998). Atualmente é professora adjunta da Universidade do Estado do Rio de Janeiro. Tem experiência na área de Ciência da Computação, com ênfase em Arquitetura de Sistemas de Computação, atuando principalmente nos seguintes temas: computação de alto desempenho, processamento paralelo e visualização volumétrica de alto desempenho. "
 # interest

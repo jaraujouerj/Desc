@@ -8,7 +8,7 @@ description : ""
 # teacher portrait
 image: "images/teachers/rafaela.jpg"
 # course
-course: "Sistemas Operacionais"
+course: "Arquitetura de Sistemas de Computação"
 # biography
 bio: "Possui graduação em Ciência da Computação pela Universidade do Estado do Rio de Janeiro(2017) e mestrado em Ciências Computacionais pela Universidade do Estado do Rio de Janeiro(2019). Atualmente é  Revisor de periódico da Future Generation Computer Systems, Revisor de periódico da The Journal of Supercomputing e Revisor de periódico da Journal of Parallel and Distributed Computing"
 # interest

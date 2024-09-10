@@ -8,7 +8,7 @@ description : "João Araujo possui graduação em Engenharia Eletrônica pela Un
 # teacher portrait
 image: "images/teachers/joao_araujo.jpg"
 # course
-course: "Software e Hardware"
+course: "Linguagens de Programação"
 # biography
 bio: "Possui graduação em Engenharia Eletrônica pela Universidade Federal do Rio de Janeiro (1988), **mestrado** em Engenharia Elétrica pela Universidade Federal do Rio de Janeiro (1992) e **doutorado em Computação** - Université de Versailles Saint Quentin En Yvelines (1999).
 Em 2013 fez **pós-doutorado** na **École Nationale des Sciences Géographique (ENSG), França**. Atualmente é professor associado da Universidade do Estado do Rio de Janeiro. Tem experiência na área de Ciência da Computação, com ênfase em Software Básico, atuando principalmente nos seguintes temas: geomática, internet, software livre, multimídia e fotogrametria. "
