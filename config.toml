@@ -5,11 +5,10 @@ title = "Departamento de Engenharia de Sistemas e Computação"
 theme = "educenter-hugo"
 
 # post pagination
-paginate = "6"
+[pagination]
+  pagerSize = 6
 # post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "pt"
 disableLanguages = ["fr","en"] # disable language from here
@@ -114,7 +113,8 @@ expire_days = 2
 # link = "#"
 
 ################################### Portuguese language #####################################
-[Languages.pt]
+[languages.pt]
+  [languages.pt.params]
 languageName = "Pt"
 languageCode = "pt-br"
 contentDir = "content/portuguese"
@@ -125,7 +125,8 @@ copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefi
 
 
 ################################### English language #####################################
-[Languages.en]
+[languages.en]
+  [languages.en.params]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
@@ -270,7 +271,8 @@ url = "research"
 
 
 ################################### French language #####################################
-[Languages.fr]
+[languages.fr]
+  [languages.fr.params]
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
