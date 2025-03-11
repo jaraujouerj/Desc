@@ -28,6 +28,8 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
+          echo "Verificando diretório ~/.ssh"
+          ls -la ~/.ssh
           ssh-keyscan -H 152.92.135.59 > ~/.ssh/known_hosts
 
       - name: Enviar arquivos via rsync
