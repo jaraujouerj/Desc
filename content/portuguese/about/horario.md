@@ -12,7 +12,7 @@ author: "João Araujo"
 type: "page"
 ---
 
-## Horário para 2025/1 
+## Horário para 2025-1 
 <style>
   table td {
     text-align: center;
