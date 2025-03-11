@@ -26,7 +26,7 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H SEU_SERVIDOR > ~/.ssh/known_hosts
+          ssh-keyscan -H 152.92.135.59 > ~/.ssh/known_hosts
 
       - name: Enviar arquivos via rsync
         run: rsync -avz  public/ araujo@152.92.135.59:/var/www/paginas/virtual/www.desc.eng.uerj.br/
