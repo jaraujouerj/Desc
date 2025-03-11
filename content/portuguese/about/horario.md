@@ -113,7 +113,7 @@ type: "page"
 <td rowspan="4">Eletrônica I<br/>Flávio Alencar<br/></td>
 <!-- span -->
 <td rowspan="2">Conversão Eletromecânica de Energia III<br/>Roberto Fontoura<br/></td>
-<!-- span -->>
+<!-- span -->
 </tr>
 <tr>
 <th class="yAxis">M5</th>
