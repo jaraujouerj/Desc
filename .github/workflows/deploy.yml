@@ -31,7 +31,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           echo "Verificando diretório ~/.ssh"
           ls -la ~/.ssh
-          echo "Testar conexão SSH"
+          echo "Testa conexão SSH"
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no araujo@152.92.135.59 'echo "Testando Conexão bem-sucedida!"'
           ssh-keyscan -H 152.92.135.59 > ~/.ssh/known_hosts
 
