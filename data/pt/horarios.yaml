@@ -1,0 +1,735 @@
+disciplinas:
+  Algoritmos Computacionais:
+    cor: null
+  Algoritmos Computacionais I:
+    cor: null
+  Análise de Algoritmos:
+    cor: null
+  Análise de Sistemas Físicos I:
+    cor: null
+  Arquitetura de Computadores I:
+    cor: null
+  Arquitetura de Sistemas Operacionais:
+    cor: null
+  Características das Linguagens de Programação:
+    cor: null
+  Circuitos Elétricos I:
+    cor: null
+  Circuitos Elétricos IV:
+    cor: null
+  Controle de Processos por Computador:
+    cor: null
+  Controle e Servomecanismos III:
+    cor: null
+  Conversão Eletromecânica de Energia III:
+    cor: null
+  Eletromagnetismo III:
+    cor: null
+  Eletrônica I:
+    cor: null
+  Eletrônica II:
+    cor: null
+  Engenharia de Sistemas A:
+    cor: null
+  Engenharia de Sistemas B:
+    cor: null
+  Engenharia de Sistemas C:
+    cor: null
+  Estruturas de Informação I:
+    cor: null
+  Estágio Supervisionado XI-A:
+    cor: null
+  Fundamentos de Computadores Digitais I:
+    cor: null
+  Instalações de Ambiente Computacional:
+    cor: null
+  Laboratório de Programação I:
+    cor: null
+  Materiais Elétricos e Magnéticos I:
+    cor: null
+  Microcomputadores e Microprocessadores I:
+    cor: null
+  Modelos Matemáticos Aplicados à Eng. Elétrica III:
+    cor: null
+  Princípios de Telecomunicações III:
+    cor: null
+  Projeto de Ambiente Computacional:
+    cor: null
+  Projeto de Graduação XI-A:
+    cor: null
+  Projeto de Graduação XI-B:
+    cor: null
+  Teleprocessamento e Redes de Computadores:
+    cor: null
+  Teoria de Compiladores:
+    cor: null
+  Técnicas Digitais I:
+    cor: null
+  Técnicas Digitais II:
+    cor: null
+  Tópicos Especiais A:
+    cor: null
+  Tópicos Especiais B:
+    cor: null
+  Tópicos Especiais C:
+    cor: null
+turmas:
+- nome: 5° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Algoritmos Computacionais
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Seg
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Algoritmos Computacionais
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Seg
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Conversão Eletromecânica de Energia III
+    professor: Roberto Fontoura
+    sala: Sem sala
+  - dia: Seg
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Conversão Eletromecânica de Energia III
+    professor: Roberto Fontoura
+    sala: Sem sala
+  - dia: Seg
+    inicio: '11:30'
+    fim: '12:20'
+    disciplina: Circuitos Elétricos I
+    professor: Sérgio Escalante
+    sala: Sem sala
+  - dia: Seg
+    inicio: '12:30'
+    fim: '13:20'
+    disciplina: Circuitos Elétricos I
+    professor: Sérgio Escalante
+    sala: Sem sala
+  - dia: Ter
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Eletrônica I
+    professor: Flávio Alencar
+    sala: Sem sala
+  - dia: Ter
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Eletrônica I
+    professor: Flávio Alencar
+    sala: Sem sala
+  - dia: Ter
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Modelos Matemáticos Aplicados à Eng. Elétrica III
+    professor: Bismarck Costa Lima
+    sala: Sem sala
+  - dia: Qua
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Circuitos Elétricos I
+    professor: Sérgio Escalante
+    sala: Sem sala
+  - dia: Qua
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Circuitos Elétricos I
+    professor: Sérgio Escalante
+    sala: Sem sala
+  - dia: Qua
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Eletrônica I
+    professor: Flávio Alencar
+    sala: Sem sala
+  - dia: Qui
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Eletromagnetismo III
+    professor: Pedro Pereira
+    sala: Sem sala
+  - dia: Qui
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Eletromagnetismo III
+    professor: Pedro Pereira
+    sala: Sem sala
+  - dia: Qui
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Conversão Eletromecânica de Energia III
+    professor: Roberto Fontoura
+    sala: Sem sala
+  - dia: Qui
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Conversão Eletromecânica de Energia III
+    professor: Roberto Fontoura
+    sala: Sem sala
+  - dia: Qui
+    inicio: '12:30'
+    fim: '13:20'
+    disciplina: Conversão Eletromecânica de Energia III
+    professor: Roberto Fontoura
+    sala: Sem sala
+  - dia: Sex
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Algoritmos Computacionais
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Sex
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Eletromagnetismo III
+    professor: Pedro Pereira
+    sala: Sem sala
+  - dia: Sex
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Modelos Matemáticos Aplicados à Eng. Elétrica III
+    professor: Bismarck Costa Lima
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '13:20'
+    disciplina: Modelos Matemáticos Aplicados à Eng. Elétrica III
+    professor: Bismarck Costa Lima
+    sala: Sem sala
+- nome: 6° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Materiais Elétricos e Magnéticos I
+    professor: Antonio Guilherme
+    sala: Sem sala
+  - dia: Seg
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Eletrônica II
+    professor: Aluísio Bento
+    sala: Sem sala
+  - dia: Seg
+    inicio: '17:00'
+    fim: '17:50'
+    disciplina: Circuitos Elétricos IV
+    professor: Ronaldo Bosignoli
+    sala: Sem sala
+  - dia: Seg
+    inicio: '18:00'
+    fim: '18:50'
+    disciplina: Circuitos Elétricos IV
+    professor: Ronaldo Bosignoli
+    sala: Sem sala
+  - dia: Ter
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Eletrônica II
+    professor: Aluísio Bento
+    sala: Sem sala
+  - dia: Ter
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Circuitos Elétricos IV
+    professor: Ronaldo Bosignoli
+    sala: Sem sala
+  - dia: Ter
+    inicio: '16:10'
+    fim: '17:50'
+    disciplina: Análise de Sistemas Físicos I
+    professor: Tiago Mota
+    sala: Sem sala
+  - dia: Ter
+    inicio: '18:00'
+    fim: '20:30'
+    disciplina: Técnicas Digitais I
+    professor: Hélio da Mota Filho
+    sala: Sem sala
+  - dia: Qua
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Eletrônica II
+    professor: Aluísio Bento
+    sala: Sem sala
+  - dia: Qua
+    inicio: '17:00'
+    fim: '17:50'
+    disciplina: Análise de Sistemas Físicos I
+    professor: Tiago Mota
+    sala: Sem sala
+  - dia: Qua
+    inicio: '18:00'
+    fim: '19:40'
+    disciplina: Análise de Sistemas Físicos I
+    professor: Tiago Mota
+    sala: Sem sala
+  - dia: Qui
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Materiais Elétricos e Magnéticos I
+    professor: Antonio Guilherme
+    sala: Sem sala
+  - dia: Qui
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Estruturas de Informação I
+    professor: Giomar
+    sala: Sem sala
+  - dia: Qui
+    inicio: '18:50'
+    fim: '20:30'
+    disciplina: Circuitos Elétricos IV
+    professor: Ronaldo Bosignoli
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Técnicas Digitais I
+    professor: Hélio da Mota Filho
+    sala: Sem sala
+  - dia: Sex
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Estruturas de Informação I
+    professor: Giomar
+    sala: Sem sala
+- nome: 7° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Fundamentos de Computadores Digitais I
+    professor: Mário João jr.
+    sala: Sem sala
+  - dia: Seg
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Fundamentos de Computadores Digitais I
+    professor: Mário João jr.
+    sala: Sem sala
+  - dia: Seg
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Análise de Algoritmos
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Seg
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Análise de Algoritmos
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Ter
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Análise de Algoritmos
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Ter
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Técnicas Digitais II
+    professor: Marcelo Rubinstein
+    sala: Sem sala
+  - dia: Ter
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Técnicas Digitais II
+    professor: Marcelo Rubinstein
+    sala: Sem sala
+  - dia: Qua
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Fundamentos de Computadores Digitais I
+    professor: Mário João jr.
+    sala: Sem sala
+  - dia: Qua
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Princípios de Telecomunicações III
+    professor: Gil Pinheiro
+    sala: Sem sala
+  - dia: Qua
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Princípios de Telecomunicações III
+    professor: Gil Pinheiro
+    sala: Sem sala
+  - dia: Qui
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Instalações de Ambiente Computacional
+    professor: Thiago
+    sala: Sem sala
+  - dia: Qui
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Instalações de Ambiente Computacional
+    professor: Thiago
+    sala: Sem sala
+  - dia: Qui
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Controle e Servomecanismos III
+    professor: Téo Cerqueira
+    sala: Sem sala
+  - dia: Qui
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Controle e Servomecanismos III
+    professor: Téo Cerqueira
+    sala: Sem sala
+  - dia: Qui
+    inicio: '11:30'
+    fim: '12:20'
+    disciplina: Princípios de Telecomunicações III
+    professor: Gil Pinheiro
+    sala: Sem sala
+  - dia: Qui
+    inicio: '12:30'
+    fim: '13:20'
+    disciplina: Princípios de Telecomunicações III
+    professor: Gil Pinheiro
+    sala: Sem sala
+  - dia: Sex
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Controle e Servomecanismos III
+    professor: Téo Cerqueira
+    sala: Sem sala
+  - dia: Sex
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Controle e Servomecanismos III
+    professor: Téo Cerqueira
+    sala: Sem sala
+  - dia: Sex
+    inicio: '11:30'
+    fim: '12:20'
+    disciplina: Técnicas Digitais II
+    professor: Marcelo Rubinstein
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '13:20'
+    disciplina: Técnicas Digitais II
+    professor: Marcelo Rubinstein
+    sala: Sem sala
+- nome: 8° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Engenharia de Sistemas A
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Seg
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Laboratório de Programação I
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Ter
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Engenharia de Sistemas A
+    professor: Gabriel
+    sala: Sem sala
+  - dia: Ter
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Microcomputadores e Microprocessadores I
+    professor: Rafaela
+    sala: Sem sala
+  - dia: Ter
+    inicio: '16:10'
+    fim: '17:00'
+    disciplina: Microcomputadores e Microprocessadores I
+    professor: Rafaela
+    sala: Sem sala
+  - dia: Qua
+    inicio: '13:20'
+    fim: '14:10'
+    disciplina: Arquitetura de Computadores I
+    professor: Luiza Mourelle
+    sala: Sem sala
+  - dia: Qua
+    inicio: '14:20'
+    fim: '15:10'
+    disciplina: Arquitetura de Computadores I
+    professor: Luiza Mourelle
+    sala: Sem sala
+  - dia: Qua
+    inicio: '15:10'
+    fim: '16:00'
+    disciplina: Laboratório de Programação I
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Qua
+    inicio: '16:10'
+    fim: '17:00'
+    disciplina: Laboratório de Programação I
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Qui
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Características das Linguagens de Programação
+    professor: Giomar
+    sala: Sem sala
+  - dia: Qui
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Arquitetura de Computadores I
+    professor: Luiza Mourelle
+    sala: Sem sala
+  - dia: Qui
+    inicio: '16:10'
+    fim: '17:00'
+    disciplina: Arquitetura de Computadores I
+    professor: Luiza Mourelle
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Características das Linguagens de Programação
+    professor: Giomar
+    sala: Sem sala
+  - dia: Sex
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Microcomputadores e Microprocessadores I
+    professor: Rafaela
+    sala: Sem sala
+- nome: 9° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Engenharia de Sistemas B
+    professor: Margareth
+    sala: Sem sala
+  - dia: Seg
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Teleprocessamento e Redes de Computadores
+    professor: Robert Mota
+    sala: Sem sala
+  - dia: Seg
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Estágio Supervisionado XI-A
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Ter
+    inicio: 07:50
+    fim: 08:40
+    disciplina: Arquitetura de Sistemas Operacionais
+    professor: Rafaela
+    sala: Sem sala
+  - dia: Ter
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Arquitetura de Sistemas Operacionais
+    professor: Rafaela
+    sala: Sem sala
+  - dia: Ter
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Engenharia de Sistemas B
+    professor: Margareth
+    sala: Sem sala
+  - dia: Ter
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Engenharia de Sistemas B
+    professor: Margareth
+    sala: Sem sala
+  - dia: Qua
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Projeto de Ambiente Computacional
+    professor: Thiago
+    sala: Sem sala
+  - dia: Qua
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Projeto de Ambiente Computacional
+    professor: Thiago
+    sala: Sem sala
+  - dia: Qua
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Teoria de Compiladores
+    professor: Simone
+    sala: Sem sala
+  - dia: Qua
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Teoria de Compiladores
+    professor: Simone
+    sala: Sem sala
+  - dia: Qui
+    inicio: 07:50
+    fim: 08:40
+    disciplina: Teoria de Compiladores
+    professor: Simone
+    sala: Sem sala
+  - dia: Qui
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Teoria de Compiladores
+    professor: Simone
+    sala: Sem sala
+  - dia: Qui
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Projeto de Graduação XI-A
+    professor: Felipe
+    sala: Sem sala
+  - dia: Qui
+    inicio: '10:40'
+    fim: '12:20'
+    disciplina: Projeto de Graduação XI-A
+    professor: Felipe
+    sala: Sem sala
+  - dia: Sex
+    inicio: 07:00
+    fim: 08:40
+    disciplina: Teleprocessamento e Redes de Computadores
+    professor: Robert Mota
+    sala: Sem sala
+  - dia: Sex
+    inicio: 08:50
+    fim: 09:40
+    disciplina: Teleprocessamento e Redes de Computadores
+    professor: Robert Mota
+    sala: Sem sala
+  - dia: Sex
+    inicio: 09:40
+    fim: '10:30'
+    disciplina: Arquitetura de Sistemas Operacionais
+    professor: Rafaela
+    sala: Sem sala
+  - dia: Sex
+    inicio: '10:40'
+    fim: '11:30'
+    disciplina: Arquitetura de Sistemas Operacionais
+    professor: Rafaela
+    sala: Sem sala
+- nome: 10° Período 2026/1
+  horarios:
+  - dia: Seg
+    inicio: '16:10'
+    fim: '17:50'
+    disciplina: Projeto de Graduação XI-B
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Seg
+    inicio: '18:00'
+    fim: '18:50'
+    disciplina: Projeto de Graduação XI-B
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Ter
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Controle de Processos por Computador
+    professor: Luigi
+    sala: Sem sala
+  - dia: Ter
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Tópicos Especiais B
+    professor: Felipe
+    sala: Sem sala
+  - dia: Ter
+    inicio: '16:10'
+    fim: '17:50'
+    disciplina: Tópicos Especiais C
+    professor: Luigi
+    sala: Sem sala
+  - dia: Qua
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Tópicos Especiais A
+    professor: Thiago
+    sala: Sem sala
+  - dia: Qua
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Engenharia de Sistemas C
+    professor: Simone
+    sala: Sem sala
+  - dia: Qui
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Engenharia de Sistemas C
+    professor: Simone
+    sala: Sem sala
+  - dia: Qui
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Tópicos Especiais B
+    professor: Felipe
+    sala: Sem sala
+  - dia: Qui
+    inicio: '16:10'
+    fim: '17:50'
+    disciplina: Tópicos Especiais A
+    professor: Thiago
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Tópicos Especiais C
+    professor: Luigi
+    sala: Sem sala
+  - dia: Sex
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Controle de Processos por Computador
+    professor: Luigi
+    sala: Sem sala
+  - dia: Sex
+    inicio: '16:10'
+    fim: '17:00'
+    disciplina: Controle de Processos por Computador
+    professor: Luigi
+    sala: Sem sala
+- nome: 1° Período 2026/1 Curso Energias Renováveis
+  horarios:
+  - dia: Ter
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I
+    professor: Mário João jr.
+    sala: Sem sala
+  - dia: Qua
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I
+    professor: Mário João jr.
+    sala: Sem sala
+
+- nome: 1° Período 2026/1 Curso Eng. de Produção
+  horarios:
+  - dia: Seg
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I
+    professor: João Araujo
+    sala: Sem sala
+  - dia: Qua
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I
+    professor: João Araujo
+    sala: Sem sala

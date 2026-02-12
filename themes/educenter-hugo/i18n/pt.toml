@@ -1,0 +1,35 @@
+[home]
+other = "Início"
+
+[about]
+other = "Sobre"
+
+[course]
+other = "Disciplinas"
+
+[teacher]
+other = "Professores"
+
+[event]
+other = "Eventos"
+
+[blog]
+other = "Notícias"
+
+[contact]
+other = "Contato"
+
+[read_more]
+other = "Leia mais"
+
+[send]
+other = "Enviar"
+
+[search]
+other = "Buscar"
+
+[notice]
+other = "Avisos"
+
+[research]
+other = "Pesquisa"
