@@ -5,7 +5,7 @@
     }
     .horario-grid {
         display: grid;
-        grid-template-columns: repeat(6, 1fr); /* 6 days: Seg-Sab */
+        grid-template-columns: repeat(5, 1fr); /* 5 days: Seg-Sex */
         border: 1px solid #dee2e6;
         border-radius: .25rem;
         overflow: hidden;
@@ -89,7 +89,7 @@
     <h2>{{ .nome }}</h2>
 
     {{ $horariosPorDia := dict }}
-    {{ $dias := slice "Seg" "Ter" "Qua" "Qui" "Sex" "Sab" }}
+    {{ $dias := slice "Seg" "Ter" "Qua" "Qui" "Sex" }}
     {{ range $dias }}
         {{ $horariosPorDia = merge $horariosPorDia (dict . (slice)) }}
     {{ end }}
