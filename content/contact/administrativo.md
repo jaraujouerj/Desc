@@ -5,5 +5,5 @@ image: "images/backgrounds/page-title.jpg"
 layout: "admin"
 author: "João Araujo"
 tag: "admin"
-date: 2026-02-14
+
 ---
