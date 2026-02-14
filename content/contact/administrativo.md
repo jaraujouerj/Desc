@@ -6,4 +6,5 @@ layout: "admin"
 author: "João Araujo"
 tag: "admin"
 
+date: 2026-02-14
 ---
