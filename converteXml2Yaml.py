@@ -72,12 +72,11 @@ for subgroup in root.findall("Subgroup"):
         for i in range(1, len(horarios_individuais)):
             next_horario = horarios_individuais[i]
             
-            # Check if the next block is the same class, same day, and immediately follows the current one
+            # Check if the next block is the same class, same day, professor and room (regardless of time gap)
             if (next_horario['disciplina'] == current_horario['disciplina'] and
                 next_horario['professor'] == current_horario['professor'] and
                 next_horario['sala'] == current_horario['sala'] and
-                next_horario['dia'] == current_horario['dia'] and
-                next_horario['inicio'] == current_horario['fim']):
+                next_horario['dia'] == current_horario['dia']):
                 
                 # If so, merge them by extending the end time of the current block
                 current_horario['fim'] = next_horario['fim']
@@ -105,7 +104,7 @@ data = {
 }
 
 # Write the data to a YAML file
-with open("data/horarios.yaml", "w", encoding="utf-8") as f:
+with open("data/pt/horarios.yaml", "w", encoding="utf-8") as f:
     yaml.dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
-print("Arquivo data/horarios.yaml gerado com sucesso.")
+print("Arquivo data/pt/horarios.yaml gerado com sucesso.")

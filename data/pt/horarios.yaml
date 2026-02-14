@@ -1,7 +1,11 @@
 disciplinas:
   Algoritmos Computacionais:
     cor: null
-  Algoritmos Computacionais I:
+  Algoritmos Computacionais I - Turma 1:
+    cor: null
+  Algoritmos Computacionais I - Turma 2:
+    cor: null
+  Algoritmos Computacionais I - Turma 3:
     cor: null
   Análise de Algoritmos:
     cor: null
@@ -78,48 +82,24 @@ turmas:
   horarios:
   - dia: Seg
     inicio: 07:00
-    fim: 08:40
-    disciplina: Algoritmos Computacionais
-    professor: Gabriel
-    sala: Sem sala
-  - dia: Seg
-    inicio: 08:50
     fim: 09:40
     disciplina: Algoritmos Computacionais
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Seg
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Conversão Eletromecânica de Energia III
-    professor: Roberto Fontoura
-    sala: Sem sala
-  - dia: Seg
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Conversão Eletromecânica de Energia III
     professor: Roberto Fontoura
     sala: Sem sala
   - dia: Seg
     inicio: '11:30'
-    fim: '12:20'
-    disciplina: Circuitos Elétricos I
-    professor: Sérgio Escalante
-    sala: Sem sala
-  - dia: Seg
-    inicio: '12:30'
     fim: '13:20'
     disciplina: Circuitos Elétricos I
     professor: Sérgio Escalante
     sala: Sem sala
   - dia: Ter
     inicio: 07:00
-    fim: 08:40
-    disciplina: Eletrônica I
-    professor: Flávio Alencar
-    sala: Sem sala
-  - dia: Ter
-    inicio: 08:50
     fim: '10:30'
     disciplina: Eletrônica I
     professor: Flávio Alencar
@@ -132,12 +112,6 @@ turmas:
     sala: Sem sala
   - dia: Qua
     inicio: 07:00
-    fim: 08:40
-    disciplina: Circuitos Elétricos I
-    professor: Sérgio Escalante
-    sala: Sem sala
-  - dia: Qua
-    inicio: 08:50
     fim: '10:30'
     disciplina: Circuitos Elétricos I
     professor: Sérgio Escalante
@@ -150,30 +124,12 @@ turmas:
     sala: Sem sala
   - dia: Qui
     inicio: 07:00
-    fim: 08:40
-    disciplina: Eletromagnetismo III
-    professor: Pedro Pereira
-    sala: Sem sala
-  - dia: Qui
-    inicio: 08:50
     fim: 09:40
     disciplina: Eletromagnetismo III
     professor: Pedro Pereira
     sala: Sem sala
   - dia: Qui
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Conversão Eletromecânica de Energia III
-    professor: Roberto Fontoura
-    sala: Sem sala
-  - dia: Qui
-    inicio: '10:40'
-    fim: '12:20'
-    disciplina: Conversão Eletromecânica de Energia III
-    professor: Roberto Fontoura
-    sala: Sem sala
-  - dia: Qui
-    inicio: '12:30'
     fim: '13:20'
     disciplina: Conversão Eletromecânica de Energia III
     professor: Roberto Fontoura
@@ -183,7 +139,7 @@ turmas:
     fim: 08:40
     disciplina: Algoritmos Computacionais
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Sex
     inicio: 08:50
     fim: '10:30'
@@ -192,12 +148,6 @@ turmas:
     sala: Sem sala
   - dia: Sex
     inicio: '10:40'
-    fim: '12:20'
-    disciplina: Modelos Matemáticos Aplicados à Eng. Elétrica III
-    professor: Bismarck Costa Lima
-    sala: Sem sala
-  - dia: Sex
-    inicio: '12:30'
     fim: '13:20'
     disciplina: Modelos Matemáticos Aplicados à Eng. Elétrica III
     professor: Bismarck Costa Lima
@@ -218,12 +168,6 @@ turmas:
     sala: Sem sala
   - dia: Seg
     inicio: '17:00'
-    fim: '17:50'
-    disciplina: Circuitos Elétricos IV
-    professor: Ronaldo Bosignoli
-    sala: Sem sala
-  - dia: Seg
-    inicio: '18:00'
     fim: '18:50'
     disciplina: Circuitos Elétricos IV
     professor: Ronaldo Bosignoli
@@ -260,12 +204,6 @@ turmas:
     sala: Sem sala
   - dia: Qua
     inicio: '17:00'
-    fim: '17:50'
-    disciplina: Análise de Sistemas Físicos I
-    professor: Tiago Mota
-    sala: Sem sala
-  - dia: Qua
-    inicio: '18:00'
     fim: '19:40'
     disciplina: Análise de Sistemas Físicos I
     professor: Tiago Mota
@@ -281,7 +219,7 @@ turmas:
     fim: '16:00'
     disciplina: Estruturas de Informação I
     professor: Giomar
-    sala: Sem sala
+    sala: 5023D
   - dia: Qui
     inicio: '18:50'
     fim: '20:30'
@@ -299,47 +237,29 @@ turmas:
     fim: '16:00'
     disciplina: Estruturas de Informação I
     professor: Giomar
-    sala: Sem sala
+    sala: 5023D
 - nome: 7° Período 2026/1
   horarios:
   - dia: Seg
     inicio: 07:00
-    fim: 08:40
-    disciplina: Fundamentos de Computadores Digitais I
-    professor: Mário João jr.
-    sala: Sem sala
-  - dia: Seg
-    inicio: 08:50
     fim: 09:40
     disciplina: Fundamentos de Computadores Digitais I
     professor: Mário João jr.
-    sala: Sem sala
+    sala: 5029D
   - dia: Seg
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Análise de Algoritmos
-    professor: Gabriel
-    sala: Sem sala
-  - dia: Seg
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Análise de Algoritmos
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Ter
     inicio: 07:00
     fim: 08:40
     disciplina: Análise de Algoritmos
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Ter
     inicio: 08:50
-    fim: '10:30'
-    disciplina: Técnicas Digitais II
-    professor: Marcelo Rubinstein
-    sala: Sem sala
-  - dia: Ter
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Técnicas Digitais II
     professor: Marcelo Rubinstein
@@ -349,75 +269,39 @@ turmas:
     fim: 08:40
     disciplina: Fundamentos de Computadores Digitais I
     professor: Mário João jr.
-    sala: Sem sala
+    sala: 5029D
   - dia: Qua
     inicio: 08:50
-    fim: '10:30'
-    disciplina: Princípios de Telecomunicações III
-    professor: Gil Pinheiro
-    sala: Sem sala
-  - dia: Qua
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Princípios de Telecomunicações III
     professor: Gil Pinheiro
     sala: Sem sala
   - dia: Qui
     inicio: 07:00
-    fim: 08:40
-    disciplina: Instalações de Ambiente Computacional
-    professor: Thiago
-    sala: Sem sala
-  - dia: Qui
-    inicio: 08:50
     fim: 09:40
     disciplina: Instalações de Ambiente Computacional
     professor: Thiago
-    sala: Sem sala
+    sala: 5023D
   - dia: Qui
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Controle e Servomecanismos III
-    professor: Téo Cerqueira
-    sala: Sem sala
-  - dia: Qui
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Controle e Servomecanismos III
     professor: Téo Cerqueira
     sala: Sem sala
   - dia: Qui
     inicio: '11:30'
-    fim: '12:20'
-    disciplina: Princípios de Telecomunicações III
-    professor: Gil Pinheiro
-    sala: Sem sala
-  - dia: Qui
-    inicio: '12:30'
     fim: '13:20'
     disciplina: Princípios de Telecomunicações III
     professor: Gil Pinheiro
     sala: Sem sala
   - dia: Sex
     inicio: 08:50
-    fim: '10:30'
-    disciplina: Controle e Servomecanismos III
-    professor: Téo Cerqueira
-    sala: Sem sala
-  - dia: Sex
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Controle e Servomecanismos III
     professor: Téo Cerqueira
     sala: Sem sala
   - dia: Sex
     inicio: '11:30'
-    fim: '12:20'
-    disciplina: Técnicas Digitais II
-    professor: Marcelo Rubinstein
-    sala: Sem sala
-  - dia: Sex
-    inicio: '12:30'
     fim: '13:20'
     disciplina: Técnicas Digitais II
     professor: Marcelo Rubinstein
@@ -429,85 +313,61 @@ turmas:
     fim: '14:10'
     disciplina: Engenharia de Sistemas A
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Seg
     inicio: '14:20'
     fim: '16:00'
     disciplina: Laboratório de Programação I
     professor: João Araujo
-    sala: Sem sala
+    sala: 5023D
   - dia: Ter
     inicio: '12:30'
     fim: '14:10'
     disciplina: Engenharia de Sistemas A
     professor: Gabriel
-    sala: Sem sala
+    sala: 5023D
   - dia: Ter
     inicio: '14:20'
-    fim: '16:00'
-    disciplina: Microcomputadores e Microprocessadores I
-    professor: Rafaela
-    sala: Sem sala
-  - dia: Ter
-    inicio: '16:10'
     fim: '17:00'
     disciplina: Microcomputadores e Microprocessadores I
     professor: Rafaela
-    sala: Sem sala
+    sala: 5029D
   - dia: Qua
     inicio: '13:20'
-    fim: '14:10'
-    disciplina: Arquitetura de Computadores I
-    professor: Luiza Mourelle
-    sala: Sem sala
-  - dia: Qua
-    inicio: '14:20'
     fim: '15:10'
     disciplina: Arquitetura de Computadores I
     professor: Luiza Mourelle
-    sala: Sem sala
+    sala: 5029D
   - dia: Qua
     inicio: '15:10'
-    fim: '16:00'
-    disciplina: Laboratório de Programação I
-    professor: João Araujo
-    sala: Sem sala
-  - dia: Qua
-    inicio: '16:10'
     fim: '17:00'
     disciplina: Laboratório de Programação I
     professor: João Araujo
-    sala: Sem sala
+    sala: 5023D
   - dia: Qui
     inicio: '12:30'
     fim: '14:10'
     disciplina: Características das Linguagens de Programação
     professor: Giomar
-    sala: Sem sala
+    sala: 5023D
   - dia: Qui
     inicio: '14:20'
-    fim: '16:00'
-    disciplina: Arquitetura de Computadores I
-    professor: Luiza Mourelle
-    sala: Sem sala
-  - dia: Qui
-    inicio: '16:10'
     fim: '17:00'
     disciplina: Arquitetura de Computadores I
     professor: Luiza Mourelle
-    sala: Sem sala
+    sala: 5029D
   - dia: Sex
     inicio: '12:30'
     fim: '14:10'
     disciplina: Características das Linguagens de Programação
     professor: Giomar
-    sala: Sem sala
+    sala: 5023D
   - dia: Sex
     inicio: '14:20'
     fim: '16:00'
     disciplina: Microcomputadores e Microprocessadores I
     professor: Rafaela
-    sala: Sem sala
+    sala: 5029D
 - nome: 9° Período 2026/1
   horarios:
   - dia: Seg
@@ -515,13 +375,13 @@ turmas:
     fim: '10:30'
     disciplina: Engenharia de Sistemas B
     professor: Margareth
-    sala: Sem sala
+    sala: 5032D
   - dia: Seg
     inicio: '10:40'
     fim: '12:20'
     disciplina: Teleprocessamento e Redes de Computadores
     professor: Robert Mota
-    sala: Sem sala
+    sala: 5029D
   - dia: Seg
     inicio: '12:30'
     fim: '14:10'
@@ -530,110 +390,56 @@ turmas:
     sala: Sem sala
   - dia: Ter
     inicio: 07:50
-    fim: 08:40
-    disciplina: Arquitetura de Sistemas Operacionais
-    professor: Rafaela
-    sala: Sem sala
-  - dia: Ter
-    inicio: 08:50
     fim: 09:40
     disciplina: Arquitetura de Sistemas Operacionais
     professor: Rafaela
-    sala: Sem sala
+    sala: 5029D
   - dia: Ter
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Engenharia de Sistemas B
-    professor: Margareth
-    sala: Sem sala
-  - dia: Ter
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Engenharia de Sistemas B
     professor: Margareth
-    sala: Sem sala
+    sala: 5032D
   - dia: Qua
     inicio: 07:00
-    fim: 08:40
-    disciplina: Projeto de Ambiente Computacional
-    professor: Thiago
-    sala: Sem sala
-  - dia: Qua
-    inicio: 08:50
     fim: 09:40
     disciplina: Projeto de Ambiente Computacional
     professor: Thiago
-    sala: Sem sala
+    sala: 5023D
   - dia: Qua
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Teoria de Compiladores
-    professor: Simone
-    sala: Sem sala
-  - dia: Qua
-    inicio: '10:40'
     fim: '12:20'
     disciplina: Teoria de Compiladores
     professor: Simone
-    sala: Sem sala
+    sala: 5029D
   - dia: Qui
     inicio: 07:50
-    fim: 08:40
-    disciplina: Teoria de Compiladores
-    professor: Simone
-    sala: Sem sala
-  - dia: Qui
-    inicio: 08:50
     fim: 09:40
     disciplina: Teoria de Compiladores
     professor: Simone
-    sala: Sem sala
+    sala: 5029D
   - dia: Qui
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Projeto de Graduação XI-A
-    professor: Felipe
-    sala: Sem sala
-  - dia: Qui
-    inicio: '10:40'
     fim: '12:20'
     disciplina: Projeto de Graduação XI-A
     professor: Felipe
     sala: Sem sala
   - dia: Sex
     inicio: 07:00
-    fim: 08:40
-    disciplina: Teleprocessamento e Redes de Computadores
-    professor: Robert Mota
-    sala: Sem sala
-  - dia: Sex
-    inicio: 08:50
     fim: 09:40
     disciplina: Teleprocessamento e Redes de Computadores
     professor: Robert Mota
-    sala: Sem sala
+    sala: 5029D
   - dia: Sex
     inicio: 09:40
-    fim: '10:30'
-    disciplina: Arquitetura de Sistemas Operacionais
-    professor: Rafaela
-    sala: Sem sala
-  - dia: Sex
-    inicio: '10:40'
     fim: '11:30'
     disciplina: Arquitetura de Sistemas Operacionais
     professor: Rafaela
-    sala: Sem sala
+    sala: 5029D
 - nome: 10° Período 2026/1
   horarios:
   - dia: Seg
     inicio: '16:10'
-    fim: '17:50'
-    disciplina: Projeto de Graduação XI-B
-    professor: João Araujo
-    sala: Sem sala
-  - dia: Seg
-    inicio: '18:00'
     fim: '18:50'
     disciplina: Projeto de Graduação XI-B
     professor: João Araujo
@@ -643,93 +449,98 @@ turmas:
     fim: '14:10'
     disciplina: Controle de Processos por Computador
     professor: Luigi
-    sala: Sem sala
+    sala: 5032D
   - dia: Ter
     inicio: '14:20'
     fim: '16:00'
     disciplina: Tópicos Especiais B
     professor: Felipe
-    sala: Sem sala
+    sala: 5032D
   - dia: Ter
     inicio: '16:10'
     fim: '17:50'
     disciplina: Tópicos Especiais C
     professor: Luigi
-    sala: Sem sala
+    sala: 5032D
   - dia: Qua
     inicio: '12:30'
     fim: '14:10'
     disciplina: Tópicos Especiais A
     professor: Thiago
-    sala: Sem sala
+    sala: 5032D
   - dia: Qua
     inicio: '14:20'
     fim: '16:00'
     disciplina: Engenharia de Sistemas C
     professor: Simone
-    sala: Sem sala
+    sala: 5032D
   - dia: Qui
     inicio: '12:30'
     fim: '14:10'
     disciplina: Engenharia de Sistemas C
     professor: Simone
-    sala: Sem sala
+    sala: 5032D
   - dia: Qui
     inicio: '14:20'
     fim: '16:00'
     disciplina: Tópicos Especiais B
     professor: Felipe
-    sala: Sem sala
+    sala: 5032D
   - dia: Qui
     inicio: '16:10'
     fim: '17:50'
     disciplina: Tópicos Especiais A
     professor: Thiago
-    sala: Sem sala
+    sala: 5032D
   - dia: Sex
     inicio: '12:30'
     fim: '14:10'
     disciplina: Tópicos Especiais C
     professor: Luigi
-    sala: Sem sala
+    sala: 5032D
   - dia: Sex
     inicio: '14:20'
-    fim: '16:00'
-    disciplina: Controle de Processos por Computador
-    professor: Luigi
-    sala: Sem sala
-  - dia: Sex
-    inicio: '16:10'
     fim: '17:00'
     disciplina: Controle de Processos por Computador
     professor: Luigi
-    sala: Sem sala
-- nome: 1° Período 2026/1 Curso Energias Renováveis
+    sala: 5032D
+- nome: Energias Renováveis - 1° Período 2026/1
   horarios:
-  - dia: Ter
-    inicio: 08:50
-    fim: '10:30'
-    disciplina: Algoritmos Computacionais I
-    professor: Mário João jr.
-    sala: Sem sala
   - dia: Qua
     inicio: 08:50
     fim: '10:30'
-    disciplina: Algoritmos Computacionais I
+    disciplina: Algoritmos Computacionais I - Turma 1
     professor: Mário João jr.
     sala: Sem sala
-
-- nome: 1° Período 2026/1 Curso Eng. de Produção
+  - dia: Sex
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I - Turma 1
+    professor: Mário João jr.
+    sala: Sem sala
+- nome: Eng. de Produção - 1° Período 2026/1
   horarios:
   - dia: Seg
     inicio: 08:50
     fim: '10:30'
-    disciplina: Algoritmos Computacionais I
+    disciplina: Algoritmos Computacionais I - Turma 3
     professor: João Araujo
+    sala: LabBas
+  - dia: Seg
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Algoritmos Computacionais I - Turma 2
+    professor: Gabriel
     sala: Sem sala
   - dia: Qua
     inicio: 08:50
     fim: '10:30'
-    disciplina: Algoritmos Computacionais I
+    disciplina: Algoritmos Computacionais I - Turma 3
     professor: João Araujo
+    sala: Sem sala
+  - dia: Sex
+    inicio: '12:30'
+    fim: '14:10'
+    disciplina: Algoritmos Computacionais I - Turma 2
+    professor: Gabriel
     sala: Sem sala

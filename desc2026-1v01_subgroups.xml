@@ -6,16 +6,19 @@
         <Activity id="16"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="16"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="16"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="64"></Activity>
@@ -212,11 +215,13 @@
         <Activity id="17"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="17"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="53"></Activity>
@@ -449,11 +454,13 @@
         <Activity id="2"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Estruturas de Informação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="2"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Estruturas de Informação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -501,11 +508,13 @@
         <Activity id="1"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Estruturas de Informação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="1"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Estruturas de Informação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -525,26 +534,31 @@
         <Activity id="19"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Fundamentos de Computadores Digitais I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="19"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Fundamentos de Computadores Digitais I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="19"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Fundamentos de Computadores Digitais I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="43"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Análise de Algoritmos"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
         <Activity id="43"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Análise de Algoritmos"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M6 11:30-12:20">
       </Hour>
@@ -572,11 +586,13 @@
         <Activity id="44"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Análise de Algoritmos"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="44"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Análise de Algoritmos"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="47"></Activity>
@@ -619,11 +635,13 @@
         <Activity id="18"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Fundamentos de Computadores Digitais I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="18"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Fundamentos de Computadores Digitais I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="49"></Activity>
@@ -666,16 +684,19 @@
         <Activity id="25"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Instalações de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="25"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Instalações de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="25"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Instalações de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="52"></Activity>
@@ -780,21 +801,25 @@
         <Activity id="20"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Engenharia de Sistemas A"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="20"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Engenharia de Sistemas A"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="4"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Laboratório de Programação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="4"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Laboratório de Programação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -824,26 +849,31 @@
         <Activity id="21"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Engenharia de Sistemas A"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="21"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Engenharia de Sistemas A"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="39"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Microcomputadores e Microprocessadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="39"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Microcomputadores e Microprocessadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="39"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Microcomputadores e Microprocessadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
       </Hour>
@@ -873,21 +903,25 @@
         <Activity id="28"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="28"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="3"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Laboratório de Programação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="3"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Laboratório de Programação I"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
       </Hour>
@@ -915,26 +949,31 @@
         <Activity id="5"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Características das Linguagens de Programação"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="5"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Características das Linguagens de Programação"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
       </Hour>
@@ -962,21 +1001,25 @@
         <Activity id="6"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Características das Linguagens de Programação"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="6"></Activity>
         <Teacher name="Giomar"></Teacher>
         <Subject name="Características das Linguagens de Programação"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="38"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Microcomputadores e Microprocessadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="38"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Microcomputadores e Microprocessadores I"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -1000,21 +1043,25 @@
         <Activity id="46"></Activity>
         <Teacher name="Margareth"></Teacher>
         <Subject name="Engenharia de Sistemas B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="46"></Activity>
         <Teacher name="Margareth"></Teacher>
         <Subject name="Engenharia de Sistemas B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
         <Activity id="40"></Activity>
         <Teacher name="Robert Mota"></Teacher>
         <Subject name="Teleprocessamento e Redes de Computadores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M6 11:30-12:20">
         <Activity id="40"></Activity>
         <Teacher name="Robert Mota"></Teacher>
         <Subject name="Teleprocessamento e Redes de Computadores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T1 12:30-13:20">
         <Activity id="42"></Activity>
@@ -1048,21 +1095,25 @@
         <Activity id="13"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Arquitetura de Sistemas Operacionais"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="13"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Arquitetura de Sistemas Operacionais"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="45"></Activity>
         <Teacher name="Margareth"></Teacher>
         <Subject name="Engenharia de Sistemas B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
         <Activity id="45"></Activity>
         <Teacher name="Margareth"></Teacher>
         <Subject name="Engenharia de Sistemas B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="M6 11:30-12:20">
       </Hour>
@@ -1090,31 +1141,37 @@
         <Activity id="24"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Projeto de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="24"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Projeto de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="24"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Projeto de Ambiente Computacional"></Subject>
+        <Room name="5023D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="15"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Teoria de Compiladores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
         <Activity id="15"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Teoria de Compiladores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M6 11:30-12:20">
         <Activity id="15"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Teoria de Compiladores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T1 12:30-13:20">
       </Hour>
@@ -1142,11 +1199,13 @@
         <Activity id="14"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Teoria de Compiladores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="14"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Teoria de Compiladores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="35"></Activity>
@@ -1187,26 +1246,31 @@
         <Activity id="41"></Activity>
         <Teacher name="Robert Mota"></Teacher>
         <Subject name="Teleprocessamento e Redes de Computadores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M2 07:50-08:40">
         <Activity id="41"></Activity>
         <Teacher name="Robert Mota"></Teacher>
         <Subject name="Teleprocessamento e Redes de Computadores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M3 08:50-09:40">
         <Activity id="41"></Activity>
         <Teacher name="Robert Mota"></Teacher>
         <Subject name="Teleprocessamento e Redes de Computadores"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="12"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Arquitetura de Sistemas Operacionais"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
         <Activity id="12"></Activity>
         <Teacher name="Rafaela"></Teacher>
         <Subject name="Arquitetura de Sistemas Operacionais"></Subject>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="M6 11:30-12:20">
       </Hour>
@@ -1289,31 +1353,37 @@
         <Activity id="7"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Controle de Processos por Computador"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="7"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Controle de Processos por Computador"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="87"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="87"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="22"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Tópicos Especiais C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
         <Activity id="22"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Tópicos Especiais C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="N1 18:00-18:50">
       </Hour>
@@ -1339,21 +1409,25 @@
         <Activity id="27"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="27"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="10"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="10"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -1383,31 +1457,37 @@
         <Activity id="9"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="9"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="86"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="86"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="26"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
         <Activity id="26"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="N1 18:00-18:50">
       </Hour>
@@ -1433,26 +1513,31 @@
         <Activity id="23"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Tópicos Especiais C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="23"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Tópicos Especiais C"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="8"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Controle de Processos por Computador"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="8"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Controle de Processos por Computador"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="8"></Activity>
         <Teacher name="Luigi"></Teacher>
         <Subject name="Controle de Processos por Computador"></Subject>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
       </Hour>
@@ -1464,7 +1549,7 @@
       </Hour>
     </Day>
   </Subgroup>
-  <Subgroup name="1° Período 2026/1">
+  <Subgroup name="2026 - 1 Subgrupo Automático">
     <Day name="Seg">
       <Hour name="M1 07:00-07:50">
       </Hour>
@@ -1503,14 +1588,8 @@
       <Hour name="M2 07:50-08:40">
       </Hour>
       <Hour name="M3 08:50-09:40">
-        <Activity id="95"></Activity>
-        <Teacher name="Mário João jr."></Teacher>
-        <Subject name="Algoritmos Computacionais I"></Subject>
       </Hour>
       <Hour name="M4 09:40-10:30">
-        <Activity id="95"></Activity>
-        <Teacher name="Mário João jr."></Teacher>
-        <Subject name="Algoritmos Computacionais I"></Subject>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1543,12 +1622,200 @@
       <Hour name="M3 08:50-09:40">
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
-        <Subject name="Algoritmos Computacionais I"></Subject>
+        <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
-        <Subject name="Algoritmos Computacionais I"></Subject>
+        <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+      </Hour>
+      <Hour name="M5 10:40-11:30">
+      </Hour>
+      <Hour name="M6 11:30-12:20">
+      </Hour>
+      <Hour name="T1 12:30-13:20">
+      </Hour>
+      <Hour name="T2 13:20-14:10">
+      </Hour>
+      <Hour name="T3 14:20-15:10">
+      </Hour>
+      <Hour name="T4 15:10-16:00">
+      </Hour>
+      <Hour name="T5 16:10-17:00">
+      </Hour>
+      <Hour name="T6 17:00-17:50">
+      </Hour>
+      <Hour name="N1 18:00-18:50">
+      </Hour>
+      <Hour name="N2 18:50-19:40">
+      </Hour>
+      <Hour name="N3 19:40-20:30">
+      </Hour>
+    </Day>
+    <Day name="Qui">
+      <Hour name="M1 07:00-07:50">
+      </Hour>
+      <Hour name="M2 07:50-08:40">
+      </Hour>
+      <Hour name="M3 08:50-09:40">
+      </Hour>
+      <Hour name="M4 09:40-10:30">
+      </Hour>
+      <Hour name="M5 10:40-11:30">
+      </Hour>
+      <Hour name="M6 11:30-12:20">
+      </Hour>
+      <Hour name="T1 12:30-13:20">
+      </Hour>
+      <Hour name="T2 13:20-14:10">
+      </Hour>
+      <Hour name="T3 14:20-15:10">
+      </Hour>
+      <Hour name="T4 15:10-16:00">
+      </Hour>
+      <Hour name="T5 16:10-17:00">
+      </Hour>
+      <Hour name="T6 17:00-17:50">
+      </Hour>
+      <Hour name="N1 18:00-18:50">
+      </Hour>
+      <Hour name="N2 18:50-19:40">
+      </Hour>
+      <Hour name="N3 19:40-20:30">
+      </Hour>
+    </Day>
+    <Day name="Sex">
+      <Hour name="M1 07:00-07:50">
+      </Hour>
+      <Hour name="M2 07:50-08:40">
+      </Hour>
+      <Hour name="M3 08:50-09:40">
+        <Activity id="95"></Activity>
+        <Teacher name="Mário João jr."></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+      </Hour>
+      <Hour name="M4 09:40-10:30">
+        <Activity id="95"></Activity>
+        <Teacher name="Mário João jr."></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+      </Hour>
+      <Hour name="M5 10:40-11:30">
+      </Hour>
+      <Hour name="M6 11:30-12:20">
+      </Hour>
+      <Hour name="T1 12:30-13:20">
+      </Hour>
+      <Hour name="T2 13:20-14:10">
+      </Hour>
+      <Hour name="T3 14:20-15:10">
+      </Hour>
+      <Hour name="T4 15:10-16:00">
+      </Hour>
+      <Hour name="T5 16:10-17:00">
+      </Hour>
+      <Hour name="T6 17:00-17:50">
+      </Hour>
+      <Hour name="N1 18:00-18:50">
+      </Hour>
+      <Hour name="N2 18:50-19:40">
+      </Hour>
+      <Hour name="N3 19:40-20:30">
+      </Hour>
+    </Day>
+  </Subgroup>
+  <Subgroup name="Eng. de Produção Grupo Automático Subgrupo Automático">
+    <Day name="Seg">
+      <Hour name="M1 07:00-07:50">
+      </Hour>
+      <Hour name="M2 07:50-08:40">
+      </Hour>
+      <Hour name="M3 08:50-09:40">
+        <Activity id="100"></Activity>
+        <Teacher name="João Araujo"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
+        <Room name="LabBas"></Room>
+      </Hour>
+      <Hour name="M4 09:40-10:30">
+        <Activity id="100"></Activity>
+        <Teacher name="João Araujo"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
+        <Room name="LabBas"></Room>
+      </Hour>
+      <Hour name="M5 10:40-11:30">
+      </Hour>
+      <Hour name="M6 11:30-12:20">
+      </Hour>
+      <Hour name="T1 12:30-13:20">
+      </Hour>
+      <Hour name="T2 13:20-14:10">
+      </Hour>
+      <Hour name="T3 14:20-15:10">
+        <Activity id="98"></Activity>
+        <Teacher name="Gabriel"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+      </Hour>
+      <Hour name="T4 15:10-16:00">
+        <Activity id="98"></Activity>
+        <Teacher name="Gabriel"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+      </Hour>
+      <Hour name="T5 16:10-17:00">
+      </Hour>
+      <Hour name="T6 17:00-17:50">
+      </Hour>
+      <Hour name="N1 18:00-18:50">
+      </Hour>
+      <Hour name="N2 18:50-19:40">
+      </Hour>
+      <Hour name="N3 19:40-20:30">
+      </Hour>
+    </Day>
+    <Day name="Ter">
+      <Hour name="M1 07:00-07:50">
+      </Hour>
+      <Hour name="M2 07:50-08:40">
+      </Hour>
+      <Hour name="M3 08:50-09:40">
+      </Hour>
+      <Hour name="M4 09:40-10:30">
+      </Hour>
+      <Hour name="M5 10:40-11:30">
+      </Hour>
+      <Hour name="M6 11:30-12:20">
+      </Hour>
+      <Hour name="T1 12:30-13:20">
+      </Hour>
+      <Hour name="T2 13:20-14:10">
+      </Hour>
+      <Hour name="T3 14:20-15:10">
+      </Hour>
+      <Hour name="T4 15:10-16:00">
+      </Hour>
+      <Hour name="T5 16:10-17:00">
+      </Hour>
+      <Hour name="T6 17:00-17:50">
+      </Hour>
+      <Hour name="N1 18:00-18:50">
+      </Hour>
+      <Hour name="N2 18:50-19:40">
+      </Hour>
+      <Hour name="N3 19:40-20:30">
+      </Hour>
+    </Day>
+    <Day name="Qua">
+      <Hour name="M1 07:00-07:50">
+      </Hour>
+      <Hour name="M2 07:50-08:40">
+      </Hour>
+      <Hour name="M3 08:50-09:40">
+        <Activity id="101"></Activity>
+        <Teacher name="João Araujo"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
+      </Hour>
+      <Hour name="M4 09:40-10:30">
+        <Activity id="101"></Activity>
+        <Teacher name="João Araujo"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1619,8 +1886,14 @@
       <Hour name="M6 11:30-12:20">
       </Hour>
       <Hour name="T1 12:30-13:20">
+        <Activity id="99"></Activity>
+        <Teacher name="Gabriel"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
       </Hour>
       <Hour name="T2 13:20-14:10">
+        <Activity id="99"></Activity>
+        <Teacher name="Gabriel"></Teacher>
+        <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
       </Hour>
       <Hour name="T3 14:20-15:10">
       </Hour>
