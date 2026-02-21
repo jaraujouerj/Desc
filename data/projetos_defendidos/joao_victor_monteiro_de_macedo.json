@@ -1,0 +1,8 @@
+{
+    "nome": "João Victor Monteiro de Macedo",
+    "titulo": "Deep learning aplicado à identificação da morfologia de implantes dentários a partir de imagens radiográficas.",
+    "orientador": "Thiago Medeiros, Dr.",
+    "ano": 2025,
+    "semestre": 2,
+    "resumo": "A identificação precisa de implantes dentários continua sendo um obstáculo real na prática clínica diária. Frequentemente, faltam informações sobre o tipo ou fabricante do implante, o que torna mais difícil prosseguir com reparos ou com o acompanhamento do paciente quando necessário. Este trabalho propõe o uso de redes neurais para automatizar esse processo de identificação diretamente a partir de radiografias odontológicas. Diferentes arquiteturas de aprendizado profundo foram testadas — como ConvNext, ResNet, DenseNet, Vision Transformer, entre outras — com o objetivo de classificar dois atributos-chave: o tipo de conexão protética e o formato macrogeométrico do implante. O processo abrangeu todas as etapas, desde a organização e rotulagem dos dados até o treinamento e avaliação do modelo. Durante os testes, o método apresentou um comportamento consistente e lidou com as tarefas de classificação como esperado. Na prática, isso significa que ele pode apoiar a tomada de decisão em clínicas, especialmente nos casos em que não há documentação clara. Em vez de depender inteiramente do julgamento humano, ele adiciona uma segunda camada de análise — mais rápida e objetiva."
+}

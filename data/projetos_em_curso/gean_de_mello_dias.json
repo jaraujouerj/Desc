@@ -1,0 +1,7 @@
+{
+    "nome": "Gean de Mello Dias",
+    "titulo": "Paralelização com OpenMP",
+    "orientador": "Cristiana Bentes, Dra.",
+    "previsao": "2026.1",
+    "resumo": "Aplicações que são muito pesadas computacionalmente e precisam ser paralelizadas com OpenMP."
+}

@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>{{ .Title }}</h2>
+                {{ with .Content }}
+                {{ . }}
+                {{ end }}
+
+                {{ $projetos := slice }}
+                {{ range $key, $value := site.Data.projetos_em_curso }}
+                {{ $projetos = $projetos | append $value }}
+                {{ end }}
+
+                {{ if gt (len $projetos) 0 }}
+                <div class="table-responsive mt-4">
+                    <table class="table table-striped table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Aluno</th>
+                                <th>Título</th>
+                                <th>Orientador</th>
+                                <th>Previsão de Defesa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{ range sort $projetos "nome" }}
+                            <tr>
+                                <td>{{ .nome }}</td>
+                                <td>{{ .titulo }}</td>
+                                <td>{{ .orientador }}</td>
+                                <td>{{ .previsao }}</td>
+                            </tr>
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+                {{ else }}
+                <p class="mt-4"><em>Nenhum projeto cadastrado ainda.</em></p>
+                {{ end }}
+
+                <div class="mt-4 pt-3 border-top">
+                    <a href="/tcc/projetos-defendidos/" class="btn btn-sm"
+                        style="background-color:#ffbc3b; color:#fff;">
+                        <i class="ti-check-box mr-1"></i> Ver Projetos Defendidos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
