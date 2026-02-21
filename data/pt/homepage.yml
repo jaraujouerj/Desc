@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Confira agora"
-        link : "about/horario"
+        link : "horarios"
 
     # slider item loop
     - title : "Como ingressar"
