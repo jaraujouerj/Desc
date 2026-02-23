@@ -1,0 +1,8 @@
+{
+    "nome": "Mayara Rodrigues de Brito",
+    "titulo": "Desenvolvimento de Plataforma de Testes de Carga e Estresse para APIs Públicas - API Lab Check",
+    "orientador": "Luigi Ribeiro, MSc.",
+    "ano": 2024,
+    "semestre": 2,
+    "resumo": "As APIs são fundamentais para a integração de sistemas e a comunicação no desenvolvimento de software moderno. Com o aumento no uso dessas interfaces, realizar testes de carga e estresse tornou-se essencial para garantir sua estabilidade em condições de alta demanda. Contudo, as ferramentas existentes podem apresentar custos elevados e complexidade técnica, dificultando o acesso de empresas de pequeno e médio porte. Este trabalho desenvolveu uma plataforma acessível e intuitiva para testes de desempenho de APIs públicas sem autenticação, utilizando bibliotecas como httpx, asyncio e Streamlit. A solução permite simular múltiplas requisições, analisar métricas como tempo de resposta e taxa de sucesso, além de gerar relatórios claros e interativos. A validação com usuários destacou a simplicidade e a clareza da interface, considerada intuitiva mesmo por iniciantes. A plataforma demonstrou atender às necessidades de usuários com recursos limitados, consolidando-se como uma alternativa eficiente e acessível."
+}

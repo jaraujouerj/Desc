@@ -1,0 +1,7 @@
+{
+    "nome": "Mateus de Almeida Vivas",
+    "titulo": "Implementação de um Robô para Extração e Processamento de Dados do Portal Petronect",
+    "orientador": "Luigi Ribeiro, MSc.",
+    "previsao": "2026.1",
+    "resumo": "A transformação digital tem intensificado a adoção de rotinas automatizadas nas organizações, levantando discussões sobre seus impactos na qualidade de vida dos trabalhadores. Embora a automação proporcione ganhos significativos de eficiência e produtividade, também representa uma oportunidade de ressignificar o papel humano no ambiente corporativo, direcionando profissionais para atividades mais estratégicas, criativas e intelectualmente desafiadoras. Tarefas repetitivas e mecânicas estão associadas a riscos ergonômicos e psicossociais, podendo desencadear estresse, ansiedade e burnout, conforme diretrizes do Ministério da Saúde e atualizações recentes das Normas Regulamentadoras nº 1 e nº 17. Pesquisas indicam ainda que a inserção manual de dados está entre as atividades menos valorizadas no ambiente administrativo, havendo ampla aceitação quanto à sua automação. Nesse contexto, este trabalho propõe a implementação de uma solução de RPA (Robot Process Automation) para automatizar processos repetitivos no Portal Petronect, onde colaboradores dedicam grande parte do tempo à consulta de oportunidades de negócios, análise de documentos e verificação de resultados. Essas atividades envolvem múltiplas etapas operacionais e tempos de espera, impactando negativamente a produtividade e o bem-estar profissional."
+}

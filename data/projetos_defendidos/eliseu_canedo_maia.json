@@ -1,0 +1,8 @@
+{
+    "nome": "Eliseu Canêdo Maia",
+    "titulo": "Inteligência Computacional para Diagnóstico de Falhas de Clientes em Grandes Empresas",
+    "orientador": "Luigi Ribeiro, MSc.",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "O diagnóstico de falhas em grandes empresas é um desafio que tem crescido significativamente nos últimos anos, devido ao aumento do número de clientes, à adoção de novas tecnologias e ao fácil acesso aos canais de reclamação. Falhas não tratadas com rapidez e eficiência podem resultar em má reputação da empresa e impactar diretamente a confiança de seus clientes. Este projeto tem como objetivo analisar e diagnosticar reclamações de clientes, indicando possíveis soluções reais para os problemas e direcionando o técnico responsável pela análise do cenário. A metodologia adotada inclui a utilização de dados estruturados para o treinamento de uma rede neural profunda, com a devida otimização de hiperparâmetros e uma avaliação criteriosa do desempenho do modelo. Espera-se que este estudo contribua significativamente para o uso da inteligência computacional em ambientes corporativos, destacando sua ampla aplicabilidade em diversos setores."
+}

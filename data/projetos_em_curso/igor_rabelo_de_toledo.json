@@ -1,0 +1,8 @@
+{
+    "nome": "Igor Rabelo de Toledo",
+    "titulo": "Otimização de Portfólios Financeiros Utilizando Inteligência Computacional",
+    "orientador": "Gabriel de Carvalho, Dr",
+    "coorientador": "Thiago Medeiros, Dr",
+    "previsao": "2026.1",
+    "resumo": "O trabalho aborda a otimização de portfólios financeiros utilizando o modelo Black-Litterman, integrando informações derivadas de análise de sentimento de notícias e textos financeiros. O objetivo é explorar como sinais qualitativos do mercado podem complementar a modelagem quantitativa tradicional, fornecendo uma abordagem híbrida para a alocação de ativos. Essa integração demonstra a aplicação de inteligência computacional na análise de portfólios, combinando previsão financeira e interpretação de informações de mercado de forma estruturada."
+}

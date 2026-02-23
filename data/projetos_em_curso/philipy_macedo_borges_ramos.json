@@ -1,0 +1,7 @@
+{
+    "nome": "Philipy Macedo Borges Ramos",
+    "titulo": "Rastreamento Inteligente UAV-UGV Baseado em CNN e Algoritmo de Otimização",
+    "orientador": "Luigi Ribeiro, MSc.",
+    "previsao": "2026.1",
+    "resumo": "O presente projeto consiste no desenvolvimento de um sistema de rastreamento de UGVs utilizando imagens capturadas por UAVs. A proposta integra visão computacional em imagens aéreas para a identificação de UGVs por meio de técnicas baseadas em Convolutional Neural Networks (CNNs), reconhecidas pela alta eficiência na segmentação de imagens e identificação de objetos, e otimização por Particle Swarm Optimization (PSO), uma técnica inspirada no comportamento coletivo de enxames, utilizada para estimar a posição dentro dos segmentos identificados. A integração entre CNN e PSO busca explorar a cooperação UAV-UGV para detecção e rastreamento em tempo real, superando desafios comuns presentes em sistemas tradicionais de monitoramento aéreo."
+}
