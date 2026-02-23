@@ -26,17 +26,34 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{ range sort $projetos "nome" }}
+                            {{ range $i, $p := sort $projetos "nome" }}
                             <tr>
-                                <td>{{ .nome }}</td>
-                                <td>{{ .titulo }}</td>
-                                <td>{{ .orientador }}</td>
-                                <td>{{ .previsao }}</td>
+                                <td>{{ $p.nome }}</td>
+                                <td>
+                                    {{ if $p.resumo }}
+                                    <a class="project-detail-link" href="#" data-titulo="{{ $p.titulo }}"
+                                        data-orientador="{{ $p.orientador }}" data-coorientador="{{ $p.coorientador }}"
+                                        data-periodo="{{ $p.previsao }}" data-periodo-label="Previsão de Defesa"
+                                        data-resumo="{{ $p.resumo | markdownify }}">
+                                        {{ $p.titulo }}
+                                    </a>
+                                    {{ else }}
+                                    {{ $p.titulo }}
+                                    {{ end }}
+                                </td>
+                                <td>
+                                    {{ $p.orientador }}
+                                    {{ with $p.coorientador }}
+                                    <br><small><em>Coorientador: {{ . }}</em></small>
+                                    {{ end }}
+                                </td>
+                                <td>{{ $p.previsao }}</td>
                             </tr>
                             {{ end }}
                         </tbody>
                     </table>
                 </div>
+
                 {{ else }}
                 <p class="mt-4"><em>Nenhum projeto cadastrado ainda.</em></p>
                 {{ end }}
@@ -51,5 +68,7 @@
         </div>
     </div>
 </section>
+
+{{ partial "project-drawer.html" . }}
 
 {{ end }}

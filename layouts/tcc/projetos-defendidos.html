@@ -23,20 +23,44 @@
                                 <th>Aluno</th>
                                 <th>Título</th>
                                 <th>Orientador</th>
+                                <th>TCC</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {{ range sort $projetos "nome" }}
+                            {{ range $i, $p := sort $projetos "nome" }}
                             <tr>
-                                <td>{{ .ano }}.{{ .semestre }}</td>
-                                <td>{{ .nome }}</td>
-                                <td>{{ .titulo }}</td>
-                                <td>{{ .orientador }}</td>
+                                <td>{{ $p.ano }}.{{ $p.semestre }}</td>
+                                <td>{{ $p.nome }}</td>
+                                <td>
+                                    {{ if $p.resumo }}
+                                    <a class="project-detail-link" href="#" data-titulo="{{ $p.titulo }}"
+                                        data-orientador="{{ $p.orientador }}" data-coorientador="{{ $p.coorientador }}"
+                                        data-periodo="{{ $p.ano }}.{{ $p.semestre }}" data-link-tcc="{{ $p.link_tcc }}"
+                                        data-resumo="{{ $p.resumo | markdownify }}">
+                                        {{ $p.titulo }}
+                                    </a>
+                                    {{ else }}
+                                    {{ $p.titulo }}
+                                    {{ end }}
+                                </td>
+                                <td>
+                                    {{ $p.orientador }}
+                                    {{ with $p.coorientador }}
+                                    <br><small><em>Coorientador: {{ . }}</em></small>
+                                    {{ end }}
+                                </td>
+                                <td>
+                                    {{ with $p.link_tcc }}
+                                    <a href="{{ . }}" target="_blank" title="Consultar TCC completo"><i
+                                            class="ti-link"></i> Consultar</a>
+                                    {{ end }}
+                                </td>
                             </tr>
                             {{ end }}
                         </tbody>
                     </table>
                 </div>
+
                 {{ else }}
                 <p class="mt-4"><em>Nenhum projeto cadastrado ainda.</em></p>
                 {{ end }}
@@ -50,5 +74,7 @@
         </div>
     </div>
 </section>
+
+{{ partial "project-drawer.html" . }}
 
 {{ end }}

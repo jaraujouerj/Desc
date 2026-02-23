@@ -1,0 +1,217 @@
+{{/* Side Drawer para exibir detalhes de projetos de graduação */}}
+
+<!-- Backdrop -->
+<div id="drawer-backdrop" class="drawer-backdrop"></div>
+
+<!-- Drawer -->
+<div id="project-drawer" class="project-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer-header">
+        <h4 id="drawer-title" class="drawer-project-title"></h4>
+        <button type="button" class="drawer-close" aria-label="Fechar painel">&times;</button>
+    </div>
+    <div class="drawer-body">
+        <div class="drawer-meta">
+            <div id="drawer-orientador" class="drawer-meta-item"></div>
+            <div id="drawer-coorientador" class="drawer-meta-item"></div>
+            <div id="drawer-periodo" class="drawer-meta-item"></div>
+            <div id="drawer-link-tcc" class="drawer-meta-item"></div>
+        </div>
+        <hr>
+        <div class="drawer-section-label">Resumo</div>
+        <div id="drawer-resumo" class="drawer-resumo"></div>
+    </div>
+</div>
+
+<style>
+    /* ---- Backdrop ---- */
+    .drawer-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, .45);
+        z-index: 1040;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .3s ease, visibility .3s ease;
+    }
+
+    .drawer-backdrop.is-active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* ---- Drawer panel ---- */
+    .project-drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 420px;
+        max-width: 90vw;
+        height: 100vh;
+        background: #fff;
+        box-shadow: -4px 0 20px rgba(0, 0, 0, .15);
+        z-index: 1050;
+        transform: translateX(100%);
+        transition: transform .3s ease;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .project-drawer.is-active {
+        transform: translateX(0);
+    }
+
+    /* Header */
+    .drawer-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px 24px 12px;
+        border-bottom: 1px solid #e9ecef;
+        background: #f8f9fa;
+        flex-shrink: 0;
+    }
+
+    .drawer-project-title {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+        line-height: 1.4;
+        padding-right: 12px;
+    }
+
+    .drawer-close {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        line-height: 1;
+        color: #666;
+        cursor: pointer;
+        padding: 0 4px;
+        flex-shrink: 0;
+    }
+
+    .drawer-close:hover {
+        color: #c00;
+    }
+
+    /* Body */
+    .drawer-body {
+        padding: 20px 24px;
+        overflow-y: auto;
+        flex: 1;
+    }
+
+    .drawer-meta-item {
+        margin-bottom: 6px;
+        font-size: .93rem;
+        color: #555;
+    }
+
+    .drawer-meta-item:empty {
+        display: none;
+    }
+
+    .drawer-meta-item strong {
+        color: #333;
+    }
+
+    .drawer-section-label {
+        font-weight: 600;
+        font-size: .95rem;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    .drawer-resumo {
+        font-size: .93rem;
+        line-height: 1.65;
+        color: #444;
+        text-align: justify;
+    }
+
+    /* Link style for project titles in the table */
+    a.project-detail-link {
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a.project-detail-link:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<script>
+    (function () {
+        var drawer = document.getElementById('project-drawer');
+        var backdrop = document.getElementById('drawer-backdrop');
+        var btnClose = drawer.querySelector('.drawer-close');
+        var elTitle = document.getElementById('drawer-title');
+        var elOrient = document.getElementById('drawer-orientador');
+        var elCoori = document.getElementById('drawer-coorientador');
+        var elPeriodo = document.getElementById('drawer-periodo');
+        var elLink = document.getElementById('drawer-link-tcc');
+        var elResumo = document.getElementById('drawer-resumo');
+
+        function openDrawer(data) {
+            elTitle.textContent = data.titulo || '';
+
+            elOrient.innerHTML = data.orientador
+                ? '<strong>Orientador:</strong> ' + data.orientador
+                : '';
+
+            elCoori.innerHTML = data.coorientador
+                ? '<strong>Coorientador:</strong> ' + data.coorientador
+                : '';
+
+            elPeriodo.innerHTML = data.periodo
+                ? '<strong>' + data.periodoLabel + ':</strong> ' + data.periodo
+                : '';
+
+            elLink.innerHTML = data.linkTcc
+                ? '<strong>TCC:</strong> <a href="' + data.linkTcc + '" target="_blank">Consultar documento</a>'
+                : '';
+
+            elResumo.innerHTML = data.resumo || '<em>Resumo não disponível.</em>';
+
+            drawer.classList.add('is-active');
+            backdrop.classList.add('is-active');
+            document.body.style.overflow = 'hidden';
+            btnClose.focus();
+        }
+
+        function closeDrawer() {
+            drawer.classList.remove('is-active');
+            backdrop.classList.remove('is-active');
+            document.body.style.overflow = '';
+        }
+
+        // Close events
+        btnClose.addEventListener('click', closeDrawer);
+        backdrop.addEventListener('click', closeDrawer);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && drawer.classList.contains('is-active')) {
+                closeDrawer();
+            }
+        });
+
+        // Delegate click on project links
+        document.addEventListener('click', function (e) {
+            var link = e.target.closest('a.project-detail-link');
+            if (!link) return;
+            e.preventDefault();
+
+            openDrawer({
+                titulo: link.getAttribute('data-titulo') || '',
+                orientador: link.getAttribute('data-orientador') || '',
+                coorientador: link.getAttribute('data-coorientador') || '',
+                periodo: link.getAttribute('data-periodo') || '',
+                periodoLabel: link.getAttribute('data-periodo-label') || 'Período',
+                linkTcc: link.getAttribute('data-link-tcc') || '',
+                resumo: link.getAttribute('data-resumo') || ''
+            });
+        });
+    })();
+</script>
