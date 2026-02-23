@@ -32,8 +32,8 @@ jobs:
           echo "Verificando diretório ~/.ssh"
           ls -la ~/.ssh
           echo "Testa conexão SSH"
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no araujo@152.92.135.59 'echo "Testando Conexão bem-sucedida!"'
-          ssh-keyscan -H 152.92.135.59 > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no araujo@152.92.238.58 'echo "Testando Conexão bem-sucedida!"'
+          ssh-keyscan -H 152.92.238.58 > ~/.ssh/known_hosts
 
       - name: Enviar arquivos via rsync
-        run: rsync -avz  public/ araujo@152.92.135.59:/var/www/paginas/virtual/www.desc.eng.uerj.br
+        run: rsync -avz  public/ araujo@152.92.238.58:/var/www/paginas/virtual/www.desc.eng.uerj.br
