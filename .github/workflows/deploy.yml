@@ -21,7 +21,7 @@ jobs:
           hugo version  # Para verificar a instalação        
 
       - name: Gerar site estático
-        run: hugo --minify
+        run: hugo --minify -b https://www.desc.eng.uerj.br/
 
       - name: Configurar chave SSH
         run: |
