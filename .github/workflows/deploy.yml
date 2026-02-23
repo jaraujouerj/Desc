@@ -36,4 +36,4 @@ jobs:
           ssh-keyscan -H 152.92.238.58 > ~/.ssh/known_hosts
 
       - name: Enviar arquivos via scp
-        run: scp -r public/* araujo@152.92.238.58:/var/www/paginas/virtual/www.desc.eng.uerj.br/
+        run: scp -r public/* araujo@152.92.238.58:/var/www/desc.eng.uerj.br/
