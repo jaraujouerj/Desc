@@ -1,6 +1,6 @@
 ---
 title: "Instalações de Ambiente Computacional"
-date: 2021-02-13T17:58:06-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/instalacoes.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/spacex-imagery-885857/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=693251">SpaceX-Imagery</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=693251">Pixabay</a>

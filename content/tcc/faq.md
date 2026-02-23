@@ -1,6 +1,6 @@
 ---
 title: "Disciplinas de Projeto"
-date: 2021-02-14T10:13:16-03:00
+date: 2026-02-12
 image: "/images/banner/faq-2643072_1920.jpg"
 draft: false
 ---

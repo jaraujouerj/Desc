@@ -1,5 +1,6 @@
 ######################## configuração básica ####################
-baseURL = "http://localhost:1313/"
+baseURL = "http://www.desc.uerj.br/"
+# baseURL = "http://localhost:1313/"
 title = "Departamento de Engenharia de Sistemas e Computação"
 theme = "educenter-hugo"
 

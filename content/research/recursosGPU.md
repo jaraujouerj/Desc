@@ -1,6 +1,6 @@
 ---
 title: "Explorando a Gerência de Recursos em GPUs"
-date: 2021-03-06T15:27:17+06:00
+date: 2026-02-12
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Fundamentos de Computadores Digitais I"
-date: 2021-02-13T17:53:06-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/fundamentos.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/fotocitizen-397314/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3333628">Jorge Guillen</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3333628">Pixabay</a>

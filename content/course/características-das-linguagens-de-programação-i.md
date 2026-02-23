@@ -1,6 +1,6 @@
 ---
 title: "Características das Linguagens de Programação I"
-date: 2021-02-13T18:28:00-03:00
+date: 2026-02-12
 draft: flase
 image: "images/courses/caracteristicas.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=942485">Gerd Altmann</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=942485">Pixabay</a>

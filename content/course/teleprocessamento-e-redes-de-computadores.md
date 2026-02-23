@@ -1,6 +1,6 @@
 ---
 title: "Teleprocessamento e Redes de Computadores"
-date: 2021-02-13T19:07:00-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/redes.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/bsdrouin-5016447/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2402637">Bethany Drouin</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2402637">Pixabay</a>

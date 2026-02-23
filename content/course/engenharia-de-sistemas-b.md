@@ -1,6 +1,6 @@
 ---
 title: "Engenharia de Sistemas B"
-date: 2021-02-13T19:09:06-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/engsoft.jpg"
 weight: 92

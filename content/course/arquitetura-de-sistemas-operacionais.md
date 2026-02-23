@@ -1,6 +1,6 @@
 ---
 title: "Arquitetura de Sistemas Operacionais"
-date: 2021-02-13T19:04:10-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/so.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/pixxlteufel-117549/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4493783">PixxlTeufel</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4493783">Pixabay</a>

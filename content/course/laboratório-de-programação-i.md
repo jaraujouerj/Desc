@@ -1,6 +1,6 @@
 ---
 title: "Laboratório de Programação I"
-date: 2021-02-13T18:30:50-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/labprog.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/elchinator-10722855/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4280758">Elchinator</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4280758">Pixabay</a>

@@ -1,6 +1,6 @@
 ---
 title: "Estágio Supervisionado XI-A"
-date: 2021-02-13T19:15:31-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/estagio.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=924920">StockSnap</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=924920">Pixabay</a>

@@ -1,6 +1,6 @@
 ---
 title: "Engenharia de Sistemas C"
-date: 2021-02-13T19:25:34-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/engsoft.jpg"
 weight: 102

@@ -1,6 +1,6 @@
 ---
 title: "Arquitetura de Computadores I"
-date: 2021-02-13T18:34:35-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/arquitetura.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">xresch</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">Pixabay</a>

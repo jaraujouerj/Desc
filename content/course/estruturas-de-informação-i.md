@@ -1,6 +1,6 @@
 ---
 title: "Estruturas de Informação I"
-date: 2021-02-13T01:22:12-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/estruturas.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4430786">Gerd Altmann</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4430786">Pixabay</a>

@@ -1,6 +1,6 @@
 ---
 title: "Engenharia de Sistemas A"
-date: 2021-02-13T18:44:37-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/engsoft.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1521128">Gerd Altmann</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1521128">Pixabay</a>

@@ -1,6 +1,6 @@
 ---
 title: "Teoria de Compiladores"
-date: 2021-02-13T18:47:01-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/compilador.png"
 #Imagem de <a href="https://pixabay.com/pt/users/kropekk_pl-114936/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1835332">kropekk_pl</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1835332">Pixabay</a>

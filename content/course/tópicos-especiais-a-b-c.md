@@ -1,6 +1,6 @@
 ---
 title: "Tópicos Especiais A, B ou C"
-date: 2021-02-16T11:20:48-03:00
+date: 2026-02-12
 draft: false
 image: "images/banner/disciplina.jpg"
 weight: 106

@@ -18,6 +18,7 @@ interest: ["Spatial Analysis","Spatial/Geo informatics","Data Science"]
 
 # type
 type: "teacher"
+date: 2026-02-12
 ---
 
 

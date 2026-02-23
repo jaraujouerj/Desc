@@ -1,6 +1,6 @@
 ---
 title: "Concursos para docentes"
-date: 2022-10-10T12:47:11-03:00
+date: 2026-02-12
 draft: false
 image: "images/about/teatro.jpg"
 summary: "As inscrições para os concursos estão abertas até 30 de junho de 2022."

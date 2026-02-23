@@ -1,6 +1,6 @@
 # ---
 title: "Horário das Disciplinas"
-date: 2024-08-30T11:27:17+06:00
+date: 2026-02-12
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

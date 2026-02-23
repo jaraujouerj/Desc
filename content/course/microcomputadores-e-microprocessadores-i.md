@@ -1,6 +1,6 @@
 ---
 title: "Microcomputadores e Microprocessadores I"
-date: 2021-02-13T18:38:13-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/micro.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/fuzzymannerz-1291525/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=885177">Fuzzy Mannerz</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=885177">Pixabay</a>

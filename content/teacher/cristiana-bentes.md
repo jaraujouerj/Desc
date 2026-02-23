@@ -27,6 +27,7 @@ contact:
 
 # type
 type: "teacher"
+date: 2026-02-12
 ---
 
 ### Um pouco sobre Cristiana Bentes

@@ -1,6 +1,6 @@
 ---
 title: "Sobre o Desc"
-date: 2021-02-12T16:20:42-03:00
+date: 2026-02-12
 weight: 1
 image: "images/about/sarina.jpg"
 draft: false

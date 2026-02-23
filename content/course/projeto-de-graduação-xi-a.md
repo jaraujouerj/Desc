@@ -1,6 +1,6 @@
 ---
 title: "Projeto de Graduação XI-A"
-date: 2021-02-13T19:01:47-03:00
+date: 2026-02-12
 draft: false
 image: "images/courses/projeto.jpg"
 #Imagem de <a href="https://pixabay.com/pt/users/tomasz_mikolajczyk-106840/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=441292">Tomasz Mikołajczyk</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=441292">Pixabay</a>
