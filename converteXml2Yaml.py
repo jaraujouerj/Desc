@@ -98,9 +98,92 @@ for subgroup in root.findall("Subgroup"):
 # Create the final data structure for YAML output
 disciplinas_dict = {disciplina: {"cor": None} for disciplina in sorted(list(unique_disciplinas))}
 
+# Build room occupancy schedule from all collected hour blocks
+salas_alvo = ["5023D", "5029D", "5032D", "LabBas"]
+sala_horarios = {sala: [] for sala in salas_alvo}
+
+# Collect all individual hour blocks per room across all subgroups
+for subgroup in root.findall("Subgroup"):
+    nome_turma = subgroup.get("name", "")
+    for day in subgroup.findall("Day"):
+        dia = day.get("name")
+        for hour in day.findall("Hour"):
+            subject_element = hour.find("Subject")
+            if subject_element is None:
+                continue
+            room_element = hour.find("Room")
+            sala = room_element.get("name", "") if room_element is not None else ""
+            if sala not in salas_alvo:
+                continue
+
+            disciplina = subject_element.get("name", "Desconhecida")
+            teacher_element = hour.find("Teacher")
+            professor = teacher_element.get("name", "A definir") if teacher_element is not None else "A definir"
+
+            hour_name = hour.get("name", "")
+            inicio, fim = "00:00", "00:00"
+            time_match = hour_pattern.search(hour_name)
+            if time_match:
+                inicio = time_match.group(1)
+                fim = time_match.group(2)
+
+            sala_horarios[sala].append({
+                "dia": dia,
+                "inicio": inicio,
+                "fim": fim,
+                "disciplina": disciplina,
+                "professor": professor,
+                "sala": sala,
+                "turma": nome_turma
+            })
+
+# Merge consecutive blocks per room (same day, discipline, professor, turma)
+day_order = {"Seg": 0, "Ter": 1, "Qua": 2, "Qui": 3, "Sex": 4, "Sáb": 5, "Dom": 6}
+salas = []
+for sala_nome in salas_alvo:
+    blocos = sala_horarios[sala_nome]
+    blocos.sort(key=lambda x: (day_order.get(x['dia'], 99), x['inicio']))
+
+    merged = []
+    if blocos:
+        current = blocos[0].copy()
+        for i in range(1, len(blocos)):
+            nxt = blocos[i]
+            if (nxt['disciplina'] == current['disciplina'] and
+                nxt['professor'] == current['professor'] and
+                nxt['turma'] == current['turma'] and
+                nxt['dia'] == current['dia']):
+                current['fim'] = nxt['fim']
+            else:
+                merged.append({
+                    "dia": current['dia'],
+                    "inicio": current['inicio'],
+                    "fim": current['fim'],
+                    "disciplina": current['disciplina'],
+                    "professor": current['professor'],
+                    "sala": current['sala'],
+                    "turma": current['turma']
+                })
+                current = nxt.copy()
+        merged.append({
+            "dia": current['dia'],
+            "inicio": current['inicio'],
+            "fim": current['fim'],
+            "disciplina": current['disciplina'],
+            "professor": current['professor'],
+            "sala": current['sala'],
+            "turma": current['turma']
+        })
+
+    salas.append({
+        "nome": sala_nome,
+        "horarios": merged
+    })
+
 data = {
     "disciplinas": disciplinas_dict,
-    "turmas": turmas
+    "turmas": turmas,
+    "salas": salas
 }
 
 # Write the data to a YAML file
