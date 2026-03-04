@@ -3,8 +3,8 @@
     "titulo": "SymbioFin: Automação de Relatórios de Análise Fundamentalista Utilizando Sistemas\n\nNeuro-Simbólicos e LLMs",
     "orientador": "Thiago Medeiros, Dr.",
     "coorientador": "",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/13IjhnDJG6V0nCIrwnjLl-o7_--H7hUYW/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "A democratização do acesso ao mercado financeiro brasileiro resultou em um crescimento exponencial de investidores, gerando, em contrapartida, uma produção massiva de dados não estruturados que dificulta a análise fundamentalista rigorosa. O presente trabalho propõe o desenvolvimento do sistema “SymbioFin”, uma solução de software voltada para a automação da geração de relatórios financeiros de Fundos Imobiliários (FIIs) e Fiagros, mitigando a “assimetria informacional” e as limitações inerentes aos Grandes Modelos de Linguagem (LLMs), como alucinações e restrições de janela de contexto. A metodologia envolve a implementação de uma arquitetura hı́brida de coleta de dados que combina navegação dinâmica e estática, orquestrada por paralelismo computacional, e a utilização do algoritmo de “Zig-Zag Batching” para otimização de contexto. Adota-se uma abordagem neuro-simbólica que desacopla a geração textual do raciocı́nio matemático, injetando lógica determinı́stica baseada no Método de Bazin para garantir a precisão do valuation. Os resultados obtidos demonstram que o sistema atinge alta eficiência de compressão textual e precisão factual, garantida pela arquitetura neuro-simbólica, enquanto a eficiência da coleta foi validada através da métrica de Saturação Semântica, comprovando que a integração entre engenharia de software robusta e inteligência artificial generativa supera a capacidade humana de processamento de dados financeiros massivos."
 }

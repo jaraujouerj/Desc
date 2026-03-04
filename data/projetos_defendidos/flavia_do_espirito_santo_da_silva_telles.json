@@ -3,8 +3,8 @@
     "titulo": "Detecção e Classificação de Nódulos Mamários Utilizando Transferência de Aprendizagem.",
     "orientador": "Luiza Mourelle, Dra.",
     "coorientador": "Nadia Nedjah, Dra.",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/1D-Tqqs51IiL1fbLOAKsyu_a_C5SJGNkL/view?usp=drive_link",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "O diagnóstico do câncer de mama é um desafio global, onde a detecção tradicional por mamografia, sujeita à interpretação humana, pode apresentar limitações. No entanto, a detecção precoce continua sendo o fator determinante para o sucesso do tra tamento. Para auxiliar neste cenário, este trabalho propõe um sistema de diagnóstico assistido por computador utilizando Aprendizagem Profunda para comparar abordagens de segmentação e classificação de nódulos. A tecnologia aplicada confronta duas Redes Neurais Convolucionais utilizando o banco de dados CBIS-DDSM: a arquitetura U-Net, focada na segmentação da lesão, e a VGG16, empregada para classificação via Transferência de Aprendizagem. O objetivo principal é investigar se a delimitação precisa da região de interesse é pré-requisito para o diagnóstico ou se a classificação direta é mais eficiente. Os experimentos confirmaram a superioridade da estratégia de classificação, uma vez que a U-Net apresentou dificuldades de convergência . A VGG16, aliada a uma regularização robusta, superou a abordagem de segmentação, alcançando o melhor equilíbrio clínico do estudo com uma Acurácia Geral de 65, 3% e, fundamentalmente, uma Sensibilidade de 66,0% na detecção de casos malignos."
 }

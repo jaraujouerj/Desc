@@ -3,8 +3,8 @@
     "titulo": "Matemancia: um protótipo de jogo sério para a aprendizagem matemática",
     "orientador": "Gabriel Cardoso, Dr.",
     "coorientador": "Felipe Cassemiro Ulrichsen, Dr.",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/1XcId6MvfxX04Syqe0SlZHHqSuIwwbAu0/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "O ensino de Matemática no Ensino Médio ainda enfrenta muitos obstáculos, como a falta de interesse dos alunos, dificuldades em compreender os conteúdos e o impacto das tecnologias que competem pela atenção dos estudantes. Nesse cenário, os jogos sérios aparecem como uma alternativa capaz de unir diversão e aprendizado, criando ambientes interativos que estimulam o raciocı́nio, a curiosidade e a experimentação. Este trabalho apresenta o “Matemancia”, um protótipo de jogo sério desenvolvido especificamente para o público adolescente (Ensino Médio), visando mitigar as dificuldades de aprendizagem nessa fase escolar através de conceitos matemáticos. O jogo combina narrativa, diálogos com personagens, puzzles e um sistema de combate do tipo Match-3, no qual cada ação depende da resolução de desafios matemáticos. A fundamentação teórica aborda jogos digitais, princı́pios de game design, jogos sérios e conteúdos matemáticos alinhados à base curricular nacional. O desenvolvimento foi realizado utilizando a Godot Engine, guiado por um Game Design Document que organizou todas as mecânicas e sistemas implementados. Os resultados mostram que o “Matemancia”consegue integrar aprendizado e jogabilidade de maneira coerente, oferecendo uma experiência potencialmente mais motivadora do que métodos tradicionais. Ao final, são discutidas as limitações do protótipo e sugestões de melhorias para versões futuras, incluindo testes com estudantes para avaliar seu impacto real no aprendizado."
 }
