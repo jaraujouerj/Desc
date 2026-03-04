@@ -3,8 +3,8 @@
     "titulo": "Sistema de Respostas Automatizadas para Regulamentos Universitários usando\n\nGrandes Modelos de Linguagem",
     "orientador": "Thiago Medeiros, Dr.",
     "coorientador": "",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/13W0dEB0dkGfNy_SkFRF3ieUX0Z8cGuWv/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "A consulta de normas e regulamentos universitários representa um desafio recorrente para a comunidade acadêmica devido à complexidade textual desses documentos, os quais apresentam linguagem técnica, não utilizada no cotidiano, bem como constantes revogações. Nesse sentido, existe uma grande dificuldade em localizar informações nesses documentos. O presente trabalho propõe o desenvolvimento de um sistema baseado na arquitetura de Retrieval-Augmented Generation (RAG), integrando técnicas de busca semântica e sintática com o uso de Large Language Model (LLM). O objetivo deste trabalho é permitir, por meio da recuperação eficiente de documentos normativos, a geração de respostas coerentes aos questionamentos enviados, sempre fundamentados no contexto fornecido pelos documentos recuperados. Para avaliação, foram conduzidos diversos testes utilizando variadas combinações de LLM e modelos de embedding, analisando métricas de latência, precisão de recuperação e coerência das respostas. Os resultados demonstraram que a qualidade da busca semântica varia muito de acordo com o modelo de embedding utilizado, bem como reforçaram que a busca sintática é um fator essencial para esse tipo de documento. A arquitetura proposta apresentou um desempenho satisfatório com uma taxa de acerto de aproximadamente 98%, demonstrando ser uma alternativa altamente viável para aprimorar o acesso aos regulamentos institucionais, contribuindo, assim, para uma maior compreensão das normas que estão em vigor no ambiente acadêmico."
 }

@@ -3,8 +3,8 @@
     "titulo": "Detecção de pastoreio em sistemas ILP com deep learning e sensoriamento remoto.",
     "orientador": "Thiago Medeiros, Dr.",
     "coorientador": "",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/1WZ1CLiNLMLT_2VVIw39bsoHWAqljqeP7/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "Este trabalho apresenta o desenvolvimento de um sistema computacional para detecção automatizada de estruturas associadas ao pastoreio bovino em áreas de Sistemas Integrados de Lavoura-Pecuária (SILPs), com foco em regiões do Mato Grosso do Sul. Utilizando imagens do satélite CBERS-4A, disponibilizadas pelo Instituto Nacional de Pesquisas Espaciais (INPE), e ferramentas de Sistemas de Informação Geográfica (SIG), foi construída uma base com 510 amostras rotuladas manualmente, contemplando diferentes condições ambientais para ampliar a capacidade de generalização do modelo. O sistema empregou a arquitetura U-Net para segmentação semântica, permitindo identificar com precisão estruturas pequenas, como bebedouros, mesmo em cenários complexos. Paralelamente, desenvolveu-se uma API para automatizar a obtenção, o pré-processamento e a segmentação das imagens, reduzindo o tempo de análise e facilitando sua aplicação em novas áreas. Os resultados apresentaram boas métricas de desempenho, ainda que com limitações em regiões de sombras e reflexos, indicando oportunidades de aprimoramento. Assim, o estudo evidencia o potencial da integração entre inteligência artificial e sensoriamento remoto para o monitoramento ambiental em larga escala e para o apoio à gestão sustentável de sistemas agropecuários no Brasil."
 }
