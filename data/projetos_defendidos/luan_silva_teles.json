@@ -1,0 +1,10 @@
+{
+    "nome": "Luan Silva Teles",
+    "titulo": "Arquitetura e Engenharia de Dados para Monitoramento Climático em Tempo Real da Cidade do Rio de Janeiro",
+    "orientador": "Thiago Medeiros",
+    "coorientador": "",
+    "link_tcc": "https://drive.google.com/file/d/1uuBBCC-xX0vcuIIQsMkWYlPt-1pZG4Pu/view?usp=sharing",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "O projeto apresenta a implementação de um pipeline de dados orquestrado pelo Apache Airflow para monitorar variáveis hidrometeorológicas do Rio de Janeiro a partir dos endpoints públicos de radar meteorológico, pluviômetros e sensores de alagamento da API Dados Rio. A extração ocorre em intervalos alinhadas à frequência de publicação de cada fonte, com chamadas assı́ncronas que aplicam polı́tica de retry exponencial, gravam o JSON bruto comprimido em uma camada landing e, em seguida, convertem os lotes para Parquet Snappy em uma camada Bronze particionada por data, eliminando duplicatas e padronizando tipos. Os arquivos são então carregados em tabelas DuckDB que permitem consultas analı́ticas locais sem depender de servidores externos, mantendo latência média abaixo de poucos segundos entre a coleta e a disponibilidade de consulta mesmo sob taxas de ingestão de grande ordem em hardware modesto. As polı́ticas de retenção configuráveis descartam arquivos brutos após curto perı́odo e preservam o acervo otimizado da Bronze, garantindo rastreabilidade e economia de espaço. A arquitetura modular, escrita em Python e parametrizada por variáveis de ambiente, facilita a inclusão de novos sensores ou indicadores e demonstra que ferramentas de código aberto podem sustentar, a baixo custo, atividades de vigilância climática urbana e análises históricas de maior escala."
+}

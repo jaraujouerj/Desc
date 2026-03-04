@@ -1,0 +1,10 @@
+{
+    "nome": "Gustavo Fonseca Boaretto",
+    "titulo": "Modelagem de previsão de cota em rios da Região Norte do Brasil com séries temporais e machine learning",
+    "orientador": "Thiago Medeiros",
+    "coorientador": "",
+    "link_tcc": "https://drive.google.com/file/d/1kDVvdET_QCBZd-SVqQd_lpcuO0xYl5P0/view?usp=sharing",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "Eventos hidroclimáticos, como secas e cheias, fazem parte da variabilidade natural da Bacia Amazônica e podem ser observados a partir de análises de séries temporais, avaliando o comportamento de variáveis como a cota dos rios ao longo do tempo. Regiões como Manaus, que abriga um dos principais afluentes do Rio Amazonas, são diretamente impactadas por esses fenômenos, uma vez que diversos setores, a navegação fluvial, o transporte, a agricultura e a produção industrial, estão fortemente ligados à dinâmica dos rios. Nesse contexto, a previsão hidrológica torna-se uma ferramenta essencial para o gerenciamento eficaz desses eventos. Este trabalho apresenta um estudo voltado à previsão da cota dos rios em diferentes pontos da Bacia Amazônica, explorando desde modelos estatísticos e algoritmos de machine learning mais simples até técnicas de deep learning baseadas em Redes Neurais Recorrentes Long Short-Term Memory (LSTM) e Redes Neurais Convolucionais (CNN), com uma abordagem multi-step. Para isso, foram utilizados dados de estações fluviométricas com resolução diária, disponibilizados pela Agência Nacional de Águas (ANA), por meio do portal HIDROWEB. Os resultados obtidos foram comparados utilizando as métricas Raiz do Erro Quadrático Médio (RMSE) e o Erro Percentual Médio Absoluto (MAPE), permitindo discutir a eficácia e as particularidades de cada abordagem."
+}

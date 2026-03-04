@@ -1,0 +1,10 @@
+{
+    "nome": "Caio Marcos Muniz Grasso da Silva",
+    "titulo": "Classificação de gêneros musicais utilizando visão computacional",
+    "orientador": "Thiago Medeiros",
+    "coorientador": "",
+    "link_tcc": "https://drive.google.com/file/d/1yOVq1OICFZay5C2xVfHXBhccPgS4qF4q/view?usp=sharing",
+    "ano": 2024,
+    "semestre": 1,
+    "resumo": "A música é uma forma essencial de expressão cultural, abrangendo uma vasta gama de gêneros e estilos que refletem as experiências e emoções humanas. Com o crescimento constante da disponibilidade de música digital, a produção em massa de peças musicais resulta em um aumento significativo na diversidade de gêneros musicais, fazendo com que informações relacionadas a peças musicais se percam na internet, tornando a tarefa de recuperação de dados um desafio, parte desse desafio consiste em classificar o gênero musical da peça de forma eficaz para que se tenha um acervo musical digital bem organizado e classificado. Este trabalho propõe o uso de redes neurais convolucionais (CNNs) e redes Transformers para o auxı́lio da classificação, explorando a capacidade de extrair padrões relevantes de espectrogramas musicais. O presente projeto tem como objetivo desenvolver e avaliar modelos de deep learning para identificação de uma variedade de estilos musicais. A metodologia envolve a implementação de diferentes arquiteturas de CNNs e Transformers juntamente com diferentes configurações de hiperparâmetros para comparação de desempenho, treinamento e validação dos modelos, avaliação dos resultados utilizando métricas apropriadas, ajuste de hiperparâmetros e interpretação dos resultados. Espera-se que este estudo tenha uma acurácia aceitável corroborando a necessidade do uso das redes neurais no campo de análise de áudio."
+}

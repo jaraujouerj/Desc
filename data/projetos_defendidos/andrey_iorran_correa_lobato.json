@@ -1,0 +1,10 @@
+{
+    "nome": "Andrey Iorran Correa Lobato",
+    "titulo": "Sistema de Gerenciamento da Saúde Pública Brasileira: Plataforma Web para Extração, Pré-processamento e Conversão de Arquivos do DATASUS",
+    "orientador": "Thiago Medeiros",
+    "coorientador": "",
+    "link_tcc": "https://drive.google.com/file/d/1MNwRayo4p0hl_dO9qWf_Gqo5Vn-AY2Fy/view?usp=sharing",
+    "ano": 2024,
+    "semestre": 2,
+    "resumo": "Este trabalho apresenta o desenvolvimento de um Sistema de Gerenciamento de Dados da Saúde Pública Brasileira voltado para facilitar, democratizar e otimizar o acesso aos dados disponibilizados pelo DATASUS. O sistema foi projetado para automatizar as etapas de extração, transformação e carga de dados em formatos modernos, minimizando os desafios de lentidão, complexidade de acesso e padronização que usualmente dificultam análises nos processos manuais. Para fundamentar o desenvolvimento, são discutidos conceitos de engenharia de dados, pipelines ETL e estratégias de armazenamento em data warehouses e data lakes, além de detalhar o mapeamento e padronização dos mais de 195 mil arquivos disponíveis no portal do DATASUS. O sistema implementa filtros inteligentes baseados em um catálogo enriquecido de arquivos, permitindo ao usuário selecionar dados por subsistemas, ano, unidade federativa, extensão e tamanho, otimizando a experiência de busca e extração. Um estudo de caso foi realizado utilizando dados de atendimentos psicossociais no estado do Rio de Janeiro entre 2020 e 2024, evidenciando a capacidade do sistema em facilitar a aquisição de dados e prepará-los de forma limpa para análises em plataformas de Business Intelligence & Analytics, promovendo agilidade e qualidade nas análises em saúde pública. Os resultados demonstraram que o sistema reduz o tempo e o esforço necessários para acessar e preparar dados de saúde pública, mantendo um consumo de armazenamento otimizado e um fluxo escalável de processamento, contribuindo para análises ágeis e decisões mais informadas no âmbito do SUS e da gestão pública em saúde."
+}

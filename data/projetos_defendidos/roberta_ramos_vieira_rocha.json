@@ -1,0 +1,10 @@
+{
+    "nome": "Roberta Ramos Vieira Rocha",
+    "titulo": "Análise de dados do Sistema de Informações sobre Nascidos Vivos (SINASC)",
+    "orientador": "Thiago Medeiros",
+    "coorientador": "",
+    "link_tcc": "https://drive.google.com/file/d/1tZAy3IdxRMLfuNqs0i8Q7jZY9w3ldb9P/view?usp=sharing",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "A saúde neonatal e materna é de suma importância para a saúde pública. Questões como prematuridade, baixo peso ao nascer e acesso ao pré-natal, entre outras, são cada vez mais abordadas e monitoradas. No Brasil, esses e outros dados relacionados à criança e à mãe, como o tipo de parto e as características maternas, são registrados na base do Sistema de Informações sobre Nascidos Vivos (SINASC), disponibilizada por meio de arquivos anuais. O presente trabalho tem como objetivo realizar uma análise dos dados do SINASC e desenvolver um dashboard intuitivo e interativo. Além disso, o trabalho inclui a possibilidade de os usuários do dashboard realizarem consultas na base entre os anos 2014 a 2022."
+}
