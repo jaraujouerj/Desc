@@ -16,13 +16,17 @@
 
                 {{ if gt (len $projetos) 0 }}
                 <div class="table-responsive mt-4">
-                    <table class="table table-striped table-hover">
+                    <table class="table table-striped table-hover" id="tabela-projetos">
                         <thead class="thead-dark">
                             <tr>
-                                <th>Período</th>
-                                <th>Aluno</th>
+                                <th class="sortable" data-col="0" title="Ordenar por Período"
+                                    style="cursor:pointer; white-space:nowrap;">
+                                    Período <span class="sort-icon">⇅</span></th>
+                                <th class="sortable" data-col="1" title="Ordenar por Aluno" style="cursor:pointer;">
+                                    Aluno <span class="sort-icon">⇅</span></th>
                                 <th>Título</th>
-                                <th>Orientador</th>
+                                <th class="sortable" data-col="3" title="Ordenar por Orientador"
+                                    style="cursor:pointer;">Orientador <span class="sort-icon">⇅</span></th>
                                 <th>TCC</th>
                             </tr>
                         </thead>
@@ -76,5 +80,84 @@
 </section>
 
 {{ partial "project-drawer.html" . }}
+
+<style>
+    .sortable:hover {
+        background-color: #343a40;
+        opacity: 0.9;
+    }
+
+    .sort-icon {
+        font-size: 0.75rem;
+        opacity: 0.5;
+        margin-left: 4px;
+    }
+
+    .sortable.asc .sort-icon::after {
+        content: "▲";
+    }
+
+    .sortable.desc .sort-icon::after {
+        content: "▼";
+    }
+
+    .sortable.asc .sort-icon,
+    .sortable.desc .sort-icon {
+        opacity: 1;
+    }
+
+    .sortable.asc .sort-icon,
+    .sortable.desc .sort-icon {
+        font-size: 0;
+    }
+
+    .sortable.asc .sort-icon::after,
+    .sortable.desc .sort-icon::after {
+        font-size: 0.75rem;
+    }
+</style>
+
+<script>
+    (function () {
+        const table = document.getElementById('tabela-projetos');
+        if (!table) return;
+        const headers = table.querySelectorAll('th.sortable');
+        let currentCol = null;
+        let ascending = true;
+
+        headers.forEach(function (th) {
+            th.addEventListener('click', function () {
+                const col = parseInt(th.dataset.col);
+                if (currentCol === col) {
+                    ascending = !ascending;
+                } else {
+                    currentCol = col;
+                    ascending = true;
+                }
+                headers.forEach(function (h) { h.classList.remove('asc', 'desc'); });
+                th.classList.add(ascending ? 'asc' : 'desc');
+
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                rows.sort(function (a, b) {
+                    let aText = a.cells[col].textContent.trim();
+                    let bText = b.cells[col].textContent.trim();
+                    if (col === 0) {
+                        // Período: comparar como "ano.semestre" numericamente
+                        let aParts = aText.split('.');
+                        let bParts = bText.split('.');
+                        let aVal = parseInt(aParts[0]) * 10 + parseInt(aParts[1]);
+                        let bVal = parseInt(bParts[0]) * 10 + parseInt(bParts[1]);
+                        return ascending ? aVal - bVal : bVal - aVal;
+                    }
+                    // Texto: comparar com locale pt-BR
+                    let cmp = aText.localeCompare(bText, 'pt-BR', { sensitivity: 'base' });
+                    return ascending ? cmp : -cmp;
+                });
+                rows.forEach(function (row) { tbody.appendChild(row); });
+            });
+        });
+    })();
+</script>
 
 {{ end }}
