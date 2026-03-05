@@ -3,7 +3,7 @@
     "titulo": "Modelagem e Simulação em VHDL de uma Camada de Convolução em Redes Neurais Convolucionais",
     "orientador": "Luiza de Macedo Mourelle, Dra.",
     "coorientador": "Nadia Nedjah",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/1l7upbyYpHxAlv6MmJKeqg1llmesTitkr/view?usp=sharing",
     "ano": 2025,
     "semestre": 1,
     "resumo": "O crescente interesse em inteligência artificial e aprendizado de máquina tem impulsionado o desenvolvimento de Redes Neurais Convolucionais (Convolution Neural Networks - CNNs), especialmente para aplicações de visão computacional, reconhecimento de padrões e processamento de imagens. As Redes Neurais Convolucionais são uma classe de redes neurais artificiais especialmente eficazes para processamento de dados com estrutura de grade, como imagens, devido à sua capacidade de capturar características espaciais hierárquicas por meio de suas camadas convolucionais. Este trabalho descreve o desenvolvimento e a implementação de uma operação de convolução em hardware. O modelo é descrito na linguagem VHDL, com o funcionamento validado por meio de simulação."

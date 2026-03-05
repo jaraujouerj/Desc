@@ -3,7 +3,7 @@
     "titulo": "Implementação Paralela do Algoritmo de Otimização por Enxame de Partículas em um Sistema Embutido Multiprocessado",
     "orientador": "Luiza de Macedo Mourelle",
     "coorientador": "Nadia Nedjah",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/162-qzjS4rbpTZsltUwGZjNPFTdGoBggf/view?usp=sharing",
     "ano": 2024,
     "semestre": 2,
     "resumo": "Os dispositivos eletrônicos estão se tornando mais complexos na sociedade moderna necessitando de um maior poder computacional. Para atender a essa necessidade, algoritmos de inteligência computacional estão sendo utilizados, dentre eles está o algoritmo Otimização por Enxame de Partículas baseado no comportamento de bando de aves em busca de alimento. Este trabalho implementa uma versão paralela deste algoritmo em um Sistema Embutido Multiprocessado a fim de avaliar o desempenho em termos de speed-up, utilizando uma plataforma baseada em rede intra-chip."
