@@ -1549,7 +1549,7 @@
       </Hour>
     </Day>
   </Subgroup>
-  <Subgroup name="2026 - 1 Subgrupo Automático">
+  <Subgroup name="Energias Renováveis - 1° Período">
     <Day name="Seg">
       <Hour name="M1 07:00-07:50">
       </Hour>
@@ -1623,11 +1623,13 @@
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+        <Room name="5088F"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+        <Room name="5088F"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1693,11 +1695,13 @@
         <Activity id="95"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+        <Room name="LabBas"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="95"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
+        <Room name="LabBas"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1723,7 +1727,7 @@
       </Hour>
     </Day>
   </Subgroup>
-  <Subgroup name="Eng. de Produção Grupo Automático Subgrupo Automático">
+  <Subgroup name="Eng. de Produção - 1° Período">
     <Day name="Seg">
       <Hour name="M1 07:00-07:50">
       </Hour>
@@ -1753,11 +1757,13 @@
         <Activity id="98"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+        <Room name="LabBas"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="98"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+        <Room name="LabBas"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -1811,11 +1817,13 @@
         <Activity id="101"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
+        <Room name="4027B"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="101"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
+        <Room name="4027B"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1889,11 +1897,13 @@
         <Activity id="99"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+        <Room name="5002F"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="99"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
+        <Room name="5002F"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
       </Hour>

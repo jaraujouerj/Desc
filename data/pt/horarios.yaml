@@ -504,21 +504,21 @@ turmas:
     disciplina: Controle de Processos por Computador
     professor: Luigi
     sala: 5032D
-- nome: 2026 - 1 Subgrupo Automático
+- nome: Energias Renováveis - 1° Período
   horarios:
   - dia: Qua
     inicio: 08:50
     fim: '10:30'
     disciplina: Algoritmos Computacionais I - Turma 1
     professor: Mário João jr.
-    sala: Sem sala
+    sala: 5088F
   - dia: Sex
     inicio: 08:50
     fim: '10:30'
     disciplina: Algoritmos Computacionais I - Turma 1
     professor: Mário João jr.
-    sala: Sem sala
-- nome: Eng. de Produção Grupo Automático Subgrupo Automático
+    sala: LabBas
+- nome: Eng. de Produção - 1° Período
   horarios:
   - dia: Seg
     inicio: 08:50
@@ -531,19 +531,19 @@ turmas:
     fim: '16:00'
     disciplina: Algoritmos Computacionais I - Turma 2
     professor: Gabriel
-    sala: Sem sala
+    sala: LabBas
   - dia: Qua
     inicio: 08:50
     fim: '10:30'
     disciplina: Algoritmos Computacionais I - Turma 3
     professor: João Araujo
-    sala: Sem sala
+    sala: 4027B
   - dia: Sex
     inicio: '12:30'
     fim: '14:10'
     disciplina: Algoritmos Computacionais I - Turma 2
     professor: Gabriel
-    sala: Sem sala
+    sala: 5002F
 salas:
 - nome: 5023D
   horarios:
@@ -825,4 +825,18 @@ salas:
     disciplina: Algoritmos Computacionais I - Turma 3
     professor: João Araujo
     sala: LabBas
-    turma: Eng. de Produção Grupo Automático Subgrupo Automático
+    turma: Eng. de Produção - 1° Período
+  - dia: Seg
+    inicio: '14:20'
+    fim: '16:00'
+    disciplina: Algoritmos Computacionais I - Turma 2
+    professor: Gabriel
+    sala: LabBas
+    turma: Eng. de Produção - 1° Período
+  - dia: Sex
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Algoritmos Computacionais I - Turma 1
+    professor: Mário João jr.
+    sala: LabBas
+    turma: Energias Renováveis - 1° Período
