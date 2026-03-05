@@ -87,10 +87,22 @@
 {{ $idx = mod (add $idx 1) (len $colors) }}{{ end }}
 {{ end }}{{ end }}
 
+{{/* 3. Botões de Navegação */}}
+<div class="nav-horarios" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:30px;">
+    {{ range .Site.Data.pt.horarios.turmas }}
+    <a href="#{{ anchorize .nome }}" class="btn btn-sm"
+        style="background-color:#4a90d9; color:#fff; border-radius:4px; padding:6px 14px; text-decoration:none; font-size:0.85rem;">{{
+        .nome }}</a>
+    {{ end }}
+    <a href="#ocupacao-salas" class="btn btn-sm"
+        style="background-color:#ffbc3b; color:#fff; border-radius:4px; padding:6px 14px; text-decoration:none; font-size:0.85rem;">Ocupação
+        das Salas</a>
+</div>
+
 {{ range .Site.Data.pt.horarios.turmas }}
 {{ $turma := . }}
 {{ $turmaID := anchorize $turma.nome }}
-<h2>{{ $turma.nome }}</h2>
+<h2 id="{{ $turmaID }}">{{ $turma.nome }}</h2>
 
 {{/* Mapeamento de aulas e Identificação de Slots Visíveis */}}
 {{ $mapaAulas := dict }}{{ $temAulaNoSlot := dict }}
@@ -223,12 +235,12 @@
 
 {{/* ===================== OCUPAÇÃO DAS SALAS ===================== */}}
 <hr style="margin: 40px 0;">
-<h1>Ocupação das Salas</h1>
+<h1 id="ocupacao-salas">Ocupação das Salas</h1>
 
 {{ range .Site.Data.pt.horarios.salas }}
 {{ $sala := . }}
 {{ $salaID := anchorize $sala.nome }}
-<h2>Sala {{ $sala.nome }}</h2>
+<h2 id="sala-{{ $salaID }}">Sala {{ $sala.nome }}</h2>
 
 {{ $mapaAulas := dict }}{{ $temAulaNoSlot := dict }}
 {{ range $sala.horarios }}
