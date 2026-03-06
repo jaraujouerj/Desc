@@ -1,10 +1,10 @@
 {
     "nome": "Daniel D’Luccas Andrade Alce",
     "titulo": "Uma Implementação em GPU do Algoritmo de Criptografia RSA",
-    "orientador": "Cristiana Bentes, Dra.",
+    "orientador": "Cristiana Bentes",
     "coorientador": "",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/1hZgccZQreAw2RzOonDs0DPpgQ65VD0kU/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "O algoritmo de criptografia RSA (Rivest-Shamir-Adleman) consolida-se como um dos padrões mais difundidos mundialmente, essencial para garantir a confidencialidade e a segurança na troca de informações. A robustez desse sistema assimétrico fundamenta-se no tamanho de suas chaves; contudo, o aumento dessa magnitude acarreta, proporcionalmente, uma elevação no custo computacional. Diante desse desafio, o presente trabalho apresenta uma análise comparativa de desempenho entre o processamento sequencial do algoritmo RSA em CPU e o processamento paralelo em GPU, utilizando a arquitetura CUDA da NVIDIA. O estudo avalia hipóteses de desempenho relacionadas ao tamanho das chaves de cifragem, volume dos arquivos, assimetria das chaves e a granularidade de threads por bloco na GPU. Ressalta-se que a implementação limita-se a chaves de 64 bits; embora inferior ao padrão atual de 2048 bits recomendado pelo NIST (National Institute of Standards and Technology), tal escopo valida o modelo comparativo proposto. Os resultados experimentais demonstram a eficácia da abordagem paralela, evidenciando um speedup de até 50 vezes em relação à execução sequencial, além de caracterizar a saturação de desempenho do algoritmo para o ambiente aplicado."
 }
