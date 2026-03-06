@@ -1,0 +1,10 @@
+{
+    "nome": "Pedro Roncoli Sarmet Moreira",
+    "titulo": "ContraGolpes - Um site informativo sobre golpes e fraudes mais comuns na internet",
+    "orientador": "Cristiana Bentes",
+    "coorientador": "Thiago Medeiros Carvalho",
+    "link_tcc": "https://drive.google.com/file/d/1VTnpDNBC1y9UOx58XxKukTOftg8ZQk6B/view?usp=sharing",
+    "ano": 2023,
+    "semestre": 2,
+    "resumo": "Esta monografia aborda a ameaça crescente dos crimes cibernéticos na sociedade, da sua evolução desde os primórdios da tecnologia digital até as diversas formas de ataques cibernéticos que afligem indivíduos e organizações em todo o mundo. O estudo oferece uma análise abrangente que inclui informações sobre as primeiras tentativas de combate ao crime cibernético, os tipos de crimes mais comuns, estratégias para mitigar essas ameaças e a legislação brasileira atual relacionada à cibercriminalidade. Além disso, destaca o desenvolvimento do site ContraGolpes, uma ferramenta informativa e preventiva construída com tecnologias em alta, como React e Next.js, e explorando métricas para avaliar o desempenho do site de acordo com ferramentas específicas para este fim. O trabalho visa aumentar a conscientização e educação em segurança digital para proteger indivíduos e organizações contra ameaças cibernéticas."
+}

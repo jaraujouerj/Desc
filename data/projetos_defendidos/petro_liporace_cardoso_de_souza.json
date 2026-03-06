@@ -1,0 +1,10 @@
+{
+    "nome": "Petro Liporace Cardoso de Souza",
+    "titulo": "Escalabilidade em Aplicações Globais em Tempo Real: Um Estudo de Caso com o Projeto Codeboard UERJ",
+    "orientador": "Cristiana Bentes",
+    "coorientador": "Rafaela Brum",
+    "link_tcc": "https://drive.google.com/file/d/1snCa8AHZS2bAZEhJHfnApj-SbR_pYnsb/view?usp=sharing",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "Desde a popularização da internet, a escalabilidade em aplicações globais tem se tornado um desafio crescente, especialmente com a popularização de tecnologias que fornecem interações em tempo real entre usuários. O presente trabalho explora os desafios e soluções de escalabilidade nessas aplicações, utilizando como estudo de caso a plataforma Codeboard UERJ. Desenvolvida para o ensino remoto, a Codeboard oferece um ambiente de programação colaborativa em tempo real, permitindo interações simultâneas entre professores e alunos. O estudo aborda conceitos fundamentais de desenvolvimento web, computação em nuvem e comunicação em tempo real, bem como a implementação de práticas avançadas de escalabilidade horizontal e vertical, balanceamento de carga e tolerância a falhas. A infraestrutura cloud foi projetada para lidar com altas demandas, empregando tecnologias como WebSockets, MongoDB, Redis e Auto Scaling. Os testes realizados demonstraram a eficácia das estratégias implementadas, assegurando desempenho consistente e confiabilidade mesmo sob condições adversas. Este trabalho contribui para o avanço da engenharia de sistemas distribuídos e serve como referência prática para desenvolvedores e arquitetos de software interessados em soluções escaláveis e com alta disponibilidade."
+}

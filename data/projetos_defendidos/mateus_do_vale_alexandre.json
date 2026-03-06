@@ -1,0 +1,10 @@
+{
+    "nome": "Mateus do Vale Alexandre",
+    "titulo": "Cidades Inteligentes: o Sistema PDBus para o Aperfeiçoamento do Marketing em Ônibus Municipais",
+    "orientador": "Cristiana Bentes",
+    "coorientador": "Rafaela Brum",
+    "link_tcc": "https://drive.google.com/file/d/1PAdCRs_NsUxWAukBaXLiSsMQ0pjpRIfY/view?usp=sharing",
+    "ano": 2023,
+    "semestre": 1,
+    "resumo": "Com o aumento da população urbana nas últimas décadas e os grandes avanços tecnológicos, sobretudo na área das Tecnologias da Informação e Comunicação, o assunto Smart Cities, ou cidades inteligentes, tem sido muito estudado nos últimos anos. Uma Smart City é uma cidade na qual atende e soluciona problemas da população com a utilização de tecnologia. Sua finalidade é melhorar a qualidade de vida da população, de forma sustentável e que promova desenvolvimento humano. Este trabalho apresenta um projeto relacionado ao assunto de cidades inteligentes que atua na área de marketing em ônibus municipais, o qual aperfeiçoa a publicidade ao exibir propagandas de acordo com a geolocalização dos ônibus. O PDBus, cujo significado é Propaganda Dinâmica em ônibus, é um sistema que é divido em três partes, o front-end, o back-end e transmissor de imagens. O front-end tem a função de ser a interface do usuário. Nele foi utilizado o React para o desenvolvimento. O back-end contém o banco de dados e suas interações. Foi utilizado o banco de dados Postgres e Node.js no desenvolvimento. Já o transmissor de imagens tem a função de consumir as informações do banco de dados e exibir as imagens de propaganda para o dispositivo de display. Nele foi utilizado o dispositivo Raspberry Pi. De acordo com os testes, apesar da simplificação, o sistema PDBus se mostrou capaz de informar a propaganda no momento em que o ônibus entra no círculo de exibição de marketing."
+}

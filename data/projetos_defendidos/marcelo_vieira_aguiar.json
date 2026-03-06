@@ -1,0 +1,10 @@
+{
+    "nome": "Marcelo Vieira Aguiar",
+    "titulo": "Aprendizado de Máquina na Manutenção Preditiva do Motor Turbofan",
+    "orientador": "Cristiana Bentes",
+    "coorientador": "Rafaela Brum",
+    "link_tcc": "https://drive.google.com/file/d/1WTIFkQnL12xOlR6NNfPprUOAPnEjtFiE/view?usp=sharing",
+    "ano": 2023,
+    "semestre": 1,
+    "resumo": "Desde o início do século XXI, a manutenção preditiva (Predictive Maintenance-PdM) tem ganhado cada vez mais espaço na indústria, permitindo a previsão da vida útil restante (Remaining Useful Life - RUL) de um equipamento e evitando acidentes e prejuízos financeiros. Para isso, modelos matemáticos, incluindo modelos de aprendizado de máquina, são amplamente utilizados. Este trabalho propõe a previsão da RUL do motor Turbofan através de um modelo de aprendizado de máquina de código aberto treinado com os dados históricos desse equipamento. Para desenvolver esse modelo, foi utilizada a técnica de modelagem incremental, que envolve a divisão da modelagem em etapas menores, permitindo que cada uma seja desenvolvida, testada e aprimorada antes de prosseguir para a próxima. Foram avaliados quatro modelos diferentes (Ridge, Lasso, Random Forest e Light Gradient Boosting Machine) para a previsão da RUL do Turbofan, sendo que o modelo LightGBM apresentou o menor RMSE, demonstrando sua eficácia em relação aos demais. Além disso, o modelo proposto foi comparado com trabalhos relacionados e obteve uma melhoria de 32% em relação ao modelo mais complexo de redes neurais proposto por Babu et al. (BABU et al., 2016). Isso indica que a escolha do modelo e do pré-processamento são fundamentais para um bom desempenho, e que não existe uma solução universal para todos os dados. Além disso, um modelo preciso traz mais segurança ao setor de manutenção, evitando acidentes fatais e prejuízos financeiros."
+}
