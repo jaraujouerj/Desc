@@ -903,13 +903,13 @@
         <Activity id="28"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
-        <Room name="5029D"></Room>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="28"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
-        <Room name="5029D"></Room>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="3"></Activity>
@@ -961,19 +961,19 @@
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
-        <Room name="5029D"></Room>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
-        <Room name="5029D"></Room>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="29"></Activity>
         <Teacher name="Luiza Mourelle"></Teacher>
         <Subject name="Arquitetura de Computadores I"></Subject>
-        <Room name="5029D"></Room>
+        <Room name="5032D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
       </Hour>
@@ -1409,25 +1409,25 @@
         <Activity id="27"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="27"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="10"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="10"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
       </Hour>
@@ -1457,37 +1457,37 @@
         <Activity id="9"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="9"></Activity>
         <Teacher name="Simone"></Teacher>
         <Subject name="Engenharia de Sistemas C"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
         <Activity id="86"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T4 15:10-16:00">
         <Activity id="86"></Activity>
         <Teacher name="Felipe"></Teacher>
         <Subject name="Tópicos Especiais B"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T5 16:10-17:00">
         <Activity id="26"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="T6 17:00-17:50">
         <Activity id="26"></Activity>
         <Teacher name="Thiago"></Teacher>
         <Subject name="Tópicos Especiais A"></Subject>
-        <Room name="5032D"></Room>
+        <Room name="5029D"></Room>
       </Hour>
       <Hour name="N1 18:00-18:50">
       </Hour>
@@ -1549,7 +1549,7 @@
       </Hour>
     </Day>
   </Subgroup>
-  <Subgroup name="Energias Renováveis - 1° Período">
+  <Subgroup name="1° Período - Energia Renováveis">
     <Day name="Seg">
       <Hour name="M1 07:00-07:50">
       </Hour>
@@ -1623,13 +1623,11 @@
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
-        <Room name="5088F"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="96"></Activity>
         <Teacher name="Mário João jr."></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 1"></Subject>
-        <Room name="5088F"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1727,7 +1725,7 @@
       </Hour>
     </Day>
   </Subgroup>
-  <Subgroup name="Eng. de Produção - 1° Período">
+  <Subgroup name="1° Período - Eng. de Produção">
     <Day name="Seg">
       <Hour name="M1 07:00-07:50">
       </Hour>
@@ -1817,13 +1815,11 @@
         <Activity id="101"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
-        <Room name="4027B"></Room>
       </Hour>
       <Hour name="M4 09:40-10:30">
         <Activity id="101"></Activity>
         <Teacher name="João Araujo"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 3"></Subject>
-        <Room name="4027B"></Room>
       </Hour>
       <Hour name="M5 10:40-11:30">
       </Hour>
@@ -1897,13 +1893,11 @@
         <Activity id="99"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
-        <Room name="5002F"></Room>
       </Hour>
       <Hour name="T2 13:20-14:10">
         <Activity id="99"></Activity>
         <Teacher name="Gabriel"></Teacher>
         <Subject name="Algoritmos Computacionais I - Turma 2"></Subject>
-        <Room name="5002F"></Room>
       </Hour>
       <Hour name="T3 14:20-15:10">
       </Hour>
