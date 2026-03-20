@@ -1,0 +1,10 @@
+{
+    "nome": "Flávio Augusto Santiago de França",
+    "titulo": "Solução Automatizada de Pagamentos Baseada em Reconhecimento de Placas Veiculares",
+    "orientador": "Cristiana Bentes",
+    "coorientador": "Rafaela Brum",
+    "link_tcc": "https://drive.google.com/file/d/1bt6fPgkullZfD1VIaF8QXoK1BH_G__SN/view?usp=sharing",
+    "ano": 2025,
+    "semestre": 1,
+    "resumo": "A evolução dos meios de pagamento reflete a busca constante por maior praticidade e eficiência. Este trabalho apresenta um protótipo de solução automatizada de pagamentos baseada no reconhecimento de placas veiculares, desenvolvido com o objetivo de simplificar processos de pagamento em contextos como drive-thrus, postos de gasolina e estacionamentos. A solução elimina a necessidade de dispositivos como máquinas de cartões de crédito, utilizando tecnologias de visão computacional e uma arquitetura baseada em microsserviços para alcançar rapidez e precisão. O sistema, testado em ambiente local, é composto por duas APIs(Application Programming Interfaces) assíncronas. A primeira, desenvolvida utilizando as tecnologias Python, Flask, OpenCV e Tesseract OCR, captura vídeos em tempo real, identifica a placa veicular e envia os dados necessários para efetuar o pagamento a uma segunda aplicação. Esta segunda API, responsável por processar o pagamento foi criada em .NET 8.0 e implementa endpoints para cadastro de clientes, estabelecimentos comerciais e a efetuação do pagamento, utilizando um banco de dados SQL Server e adotando o modelo arquitetural Onion Architecture. Testes unitários, de integração e funcionais, realizados com XUnit, FluentAssertions e Moq, garantem o funcionamento de ponta a ponta. Ambas as aplicações estão disponíveis para acesso em repositórios públicos no github, referenciados neste trabalho."
+}
