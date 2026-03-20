@@ -1,10 +1,10 @@
 {
     "nome": "Ariel Gonçalves Freire",
     "titulo": "Computação Quântica: Fundamentos, Desafios e Implementação de Algoritmos Quânticos",
-    "orientador": "Cristiana Bentes, Dra.",
+    "orientador": "Cristiana Bentes",
     "coorientador": "",
-    "link_tcc": "",
+    "link_tcc": "https://drive.google.com/file/d/18uQAk04-Ug3BgyXxxK-71A9fwZEPUl4L/view?usp=sharing",
     "ano": 2025,
     "semestre": 2,
-    "resumo": ""
+    "resumo": "A computação quântica deixou de ser apenas uma construção teórica para se tornar uma realidade experimental na atual era NISQ (Noisy Intermediate-Scale Quantum), em que processadores quânticos reais convivem com níveis significativos de ruído e limitações de hardware. Nesse contexto, este trabalho busca aproximar fundamentos e prática ao revisitar os conceitos centrais da computação quântica e implementar algoritmos emblemáticos — em especial um gerador quântico de números aleatórios (QRNG) e o algoritmo de busca de Grover — utilizando o ecossistema IBM Quantum e o framework Qiskit. O estudo contrasta simulações e execuções em hardware quântico real, analisa o impacto do ruído nos resultados obtidos e quantifica desvios por meio de métricas estatísticas como taxa de sucesso, fidelidade e erro relativo. Ao combinar uma exposição didática do formalismo com experimentos e visualizações reprodutíveis, este trabalho oferece uma visão concreta de como interferência, superposição e entrelaçamento podem ser explorados na prática, ao mesmo tempo em que evidencia os desafios e oportunidades que caracterizam a computação quântica em 2025."
 }
