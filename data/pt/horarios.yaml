@@ -511,7 +511,7 @@ turmas:
     fim: '10:30'
     disciplina: Algoritmos Computacionais I - Turma 1
     professor: Mário João jr.
-    sala: Sem sala
+    sala: 4027B
   - dia: Sex
     inicio: 08:50
     fim: '10:30'
@@ -537,13 +537,13 @@ turmas:
     fim: '10:30'
     disciplina: Algoritmos Computacionais I - Turma 3
     professor: João Araujo
-    sala: Sem sala
+    sala: 4024B
   - dia: Sex
     inicio: '12:30'
     fim: '14:10'
     disciplina: Algoritmos Computacionais I - Turma 2
     professor: Gabriel
-    sala: Sem sala
+    sala: 5002F
 salas:
 - nome: 5023D
   horarios:
