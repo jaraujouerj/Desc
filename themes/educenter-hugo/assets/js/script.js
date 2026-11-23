@@ -44,17 +44,13 @@
   });
   $('.hero-slider').slickAnimation();
 
-  // filter
-  $(document).ready(function () {
-    var containerEl = document.querySelector('.filtr-container');
-    var filterizd;
-    if (containerEl) {
-      filterizd = $('.filtr-container').filterizr({});
-    }
-    //Active changer
-    $('.filter-controls li').on('click', function () {
-      $('.filter-controls li').removeClass('active');
-      $(this).addClass('active');
+  // filtro de professores por área
+  $('.filter-controls li').on('click', function () {
+    var filtro = String($(this).attr('data-filter'));
+    $('.filter-controls li').removeClass('active');
+    $(this).addClass('active');
+    $('.filtr-container > [data-category]').each(function () {
+      $(this).toggle(filtro === 'all' || $(this).attr('data-category') === filtro);
     });
   });
 
