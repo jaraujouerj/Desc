@@ -1,6 +1,6 @@
 ---
 title: "Perfil do egresso"
-date: 2026-02-12
+date: 2026-02-02
 weight: 2
 image: "images/about/egressos.jpg"
 draft: false

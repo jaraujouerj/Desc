@@ -95,6 +95,7 @@ class AppProjeto(tk.Tk):
             "Luigi Maciel",
             "Luiza Mourelle, Dra.",
             "Margareth Simões, Dra.",
+            "Mário João, Dr,",
             "Rafaela Brum, Dra.",
             "Robert Mota, Dr.",
             "Simone Gama",

@@ -1,5 +1,5 @@
 ---
-title: "Felipe  Ulrichsen, MsC."
+title: "Felipe  Ulrichsen, M.Sc."
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

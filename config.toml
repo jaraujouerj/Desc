@@ -1,5 +1,5 @@
 ######################## configuração básica ####################
-baseURL = "http://www.desc.uerj.br/"
+baseURL = "https://www.desc.eng.uerj.br/"
 # baseURL = "http://localhost:1313/"
 title = "Departamento de Engenharia de Sistemas e Computação"
 theme = "educenter-hugo"
@@ -25,7 +25,7 @@ author = "João Araujo"
 
 address = "Rua São Francisco Xavier, 524, Maracanã, Rio de Janeiro"
 mobile = "indisponível"
-email = "secretaria.desc@eng.uerj.br"
+email = "indisponível"
 echefia = "desc@eng.uerj.br"
 
 top_header = true
@@ -66,23 +66,33 @@ link = "plugins/google-map/gmap.js"
 
 ############################ menus ##############################
 [[menu.main]]
+name = "Novo Curso (2027)"
+url = "engcomp2027/"
+weight = 1
+
+[[menu.main]]
 name = "Disciplinas"
 url = "course"
-weight = 1
+weight = 2
 
 [[menu.main]]
 name = "Horário"
 url = "horarios"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "TCC"
 url = "tcc"
-weight = 3
+weight = 4
+
+[[menu.main]]
+  name = "Professores"
+  url = "teacher"
+  weight = 5
 
 [[menu.main]]
 name = "Sobre o DESC"
-weight = 4
+weight = 6
 hasChildren = true
 
   [[menu.main]]
@@ -93,27 +103,19 @@ hasChildren = true
   [[menu.main]]
   parent = "Sobre o DESC"
   name = "Perfil do Egresso"
-  url = "about/perfil_do_egresso"
+  url = "about/perfil"
 
   [[menu.main]]
   parent = "Sobre o DESC"
-  name = "Professores"
-  url = "teacher"
-
-  [[menu.main]]
-  parent = "Sobre o DESC"
-  name = "Concursos"
-  url = "about/concursos"
+  name = "Localização"
+  url = "contact/local"
 
   [[menu.main]]
   parent = "Sobre o DESC"
   name = "Administração"
   url = "contact/administrativo"
 
-[[menu.main]]
-name = "Contato"
-url = "contact"
-weight = 5
+
 
 ############################ footer #############################
 [[menu.footer]]
@@ -126,11 +128,7 @@ url = "about/historico"
 
 [[menu.footer]]
 name = "Perfil do Egresso"
-url = "about/perfil_do_egresso"
-
-[[menu.footer]]
-name = "Concursos"
-url = "about/concursos"
+url = "about/perfil"
 
 [[menu.footer]]
 name = "Pesquisa"

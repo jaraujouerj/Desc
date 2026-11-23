@@ -10,7 +10,7 @@
                 {{ end }}
 
                 {{ $projetos := slice }}
-                {{ range $key, $value := site.Data.projetos_em_curso }}
+                {{ range $key, $value := hugo.Data.projetos_em_curso }}
                 {{ $projetos = $projetos | append $value }}
                 {{ end }}
 

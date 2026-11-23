@@ -14,7 +14,7 @@ codigo: "FEN06-04119"
 periodo: 8
 prerequisitos: ["Fundamentos de Computadores Digitais I"]
 prerequisitosfora:
-  - prereqext: "FEN05-04561	Técnicas Digitais II"
+  - prereqext: "FEN05-04561 Técnicas Digitais II"
     linkreqext: "04561"
 teacher: "Luiza Mourelle, Ph.D."
 summary: "Ao final do período o aluno deverá ter assimilado as características lógicas e físicas da arquitetura dos computadores digitais."

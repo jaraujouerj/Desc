@@ -26,3 +26,20 @@ VERSION:	Versoin Number
 @import 'templates/homepage';
 
 @import 'templates/otherspage';
+
+.destaque {
+    border: 2px solid #d4af37;
+    background: #fffdf5;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.destaque h2 {
+    color: #8a6d00;
+    margin-top: 0;
+}
+
+.destaque p {
+    font-size: 1.05rem;
+}

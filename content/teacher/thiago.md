@@ -1,10 +1,10 @@
 ---
-title: "Thiago Medeiros, MsC."
+title: "Thiago Medeiros, D.Sc."
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Possui graduação em Engenharia Elétrica pela Universidade do Estado do Rio de Janeiro (2018) e mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro (2021). Atualmente é bolsista de doutorado - cnpq da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), pesquisador no Laboratório de Inteligência Computacional e Robótica Aplicadas (PUC-Rio), atuando principalmente nos seguintes temas: Machine Learning, Deep Learning, Control e Mobile Robotics. "
+description : "Possui graduação em Engenharia Elétrica pela Universidade do Estado do Rio de Janeiro (2018), mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro (2021) e doutorado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro (2025). Atualmente é pesquisador e professor agregado I da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e professor assistente da Universidade do Estado do Rio de Janeiro (UERJ), atuando principalmente nos seguintes temas: deep learning, visão computacional, algoritmos de otimização, robótica móvel.  "
 # teacher portrait
 image: "images/teachers/thiago.jpg"
 # course

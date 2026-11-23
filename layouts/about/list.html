@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index site.Data site.Language.Lang }}
+{{ $data := index hugo.Data site.Language.Lang }}
 
 <!-- about -->
 <section class="section">
@@ -9,7 +9,8 @@
       {{ range .Data.Pages}}
       <div class=" content col-12">
         {{ with .Params.image }}
-        <img style="height: 400px;width: 100%;object-fit: cover;" class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        <img style="height: 400px;width: 100%;object-fit: cover;" class="img-fluid w-100 mb-4" src="{{ . | relURL }}"
+          alt="about image">
         {{ end }}
         {{ .Content }}
       </div>

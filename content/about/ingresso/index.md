@@ -1,6 +1,6 @@
 ---
 title: "Como Ingressar"
-date: 2026-02-12
+date: 2026-02-02
 draft: false
 image: "images/about/carol.jpg"
 ---

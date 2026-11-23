@@ -1,5 +1,5 @@
 ---
-title: "Cristiana Bentes, Ds.C."
+title: "Cristiana Bentes, D.Sc."
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

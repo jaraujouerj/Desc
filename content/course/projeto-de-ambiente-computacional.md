@@ -13,7 +13,7 @@ chteorica: "1 hora"
 codigo: "FEN06-04832"
 periodo: 9
 prerequisitosfora:
-  - prereqext: "FEN07-02722	Segurança e Higiene do Trabalho"
+  - prereqext: "FEN07-02722 Segurança e Higiene do Trabalho"
     linkreqext: "2722"
 teacher: "Thiago Medeiros, MsC."
 summary: "Em resposta a um estudo de caso, o aluno deverá ser capaz de elaborar um projeto de instalações de um ambiente computacional de ate médio porte."

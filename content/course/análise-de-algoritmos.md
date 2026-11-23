@@ -14,8 +14,9 @@ codigo: "FEN06-03713"
 periodo: 7
 teacher: "Gabriel Cardoso, M.Sc."
 prerequisitosfora:
-  - prereqext: "FEN05-04498	Técnicas Digitais I"
+  - prereqext: "FEN05-04498 Técnicas Digitais I"
     linkreqext: "4498"
+
 summary: "Ao final do período o aluno deverá ter assimilado o tratamento matemático de um algoritmo."
 ---
 ## Objetivos

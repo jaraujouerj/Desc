@@ -1,0 +1,30 @@
+---
+title: "Localização"
+date: 2026-07-12
+draft: false
+# page title background image
+bg_image: "images/backgrounds/predio.jpg"
+image: "images/backgrounds/predio.jpg"
+# meta description
+description : "Veja aqui como chegar ao departamento."
+---
+O Departamento de Engenharia de Sistemas e Computação (DESC) da UERJ está localizado no **bloco D** do 5º andar do Pavilhão João Lyra Filho, endereço:
+
+**Universidade do Estado do Rio de Janeiro**  
+Campus Francisco Negrão de Lima - Maracanã  
+Faculdade de Engenharia  
+Departamento de Engenharia de Sistemas e Computação  
+5º andar, Bloco D, sala 5028  
+Rua São Francisco Xavier, 524  
+CEP 20550-013 Maracanã  
+Rio de Janeiro - R.J.  
+
+![planta](/images/contact/localiza.gif)
+
+Guia:\
+Bloco A: Departamentos\
+Bloco B: Direção da Faculdade de Engenharia\
+Bloco C: Elevadores e Biblioteca\
+Bloco D: DESC\
+Bloco E: Salas de Professores\
+Bloco F: Salas de Aula e Laboratórios\

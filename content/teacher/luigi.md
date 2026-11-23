@@ -1,5 +1,5 @@
 ---
-title: "Luigi Maciel Ribeiro, MsC."
+title: "Luigi Maciel Ribeiro, M.Sc."
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

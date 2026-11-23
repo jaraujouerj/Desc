@@ -81,7 +81,13 @@
 {{/* 2. Gerar Cores Únicas */}}
 {{ $colors := slice "#FFADAD" "#FFD6A5" "#FDFFB6" "#CAFFBF" "#9BF6FF" "#A0C4FF" "#BDB2FF" "#FFC6FF" "#E0E0E0" }}
 {{ $colorMap := dict }}{{ $idx := 0 }}
-{{ range .Site.Data.pt.horarios.turmas }}{{ range .horarios }}
+{{ range hugo.Data.pt.horarios.turmas }}{{ range .horarios }}
+{{ if not (isset $colorMap .disciplina) }}
+{{ $colorMap = merge $colorMap (dict .disciplina (index $colors $idx)) }}
+{{ $idx = mod (add $idx 1) (len $colors) }}{{ end }}
+{{ end }}{{ end }}
+{{/* Disciplinas que só aparecem nas salas (ex.: outros cursos) */}}
+{{ range hugo.Data.pt.horarios.salas }}{{ range .horarios }}
 {{ if not (isset $colorMap .disciplina) }}
 {{ $colorMap = merge $colorMap (dict .disciplina (index $colors $idx)) }}
 {{ $idx = mod (add $idx 1) (len $colors) }}{{ end }}
@@ -89,7 +95,7 @@
 
 {{/* 3. Botões de Navegação */}}
 <div class="nav-horarios" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:30px;">
-    {{ range .Site.Data.pt.horarios.turmas }}
+    {{ range hugo.Data.pt.horarios.turmas }}
     <a href="#{{ anchorize .nome }}" class="btn btn-sm"
         style="background-color:#4a90d9; color:#fff; border-radius:4px; padding:6px 14px; text-decoration:none; font-size:0.85rem;">{{
         .nome }}</a>
@@ -99,7 +105,7 @@
         das Salas</a>
 </div>
 
-{{ range .Site.Data.pt.horarios.turmas }}
+{{ range hugo.Data.pt.horarios.turmas }}
 {{ $turma := . }}
 {{ $turmaID := anchorize $turma.nome }}
 <h2 id="{{ $turmaID }}">{{ $turma.nome }}</h2>
@@ -237,7 +243,7 @@
 <hr style="margin: 40px 0;">
 <h1 id="ocupacao-salas">Ocupação das Salas</h1>
 
-{{ range .Site.Data.pt.horarios.salas }}
+{{ range hugo.Data.pt.horarios.salas }}
 {{ $sala := . }}
 {{ $salaID := anchorize $sala.nome }}
 <h2 id="sala-{{ $salaID }}">Sala {{ $sala.nome }}</h2>

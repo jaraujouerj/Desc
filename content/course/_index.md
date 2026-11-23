@@ -1,6 +1,7 @@
 ---
 title: "Disciplinas"
 date: 2026-02-12
+layout: list
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description

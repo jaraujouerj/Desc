@@ -14,7 +14,7 @@ codigo: "FEN06-04243"
 periodo: 8
 prerequisitos: ["Algoritmos Computacionais"]
 prerequisitosfora:
-  - prereqext: "FAF03-04439	Administração Aplicada à Engenharia III"
+  - prereqext: "FAF03-04439 Administração Aplicada à Engenharia III"
     linkreqext: "4439"
 teacher: "Felipe  Ulrichsen, MsC."
 summary: "Ao final do período o aluno deverá ter assimilado os conhecimentos e técnicas utilizados para concepção de projeto, de sistema, de estrutura organizacional e elaboração de métodos de trabalho."

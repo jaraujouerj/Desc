@@ -14,7 +14,7 @@ codigo: "FEN06-03787"
 periodo: 7
 prerequisitos: ["Algoritmos Computacionais"]
 prerequisitosfora:
-  - prereqext: "FEN05-04498	Técnicas Digitais I"
+  - prereqext: "FEN05-04498 Técnicas Digitais I"
     linkreqext: "4498"
 teacher: "Robert Mota, Dr."
 summary: "Ao final do período o aluno deverá estar familiarizado com os conceitos básicos de processamento eletrônico de dados;"
