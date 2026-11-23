@@ -82,7 +82,12 @@ def ler_tabela(table):
         for td in tr.find_all("td", recursive=False):
             while (r, c) in ocupado:
                 c += 1
-            linhas = [x.strip() for x in td.get_text("\n").split("\n") if x.strip()]
+            # As linhas da célula são separadas por <br />; quebras de linha
+            # dentro do texto (ex.: "1o\n período") viram espaço.
+            for br in td.find_all("br"):
+                br.replace_with("\x00")
+            linhas = [" ".join(x.split()) for x in td.get_text().split("\x00")]
+            linhas = [x for x in linhas if x]
             rs, cs = int(td.get("rowspan", 1)), int(td.get("colspan", 1))
             for dr in range(rs):
                 for dc in range(cs):
@@ -149,11 +154,15 @@ def converter(html_path, semestre, usar_salas=True):
         blocos = turmas.setdefault(turma, [])
         for (dia, slot), linhas in celulas.items():
             ini, fim = HORARIOS[slot]
+            # Célula: disciplina / [Turma N] / professor / [sala] / [Xo período]
+            resto = [x for x in linhas[1:] if not re.match(r"\d+o período", x)]
+            sub = next((x for x in resto if re.match(r"Turma \d+$", x)), None)
+            resto = [x for x in resto if x != sub]
             blocos.append({
                 "dia": dia, "inicio": ini, "fim": fim,
-                "disciplina": linhas[0],
-                "professor": canon_professor(linhas[1]) if len(linhas) > 1 else "A definir",
-                "sala": linhas[2] if len(linhas) > 2 else "Sem sala",
+                "disciplina": f"{linhas[0]} - {sub}" if sub else linhas[0],
+                "professor": canon_professor(resto[0]) if resto else "A definir",
+                "sala": resto[1] if len(resto) > 1 else "Sem sala",
             })
 
     # Índice das aulas das turmas, para padronizar os nomes vindos das salas

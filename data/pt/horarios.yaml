@@ -53,7 +53,9 @@ disciplinas:
     cor: null
   Estruturas de Informação I:
     cor: null
-  Estágio Supervisionado XI-A:
+  Estágio Supervisionado XI-A - Turma 1:
+    cor: null
+  Estágio Supervisionado XI-A - Turma 2:
     cor: null
   Fundamentos de Computadores Digitais I:
     cor: null
@@ -101,7 +103,7 @@ turmas:
     fim: '14:10'
     disciplina: Eletromagnetismo III
     professor: Roberto Fontoura
-    sala: 5029D
+    sala: Sem sala
   - dia: Seg
     inicio: '14:20'
     fim: '16:00'
@@ -143,7 +145,7 @@ turmas:
     fim: '15:10'
     disciplina: Eletromagnetismo III
     professor: Roberto Fontoura
-    sala: 5029D
+    sala: Sem sala
   - dia: Qui
     inicio: '16:10'
     fim: '17:50'
@@ -413,9 +415,15 @@ turmas:
   - dia: Seg
     inicio: '16:10'
     fim: '17:50'
-    disciplina: Estágio Supervisionado XI-A
+    disciplina: Estágio Supervisionado XI-A - Turma 2
     professor: Felipe
     sala: 5032D
+  - dia: Ter
+    inicio: 08:50
+    fim: '10:30'
+    disciplina: Estágio Supervisionado XI-A - Turma 1
+    professor: João Araujo
+    sala: 5029D
   - dia: Ter
     inicio: '12:30'
     fim: '14:10'
@@ -493,7 +501,7 @@ turmas:
   - dia: Ter
     inicio: '10:40'
     fim: '12:20'
-    disciplina: Tópicos Especiais C
+    disciplina: Engenharia de Sistemas C
     professor: Simone
     sala: 5032D
   - dia: Qua
@@ -517,7 +525,7 @@ turmas:
   - dia: Qui
     inicio: '10:40'
     fim: '12:20'
-    disciplina: Tópicos Especiais C
+    disciplina: Engenharia de Sistemas C
     professor: Simone
     sala: 5032D
   - dia: Sex
@@ -723,7 +731,7 @@ salas:
   - dia: Ter
     inicio: 08:50
     fim: '10:30'
-    disciplina: Estágio Supervisionado XI-A
+    disciplina: Estágio Supervisionado XI-A - Turma 1
     professor: João Araujo
     sala: 5029D
     turma: 9° Período 2026/2
@@ -809,7 +817,7 @@ salas:
   - dia: Seg
     inicio: '16:10'
     fim: '17:50'
-    disciplina: Estágio Supervisionado XI-A
+    disciplina: Estágio Supervisionado XI-A - Turma 2
     professor: Felipe
     sala: 5032D
     turma: 9° Período 2026/2
