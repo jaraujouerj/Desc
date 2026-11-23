@@ -7,6 +7,7 @@ theme = "educenter-hugo"
 defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 enableGitInfo = true
+disableKinds = ["taxonomy", "term"]
 
 [frontmatter]
 lastmod = [":git", "lastmod", "date", "publishDate"]
@@ -45,8 +46,6 @@ link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/animate/animate.css"
 [[params.plugins.css]]
-link = "plugins/venobox/venobox.css"
-[[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 
 # JS Plugins
@@ -57,11 +56,7 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-link = "plugins/venobox/venobox.min.js"
-[[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
 
 
 ############################ menus ##############################
