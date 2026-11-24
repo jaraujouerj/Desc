@@ -1,18 +1,26 @@
 ---
 title: "Disciplinas"
-date: 2026-02-12
+date: 2026-11-23
 layout: list
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Aqui estão as disciplinas que compõem o curso de Engenharia de Sistemas e Computação. Na lista a seguir, elas estão organizadas alfabeticamente por período crescente."
+description : "Disciplinas do curso de Engenharia de Computação da UERJ, que começa em 2027, organizadas por período."
 ---
 
-## Disciplinas
+## Engenharia de Computação
 
-No site do DEP você pode obter o [Fluxograma do curso](http://www.dep.uerj.br/fluxos/engenharia_eletrica_enfase_em_sistemas_e_computacao.pdf).
+A partir de 2027 o Desc oferece o curso de **Engenharia de Computação**, com 10 períodos,
+3.451 horas e 217 créditos. Abaixo estão as disciplinas oferecidas pelo Desc,
+organizadas por período, seguidas das eletivas.
 
-Também é importante conferir as [disciplinas do básico da engenharia elétrica](http://www.dep.uerj.br/fluxos/engenharia_eletrica_basico_e_profissional_comum.pdf)
+- [Fluxograma do curso](/files/fluxograma-engenharia-computacao.pdf) (PDF)
+- [Apresentação do novo curso](/engcomp2027/)
 
-A ementa das disciplinas externas ao Desc podem ser obtidas no site do
-[DEP da Uerj](https://www.ementario.uerj.br/plano-de-periodizacao.php).
+As disciplinas do básico e de outros departamentos (Cálculo, Física, Circuitos etc.)
+podem ser consultadas no [ementário da UERJ](https://www.ementario.uerj.br/plano-de-periodizacao.php).
+
+Procurando as disciplinas do curso anterior? Veja o currículo de
+[Engenharia Elétrica – Sistemas e Computação](/eng-eletrica-sistemas/).
+
+<small>Fontes e licenças das imagens das disciplinas: [créditos das imagens](/creditos-imagens/).</small>

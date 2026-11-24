@@ -4,16 +4,34 @@
 <section class="section">
   <div class="container">
     {{ .Content }}
-    <!-- course list -->
-    <div class="row justify-content-center">
-      <!-- course item -->
-      {{ range sort .Pages "Title" }}
+
+    <!-- disciplinas agrupadas por período -->
+    {{ range seq 10 }}
+    {{ $p := . }}
+    {{ $doPeriodo := where $.Pages "Params.periodo" $p }}
+    {{ with $doPeriodo }}
+    <h3 class="section-title mt-4">{{ $p }}º Período</h3>
+    <div class="row">
+      {{ range sort . "Title" }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "course" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
+    {{ end }}
+    {{ end }}
+
+    <!-- eletivas -->
+    {{ with where $.Pages "Params.eletiva" true }}
+    <h3 class="section-title mt-4">Eletivas</h3>
+    <div class="row">
+      {{ range sort . "Title" }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course" }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </section>
 <!-- /courses -->

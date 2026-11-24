@@ -121,6 +121,9 @@
 - id: chpratica
   translation: Prática
 
+- id: chextensao
+  translation: Extensão
+
 - id: chlab
   translation: Laboratório
 

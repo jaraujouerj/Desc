@@ -34,7 +34,7 @@
               <i class="ti-layers text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "periodo" | upper }}</h6>
-                <p class="mb-0">{{ .Params.periodo }}</p>
+                <p class="mb-0">{{ with .Params.periodo }}{{ if eq (printf "%v" .) "Eletiva" }}Eletiva{{ else }}{{ . }}º{{ end }}{{ end }}</p>
               </div>
             </div>
           </li>
@@ -99,6 +99,17 @@
             </div>
           </li>
           {{ end }}
+          {{ if isset .Params "chextensao" }}
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-world text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "chextensao" | upper }}</h6>
+                <p class="mb-0">{{ .Params.chextensao }}</p>
+              </div>
+            </div>
+          </li>
+          {{ end }}
           {{ if isset .Params "chpratica" }}
           <li class="list-inline-item mr-4 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
@@ -157,9 +168,8 @@
     <div class="row">
       {{ range .Params.prerequisitos}}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ $url := anchorize . }}
-        {{ $contactPage:= site.GetPage $url }}
-        {{ with $contactPage }}
+        {{ $titulo := . }}
+        {{ range first 1 (where (where site.RegularPages "Section" $.Section) "Title" $titulo) }}
         <div class="card p-0 border-primary rounded-0 hover-shadow">
           <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
           <div class="card-body">
@@ -189,11 +199,16 @@
     <div class="row">
       {{ range .Params.prerequisitosfora }}
       <div class="col-lg-4 col-sm-6 mb-5">
+        {{ $nome := .prereqext }}
         <h4 class="card-title">
+          {{ with .linkreqext }}
           <a target="_blank" rel="noopener noreferrer"
-            href="http://www.ementario.uerj.br/ementa.php?cdg_disciplina={{ .linkreqext }}">
-            {{ .prereqext }}
+            href="http://www.ementario.uerj.br/ementa.php?cdg_disciplina={{ . }}">
+            {{ $nome }}
           </a>
+          {{ else }}
+          {{ .prereqext }}
+          {{ end }}
         </h4>
       </div>
       {{ end }}

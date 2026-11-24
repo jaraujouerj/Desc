@@ -65,8 +65,20 @@ weight = 1
 
 [[menu.main]]
 name = "Disciplinas"
-url = "course"
 weight = 2
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Disciplinas"
+  name = "Engenharia de Computação (2027)"
+  url = "course"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Disciplinas"
+  name = "Eng. Elétrica – Sistemas e Computação"
+  url = "eng-eletrica-sistemas"
+  weight = 2
 
 [[menu.main]]
 name = "Horário"
